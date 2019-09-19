@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
     <io.supercharge.shimmerlayout.ShimmerLayout
@@ -20,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:shimmer_animation_duration="900"
         app:shimmer_auto_start="true"
-        app:shimmer_color="@android:color/holo_green_dark">
+        app:shimmer_color="@android:color/holo_green_light">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_picture"
@@ -28,8 +29,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_user"
-            app:civ_border_color="@android:color/darker_gray"
-            app:civ_border_width="1dp" />
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="0dp" />
 
     </io.supercharge.shimmerlayout.ShimmerLayout>
 
@@ -46,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/shimmer_profile_image"
         app:shimmer_animation_duration="900"
         app:shimmer_auto_start="true"
-        app:shimmer_color="@android:color/holo_green_dark">
+        app:shimmer_color="@android:color/holo_green_light">
 
         <TextView
             android:id="@+id/profile_name"
@@ -57,7 +58,7 @@
             android:text="@string/your_name"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="26sp" />
+            android:textSize="30sp" />
 
     </io.supercharge.shimmerlayout.ShimmerLayout>
 
@@ -69,7 +70,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@android:color/holo_red_dark"
-        android:text="Logout"
+        android:text="@string/logout"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

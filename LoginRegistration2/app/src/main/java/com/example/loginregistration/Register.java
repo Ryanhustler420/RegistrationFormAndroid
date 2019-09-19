@@ -3,14 +3,18 @@ package com.example.loginregistration;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Objects;
 
+import android.Manifest;
 import android.app.Activity;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.ContentUris;
 import android.content.Context;
@@ -25,6 +29,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
@@ -50,6 +55,11 @@ import com.hbb20.CountryCodePicker;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 // https://www.freakyjolly.com/android-material-datepicker-and-timepicker-by-wdullaer-tutorial-by-example/#more-2649
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.MultiplePermissionsReport;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.multi.MultiplePermissionsListener;
 import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 
 public class Register extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
@@ -68,7 +78,7 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
     Button register_sign_btn;
     ImageButton selected_dbo_btn;
     TextView selected_dbo_text;
-    Uri selectedPicture;
+    Bitmap selectedPicture;
 
     DatePickerDialog datePickerDialog;
     int Year, Month, Day, Hour, Minute;
@@ -80,6 +90,7 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
     DatabaseReference databaseReference;
 
     ProgressDialog progressDialog;
+    int SETTING_PERMISSION = 0xbc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +98,9 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
         setContentView(R.layout.activity_register);
 
         auth = FirebaseAuth.getInstance();
+
+        requestStoragePermission();
+
         progressDialog = new ProgressDialog(Register.this);
         progressDialog.setMessage("Signing in...");
 
@@ -218,18 +232,19 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
         auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(Register.this, task -> {
                     if (task.isSuccessful()) {
-                        Toast.makeText(getApplicationContext(), "Completed 1/3", Toast.LENGTH_SHORT).show();
+                        progressDialog.setMessage("Completed 1/3...");
 
                         // create user object and save that with the key of 'uid'
-                        String uid = task.getResult().getUser().getUid();
-                        String path = "images/" + uid;
+                        String uid = Objects.requireNonNull(Objects.requireNonNull(task.getResult()).getUser()).getUid();
+                        String path = "users/" + uid;
 
                         // save image
                         if (selectedPicture != null) {
+                            Uri image = getImageUri(getApplicationContext(), selectedPicture);
                             storageReference.child(path).
-                                    putFile(selectedPicture)
+                                    putFile(image)
                                     .addOnSuccessListener(taskSnapshot -> {
-                                        Toast.makeText(getApplicationContext(), "Completed 2/3", Toast.LENGTH_SHORT).show();
+                                        progressDialog.setMessage("Completed 2/3...");
 
                                         //  save user object
                                         User newUser = new User(path, name, finalGender, address, dob, new Coordinates(22.22, 84.36), ccp.getFullNumberWithPlus(), country, state, city, city, null, email, 0);
@@ -252,7 +267,7 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
                             progressDialog.dismiss();
                         }
                     } else {
-                        Toast.makeText(Register.this, "Registration failed. Cause: " + Objects.requireNonNull(task.getException()).getMessage(),
+                        Toast.makeText(Register.this, Objects.requireNonNull(task.getException()).getMessage(),
                                 Toast.LENGTH_LONG).show();
                         progressDialog.dismiss();
                     }
@@ -353,18 +368,18 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
             // Get selected gallery image
             InputStream inputStream;
             try {
-                selectedPicture = data.getData();
-                assert selectedPicture != null;
-                inputStream = getApplicationContext().getContentResolver().openInputStream(selectedPicture);
+                Uri picture = data.getData();
+                assert picture != null;
+                inputStream = getApplicationContext().getContentResolver().openInputStream(picture);
                 assert inputStream != null;
                 BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
                 Bitmap photo = BitmapFactory.decodeStream(bufferedInputStream);
                 // Getting the image path using URI
-                String Image_path = getPath(getApplicationContext(), selectedPicture);
+                String Image_path = getPath(getApplicationContext(), picture);
 
                 // change rotation here
                 Bitmap rotatedPicture = modifyOrientation(photo, Image_path);
-
+                selectedPicture = rotatedPicture;
                 register_image.setImageBitmap(rotatedPicture);
                 register_image.setScaleType(ImageView.ScaleType.CENTER_CROP);
 
@@ -608,5 +623,76 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
         Matrix matrix = new Matrix();
         matrix.preScale(horizontal ? -1 : 1, vertical ? -1 : 1);
         return Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+    }
+
+    /**
+     * Requesting multiple permissions (storage and location) at once
+     * This uses multiple permission model from dexter
+     * On permanent denial opens settings dialog
+     */
+    private void requestStoragePermission() {
+        Dexter.withActivity(this)
+                .withPermissions(
+                        Manifest.permission.READ_EXTERNAL_STORAGE,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                        Manifest.permission.CAMERA,
+                        Manifest.permission.INTERNET)
+                .withListener(new MultiplePermissionsListener() {
+
+                    @Override
+                    public void onPermissionsChecked(MultiplePermissionsReport report) {
+                        // check if all permissions are granted
+                        // if (report.areAllPermissionsGranted()) {
+                        // Toast.makeText(getApplicationContext(), "All permissions are granted!", Toast.LENGTH_SHORT).show();
+                        // }
+
+                        // check for permanent denial of any permission
+                        if (report.isAnyPermissionPermanentlyDenied()) {
+                            // show alert dialog navigating to Settings
+                            showSettingsDialog();
+                        }
+                    }
+
+                    @Override
+                    public void onPermissionRationaleShouldBeShown(List<PermissionRequest> permissions, PermissionToken token) {
+                        token.continuePermissionRequest();
+                    }
+                }).
+                withErrorListener(error -> Toast.makeText(getApplicationContext(), "Error occurred! ", Toast.LENGTH_SHORT).show())
+                .onSameThread()
+                .check();
+    }
+
+    /**
+     * Showing Alert Dialog with Settings option
+     * Navigates user to app settings
+     * NOTE: Keep proper title and message depending on your app
+     */
+    private void showSettingsDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(Register.this);
+        builder.setTitle("Need Permissions for Image Upload");
+        builder.setMessage("This app needs permission to upload IMAGE. You can grant them in app settings.");
+        builder.setPositiveButton("GOTO SETTINGS", (dialog, which) -> {
+            dialog.cancel();
+            openSettings();
+        });
+        builder.setNegativeButton("Cancel", (dialog, which) -> dialog.cancel());
+        builder.show();
+    }
+
+    // navigating user to app settings
+    private void openSettings() {
+        Intent intent = new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+        Uri uri = Uri.fromParts("package", getPackageName(), null);
+        intent.setData(uri);
+        startActivityForResult(intent, SETTING_PERMISSION);
+    }
+
+
+    public Uri getImageUri(Context inContext, Bitmap inImage) {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        inImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+        String path = MediaStore.Images.Media.insertImage(inContext.getContentResolver(), inImage, "rh", null);
+        return Uri.parse(path);
     }
 }

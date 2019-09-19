@@ -19,6 +19,7 @@
     <string name="your_name">Aapka Naam</string>
     <string name="email">Email</string>
     <string name="login">Login</string>
+    <string name="logout">logout</string>
 
     <!-- Countries -->
     <string-array name="countries">

@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth auth;
     ShimmerLayout shimmerProfileImage, shimmerProfileName;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,13 +71,18 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     User comeUser = dataSnapshot.getValue(User.class);
+                    if (comeUser == null) {
+                        startActivity(new Intent(MainActivity.this, Login.class));
+                        finish();
+                    }
+                    assert comeUser != null;
                     profile_name.setText(comeUser.getName());
                     shimmerProfileName.stopShimmerAnimation();
 
                     // set image here
                     storageReference.child(comeUser.getImageUrl()).getDownloadUrl()
                             .addOnSuccessListener(uri -> {
-                                Picasso.get().load(uri).into(profile_picture);
+                                Picasso.get().load(uri).rotate(0).into(profile_picture);
                                 shimmerProfileImage.stopShimmerAnimation();
                             });
                 }
