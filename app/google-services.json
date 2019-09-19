@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "769579659961",
+    "firebase_url": "https://raisehand-c3455.firebaseio.com",
+    "project_id": "raisehand-c3455",
+    "storage_bucket": "raisehand-c3455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769579659961:android:c2b8a9ec1351d7eb4fe168",
+        "android_client_info": {
+          "package_name": "com.example.loginregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769579659961-dq6ae0amm2nfs22jahd2fvhmqmctasbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6XcY2ETb3yyon03pEzRODHGR-n9JFfIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769579659961-dq6ae0amm2nfs22jahd2fvhmqmctasbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769579659961:android:cdde2192c98c9a154fe168",
+        "android_client_info": {
+          "package_name": "com.example.nestedscroll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769579659961-dq6ae0amm2nfs22jahd2fvhmqmctasbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6XcY2ETb3yyon03pEzRODHGR-n9JFfIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769579659961-dq6ae0amm2nfs22jahd2fvhmqmctasbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

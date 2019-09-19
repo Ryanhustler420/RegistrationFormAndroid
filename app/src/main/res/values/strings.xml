@@ -1,0 +1,5919 @@
+<resources>
+    <string name="app_name">LoginRegistration</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? <b>Sign up</b></string>
+    <string name="registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="not_selected">Not Selected</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City or Town</string>
+    <string name="sign_up">Signup</string>
+    <string name="your_name">Aapka Naam</string>
+
+    <!-- Countries -->
+    <string-array name="countries">
+        <item>Select</item>
+        <item>India</item>
+    </string-array>
+
+    <!-- States -->
+    <string-array name="states_India">
+        <item>Select</item>
+        <item>Assam</item>
+        <item>Arunachal Pradesh</item>
+        <item>Andhra Pradesh</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Chandigarh</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Jammu and Kashmir</item>
+        <item>Kerala</item>
+        <item>Karnataka</item>
+        <item>Lakshadweep</item>
+        <item>Mizoram</item>
+        <item>Meghalaya</item>
+        <item>Manipur</item>
+        <item>Maharashtra</item>
+        <item>Madhya Pradesh</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tripura</item>
+        <item>Telangana</item>
+        <item>Tamil Nadu</item>
+        <item>Uttarakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <!-- Cities -->
+
+    <string-array name="cities_Chandigarh">
+        <item>Select</item>
+        <item>Chandigarh</item>
+    </string-array>
+
+    <string-array name="cities_Delhi">
+        <item>Select</item>
+        <item>Delhi</item>
+        <item>New Delhi</item>
+    </string-array>
+
+    <string-array name="cities_Jharkhand">
+        <item>Select</item>
+        <item>Adityapur</item>
+        <item>Amlabad</item>
+        <item>Angarpathar</item>
+        <item>Ara</item>
+        <item>Babua Kalan</item>
+        <item>Bagbahra</item>
+        <item>Baliari</item>
+        <item>Baliapur</item>
+        <item>Balkundra</item>
+        <item>Bandhgora</item>
+        <item>Barajamda</item>
+        <item>Barhi</item>
+        <item>Barka Kana</item>
+        <item>Barki Saraiya</item>
+        <item>Barughutu</item>
+        <item>Barwadih</item>
+        <item>Basaria</item>
+        <item>Basukinath</item>
+        <item>Bermo</item>
+        <item>Bhagatdih</item>
+        <item>Bhaurah</item>
+        <item>Bhojudih</item>
+        <item>Bhuli</item>
+        <item>Bokaro</item>
+        <item>Borio Bazar</item>
+        <item>Bundu</item>
+        <item>Chaibasa</item>
+        <item>Chaitudih</item>
+        <item>Chakradharpur</item>
+        <item>Chakulia</item>
+        <item>Chandaur</item>
+        <item>Chandil</item>
+        <item>Chandrapura</item>
+        <item>Chas</item>
+        <item>Chatra</item>
+        <item>Chhatatanr</item>
+        <item>Chhotaputki</item>
+        <item>Chiria</item>
+        <item>Chirkunda</item>
+        <item>Churi</item>
+        <item>Daltenganj</item>
+        <item>Danguwapasi</item>
+        <item>Dari</item>
+        <item>Deoghar</item>
+        <item>Deorikalan</item>
+        <item>Devghar</item>
+        <item>Dhanbad</item>
+        <item>Dhanwar</item>
+        <item>Dhaunsar</item>
+        <item>Dugda</item>
+        <item>Dumarkunda</item>
+        <item>Dumka</item>
+        <item>Egarkunr</item>
+        <item>Gadhra</item>
+        <item>Garwa</item>
+        <item>Ghatsila</item>
+        <item>Ghorabandha</item>
+        <item>Gidi</item>
+        <item>Giridih</item>
+        <item>Gobindpur</item>
+        <item>Godda</item>
+        <item>Godhar</item>
+        <item>Golphalbari</item>
+        <item>Gomoh</item>
+        <item>Gua</item>
+        <item>Gumia</item>
+        <item>Gumla</item>
+        <item>Haludbani</item>
+        <item>Hazaribag</item>
+        <item>Hesla</item>
+        <item>Husainabad</item>
+        <item>Isri</item>
+        <item>Jadugora</item>
+        <item>Jagannathpur</item>
+        <item>Jamadoba</item>
+        <item>Jamshedpur</item>
+        <item>Jamtara</item>
+        <item>Jarangdih</item>
+        <item>Jaridih</item>
+        <item>Jena</item>
+        <item>Jasidih</item>
+        <item>Jharia</item>
+        <item>Jharia Khas</item>
+        <item>Jhinkpani</item>
+        <item>Jhumri Tilaiya</item>
+        <item>Jorapokhar</item>
+        <item>Jugsalai</item>
+        <item>Kailudih</item>
+        <item>Kalikapur</item>
+        <item>Kandra</item>
+        <item>Kanke</item>
+        <item>Katras</item>
+        <item>Kedla</item>
+        <item>Kenduadih</item>
+        <item>Kharkhari</item>
+        <item>Kharsawan</item>
+        <item>Khelari</item>
+        <item>Khunti</item>
+        <item>Kiri Buru</item>
+        <item>Kiriburu</item>
+        <item>Kodarma</item>
+        <item>Kuju</item>
+        <item>Kurpania</item>
+        <item>Kustai</item>
+        <item>Lakarka</item>
+        <item>Lapanga</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Loiya</item>
+        <item>Loyabad</item>
+        <item>Madhupur</item>
+        <item>Mahesh Mundi</item>
+        <item>Maithon</item>
+        <item>Malkera</item>
+        <item>Mango</item>
+        <item>Manoharpur</item>
+        <item>Marma</item>
+        <item>Meghahatuburu Forest village</item>
+        <item>Mera</item>
+        <item>Meru</item>
+        <item>Mihijam</item>
+        <item>Mugma</item>
+        <item>Muri</item>
+        <item>Mushabani</item>
+        <item>Nagri Kalan</item>
+        <item>Netarhat</item>
+        <item>Nirsa</item>
+        <item>Noamundi</item>
+        <item>Okni</item>
+        <item>Orla</item>
+        <item>Pakaur</item>
+        <item>Palamau</item>
+        <item>Palawa</item>
+        <item>Panchet</item>
+        <item>Panrra</item>
+        <item>Paratdih</item>
+        <item>Pathardih</item>
+        <item>Patratu</item>
+        <item>Phusro</item>
+        <item>Pondar Kanali</item>
+        <item>Rajmahal</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Ray</item>
+        <item>Rehla</item>
+        <item>Religara</item>
+        <item>Rohraband</item>
+        <item>Sahibganj</item>
+        <item>Sahnidih</item>
+        <item>Saraidhela</item>
+        <item>Saraikela</item>
+        <item>Sarjamda</item>
+        <item>Saunda</item>
+        <item>Sewai</item>
+        <item>Sijhua</item>
+        <item>Sijua</item>
+        <item>Simdega</item>
+        <item>Sindari</item>
+        <item>Sinduria</item>
+        <item>Sini</item>
+        <item>Sirka</item>
+        <item>Siuliban</item>
+        <item>Surubera</item>
+        <item>Tati</item>
+        <item>Tenudam</item>
+        <item>Tisra</item>
+        <item>Topa</item>
+        <item>Topchanchi</item>
+    </string-array>
+
+    <string-array name="cities_West_Bengal">
+        <item>Select</item>
+        <item>24 Parganas (n)</item>
+        <item>24 Parganas (s)</item>
+        <item>Adra</item>
+        <item>Ahmadpur</item>
+        <item>Aiho</item>
+        <item>Aistala</item>
+        <item>Alipur Duar</item>
+        <item>Alipur Duar Railway Junction</item>
+        <item>Alpur</item>
+        <item>Amalhara</item>
+        <item>Amkula</item>
+        <item>Amlagora</item>
+        <item>Amodghata</item>
+        <item>Amtala</item>
+        <item>Andul</item>
+        <item>Anksa</item>
+        <item>Ankurhati</item>
+        <item>Anup Nagar</item>
+        <item>Arambagh</item>
+        <item>Argari</item>
+        <item>Arsha</item>
+        <item>Asansol</item>
+        <item>Ashoknagar Kalyangarh</item>
+        <item>Aurangabad</item>
+        <item>Bablari Dewanganj</item>
+        <item>Badhagachhi</item>
+        <item>Baduria</item>
+        <item>Baghdogra</item>
+        <item>Bagnan</item>
+        <item>Bagra</item>
+        <item>Bagula</item>
+        <item>Baharampur</item>
+        <item>Bahirgram</item>
+        <item>Bahula</item>
+        <item>Baidyabati</item>
+        <item>Bairatisal</item>
+        <item>Baj Baj</item>
+        <item>Bakreswar</item>
+        <item>Balaram Pota</item>
+        <item>Balarampur</item>
+        <item>Bali Chak</item>
+        <item>Ballavpur</item>
+        <item>Bally</item>
+        <item>Balurghat</item>
+        <item>Bamunari</item>
+        <item>Banarhat Tea Garden</item>
+        <item>Bandel</item>
+        <item>Bangaon</item>
+        <item>Bankra</item>
+        <item>Bankura</item>
+        <item>Bansbaria</item>
+        <item>Banshra</item>
+        <item>Banupur</item>
+        <item>Bara Bamonia</item>
+        <item>Barakpur</item>
+        <item>Barakpur Cantonment</item>
+        <item>Baranagar</item>
+        <item>Barasat</item>
+        <item>Barddhaman</item>
+        <item>Barijhati</item>
+        <item>Barjora</item>
+        <item>Barrackpore</item>
+        <item>Baruihuda</item>
+        <item>Baruipur</item>
+        <item>Barunda</item>
+        <item>Basirhat</item>
+        <item>Baska</item>
+        <item>Begampur</item>
+        <item>Beldanga</item>
+        <item>Beldubi</item>
+        <item>Belebathan</item>
+        <item>Beliator</item>
+        <item>Bhadreswar</item>
+        <item>Bhandardaha</item>
+        <item>Bhangar Raghunathpur</item>
+        <item>Bhangri Pratham Khanda</item>
+        <item>Bhanowara</item>
+        <item>Bhatpara</item>
+        <item>Bholar Dabri</item>
+        <item>Bidhannagar</item>
+        <item>Bidyadharpur</item>
+        <item>Biki Hakola</item>
+        <item>Bilandapur</item>
+        <item>Bilpahari</item>
+        <item>Bipra Noapara</item>
+        <item>Birlapur</item>
+        <item>Birnagar</item>
+        <item>Bisarpara</item>
+        <item>Bishnupur</item>
+        <item>Bolpur</item>
+        <item>Bongaon</item>
+        <item>Bowali</item>
+        <item>Burdwan</item>
+        <item>Canning</item>
+        <item>Cart Road</item>
+        <item>Chachanda</item>
+        <item>Chak Bankola</item>
+        <item>Chak Enayetnagar</item>
+        <item>Chak Kashipur</item>
+        <item>Chakalampur</item>
+        <item>Chakbansberia</item>
+        <item>Chakdaha</item>
+        <item>Chakpara</item>
+        <item>Champahati</item>
+        <item>Champdani</item>
+        <item>Chamrail</item>
+        <item>Chandannagar</item>
+        <item>Chandpur</item>
+        <item>Chandrakona</item>
+        <item>Chapari</item>
+        <item>Chapui</item>
+        <item>Char Brahmanagar</item>
+        <item>Char Maijdia</item>
+        <item>Charka</item>
+        <item>Chata Kalikapur</item>
+        <item>Chauhati</item>
+        <item>Checha Khata</item>
+        <item>Chelad</item>
+        <item>Chhora</item>
+        <item>Chikrand</item>
+        <item>Chittaranjan</item>
+        <item>Contai</item>
+        <item>Cooch Behar</item>
+        <item>Dainhat</item>
+        <item>Dakshin Baguan</item>
+        <item>Dakshin Jhapardaha</item>
+        <item>Dakshin Rajyadharpur</item>
+        <item>Dakshin Raypur</item>
+        <item>Dalkola</item>
+        <item>Dalurband</item>
+        <item>Darap Pur</item>
+        <item>Darjiling</item>
+        <item>Daulatpur</item>
+        <item>Debipur</item>
+        <item>Defahat</item>
+        <item>Deora</item>
+        <item>Deulia</item>
+        <item>Dhakuria</item>
+        <item>Dhandadihi</item>
+        <item>Dhanyakuria</item>
+        <item>Dharmapur</item>
+        <item>Dhatri Gram</item>
+        <item>Dhuilya</item>
+        <item>Dhulagari</item>
+        <item>Dhulian</item>
+        <item>Dhupgari</item>
+        <item>Dhusaripara</item>
+        <item>Diamond Harbour</item>
+        <item>Digha</item>
+        <item>Dignala</item>
+        <item>Dinhata</item>
+        <item>Dubrajpur</item>
+        <item>Dumjor</item>
+        <item>Durgapur</item>
+        <item>Durllabhganj</item>
+        <item>Egra</item>
+        <item>Eksara</item>
+        <item>Falakata</item>
+        <item>Farakka</item>
+        <item>Fatellapur</item>
+        <item>Fort Gloster</item>
+        <item>Gabberia</item>
+        <item>Gadigachha</item>
+        <item>Gairkata</item>
+        <item>Gangarampur</item>
+        <item>Garalgachha</item>
+        <item>Garbeta Amlagora</item>
+        <item>Garhbeta</item>
+        <item>Garshyamnagar</item>
+        <item>Garui</item>
+        <item>Garulia</item>
+        <item>Gayespur</item>
+        <item>Ghatal</item>
+        <item>Ghorsala</item>
+        <item>Goaljan</item>
+        <item>Goasafat</item>
+        <item>Gobardanga</item>
+        <item>Gobindapur</item>
+        <item>Gopalpur</item>
+        <item>Gopinathpur</item>
+        <item>Gora Bazar</item>
+        <item>Guma</item>
+        <item>Gurdaha</item>
+        <item>Guriahati</item>
+        <item>Guskhara</item>
+        <item>Habra</item>
+        <item>Haldia</item>
+        <item>Haldibari</item>
+        <item>Halisahar</item>
+        <item>Haora</item>
+        <item>Harharia Chak</item>
+        <item>Harindanga</item>
+        <item>Haringhata</item>
+        <item>Haripur</item>
+        <item>Harishpur</item>
+        <item>Hatgachha</item>
+        <item>Hatsimla</item>
+        <item>Hijuli</item>
+        <item>Hindustan Cables Town</item>
+        <item>Hooghly</item>
+        <item>Howrah</item>
+        <item>Hugli-Chunchura</item>
+        <item>Humaipur</item>
+        <item>Ichha Pur Defence Estate</item>
+        <item>Ingraj Bazar</item>
+        <item>Islampur</item>
+        <item>Jafarpur</item>
+        <item>Jagadanandapur</item>
+        <item>Jagdishpur</item>
+        <item>Jagtaj</item>
+        <item>Jala Kendua</item>
+        <item>Jaldhaka</item>
+        <item>Jalkhura</item>
+        <item>Jalpaiguri</item>
+        <item>Jamuria</item>
+        <item>Jangipur</item>
+        <item>Jaygaon</item>
+        <item>Jaynagar-Majilpur</item>
+        <item>Jemari</item>
+        <item>Jemari Township</item>
+        <item>Jetia</item>
+        <item>Jhalida</item>
+        <item>Jhargram</item>
+        <item>Jhorhat</item>
+        <item>Jiaganj-Azimganj</item>
+        <item>Joka</item>
+        <item>Jot Kamal</item>
+        <item>Kachu Pukur</item>
+        <item>Kajora</item>
+        <item>Kakdihi</item>
+        <item>Kakdwip</item>
+        <item>Kalaikunda</item>
+        <item>Kalara</item>
+        <item>Kalimpong</item>
+        <item>Kaliyaganj</item>
+        <item>Kalna</item>
+        <item>Kalyani</item>
+        <item>Kamarhati</item>
+        <item>Kanaipur</item>
+        <item>Kanchrapara</item>
+        <item>Kandi</item>
+        <item>Kanki</item>
+        <item>Kankuria</item>
+        <item>Kantlia</item>
+        <item>Kanyanagar</item>
+        <item>Karimpur</item>
+        <item>Karsiyang</item>
+        <item>Kasba</item>
+        <item>Kasimbazar</item>
+        <item>Katwa</item>
+        <item>Kaugachhi</item>
+        <item>Kenda</item>
+        <item>Kendra Khottamdi</item>
+        <item>Kendua</item>
+        <item>Kesabpur</item>
+        <item>Khagrabari</item>
+        <item>Khalia</item>
+        <item>Khalor</item>
+        <item>Khandra</item>
+        <item>Khantora</item>
+        <item>Kharagpur</item>
+        <item>Kharagpur Railway Settlement</item>
+        <item>Kharar</item>
+        <item>Khardaha</item>
+        <item>Khari Mala Khagrabari</item>
+        <item>Kharsarai</item>
+        <item>Khatra</item>
+        <item>Khodarampur</item>
+        <item>Kodalia</item>
+        <item>Kolaghat</item>
+        <item>Kolaghat Thermal Power Project</item>
+        <item>Kolkata</item>
+        <item>Konardihi</item>
+        <item>Konnogar</item>
+        <item>Krishnanagar</item>
+        <item>Krishnapur</item>
+        <item>Kshidirpur</item>
+        <item>Kshirpai</item>
+        <item>Kulihanda</item>
+        <item>Kulti</item>
+        <item>Kunustara</item>
+        <item>Kuperskem</item>
+        <item>Madanpur</item>
+        <item>Madhusudanpur</item>
+        <item>Madhyamgram</item>
+        <item>Maheshtala</item>
+        <item>Mahiari</item>
+        <item>Mahikpur</item>
+        <item>Mahira</item>
+        <item>Mahishadal</item>
+        <item>Mainaguri</item>
+        <item>Makardaha</item>
+        <item>Mal</item>
+        <item>Malda</item>
+        <item>Mandarbani</item>
+        <item>Mansinhapur</item>
+        <item>Masila</item>
+        <item>Maslandapur</item>
+        <item>Mathabhanga</item>
+        <item>Mekliganj</item>
+        <item>Memari</item>
+        <item>Midnapur</item>
+        <item>Mirik</item>
+        <item>Monoharpur</item>
+        <item>Mrigala</item>
+        <item>Muragachha</item>
+        <item>Murgathaul</item>
+        <item>Murshidabad</item>
+        <item>Nabadhai Dutta Pukur</item>
+        <item>Nabagram</item>
+        <item>Nabgram</item>
+        <item>Nachhratpur Katabari</item>
+        <item>Nadia</item>
+        <item>Naihati</item>
+        <item>Nalhati</item>
+        <item>Nasra</item>
+        <item>Natibpur</item>
+        <item>Naupala</item>
+        <item>Navadwip</item>
+        <item>Nebadhai Duttapukur</item>
+        <item>New Barrackpore</item>
+        <item>Ni Barakpur</item>
+        <item>Nibra</item>
+        <item>Noapara</item>
+        <item>Nokpul</item>
+        <item>North Barakpur</item>
+        <item>Odlabari</item>
+        <item>Old Maldah</item>
+        <item>Ondal</item>
+        <item>Pairagachha</item>
+        <item>Palashban</item>
+        <item>Panchla</item>
+        <item>Panchpara</item>
+        <item>Pandua</item>
+        <item>Pangachhiya</item>
+        <item>Paniara</item>
+        <item>Panihati</item>
+        <item>Panuhat</item>
+        <item>Par Beliya</item>
+        <item>Parashkol</item>
+        <item>Parasia</item>
+        <item>Parbbatipur</item>
+        <item>Parui</item>
+        <item>Paschim Jitpur</item>
+        <item>Paschim Punro Para</item>
+        <item>Patrasaer</item>
+        <item>Pattabong Tea Garden</item>
+        <item>Patuli</item>
+        <item>Patulia</item>
+        <item>Phulia</item>
+        <item>Podara</item>
+        <item>Port Blair</item>
+        <item>Prayagpur</item>
+        <item>Pujali</item>
+        <item>Purba Medinipur</item>
+        <item>Purba Tajpur</item>
+        <item>Purulia</item>
+        <item>Raghudebbati</item>
+        <item>Raghudebpur</item>
+        <item>Raghunathchak</item>
+        <item>Raghunathpur</item>
+        <item>Raghunathpur-Dankuni</item>
+        <item>Raghunathpur-Magra</item>
+        <item>Raigachhi</item>
+        <item>Raiganj</item>
+        <item>Raipur</item>
+        <item>Rajarhat Gopalpur</item>
+        <item>Rajpur</item>
+        <item>Ramchandrapur</item>
+        <item>Ramjibanpur</item>
+        <item>Ramnagar</item>
+        <item>Rampur Hat</item>
+        <item>Ranaghat</item>
+        <item>Raniganj</item>
+        <item>Ratibati</item>
+        <item>Raypur</item>
+        <item>Rishra</item>
+        <item>Rishra Cantonment</item>
+        <item>Ruiya</item>
+        <item>Sahajadpur</item>
+        <item>Sahapur</item>
+        <item>Sainthia</item>
+        <item>Salap</item>
+        <item>Sankarpur</item>
+        <item>Sankrail</item>
+        <item>Santoshpur</item>
+        <item>Saontaidih</item>
+        <item>Sarenga</item>
+        <item>Sarpi</item>
+        <item>Satigachha</item>
+        <item>Serpur</item>
+        <item>Shankhanagar</item>
+        <item>Shantipur</item>
+        <item>Shrirampur</item>
+        <item>Siduli</item>
+        <item>Siliguri</item>
+        <item>Simla</item>
+        <item>Singur</item>
+        <item>Sirsha</item>
+        <item>Siuri</item>
+        <item>Sobhaganj</item>
+        <item>Sodpur</item>
+        <item>Sonamukhi</item>
+        <item>Sonatikiri</item>
+        <item>Srikantabati</item>
+        <item>Srirampur</item>
+        <item>Sukdal</item>
+        <item>Taherpur</item>
+        <item>Taki</item>
+        <item>Talbandha</item>
+        <item>Tamluk</item>
+        <item>Tarakeswar</item>
+        <item>Tentulberia</item>
+        <item>Tentulkuli</item>
+        <item>Thermal Power Project</item>
+        <item>Tinsukia</item>
+        <item>Titagarh</item>
+        <item>Tufanganj</item>
+        <item>Ukhra</item>
+        <item>Ula</item>
+        <item>Ulubaria</item>
+        <item>Uttar Durgapur</item>
+        <item>Uttar Goara</item>
+        <item>Uttar Kalas</item>
+        <item>Uttar Kamakhyaguri</item>
+        <item>Uttar Latabari</item>
+        <item>Uttar Mahammadpur</item>
+        <item>Uttar Pirpur</item>
+        <item>Uttar Raypur</item>
+        <item>Uttarpara-Kotrung</item>
+    </string-array>
+
+    <string-array name="cities_Uttarakhand">
+        <item>Select</item>
+        <item>Almora</item>
+        <item>Almora Cantonment</item>
+        <item>Badrinathpuri</item>
+        <item>Bageshwar</item>
+        <item>Bah Bazar</item>
+        <item>Banbasa</item>
+        <item>Bandia</item>
+        <item>Barkot</item>
+        <item>Bazpur</item>
+        <item>Bhim Tal</item>
+        <item>Bhowali</item>
+        <item>Chakrata</item>
+        <item>Chamba</item>
+        <item>Chamoli and Gopeshwar</item>
+        <item>Champawat</item>
+        <item>Clement Town</item>
+        <item>Dehra Dun Cantonment</item>
+        <item>Dehradun</item>
+        <item>Dehrakhas</item>
+        <item>Devaprayag</item>
+        <item>Dhaluwala</item>
+        <item>Dhandera</item>
+        <item>Dharchula</item>
+        <item>Dharchula Dehat</item>
+        <item>Didihat</item>
+        <item>Dineshpur</item>
+        <item>Doiwala</item>
+        <item>Dugadda</item>
+        <item>Dwarahat</item>
+        <item>Gadarpur</item>
+        <item>Gangotri</item>
+        <item>Gauchar</item>
+        <item>Haldwani</item>
+        <item>Haridwar</item>
+        <item>Herbertpur</item>
+        <item>Jaspur</item>
+        <item>Jhabrera</item>
+        <item>Joshimath</item>
+        <item>Kachnal Gosain</item>
+        <item>Kaladungi</item>
+        <item>Kalagarh</item>
+        <item>Karnaprayang</item>
+        <item>Kashipur</item>
+        <item>Kashirampur</item>
+        <item>Kausani</item>
+        <item>Kedarnath</item>
+        <item>Kelakhera</item>
+        <item>Khatima</item>
+        <item>Kichha</item>
+        <item>Kirtinagar</item>
+        <item>Kotdwara</item>
+        <item>Laksar</item>
+        <item>Lalkuan</item>
+        <item>Landaura</item>
+        <item>Landhaura Cantonment</item>
+        <item>Lensdaun</item>
+        <item>Logahat</item>
+        <item>Mahua Dabra Haripura</item>
+        <item>Mahua Kheraganj</item>
+        <item>Manglaur</item>
+        <item>Masuri</item>
+        <item>Mohanpur Mohammadpur</item>
+        <item>Muni Ki Reti</item>
+        <item>Nagla</item>
+        <item>Nainital</item>
+        <item>Nainital Cantonment</item>
+        <item>Nandaprayang</item>
+        <item>Narendranagar</item>
+        <item>Pauri</item>
+        <item>Pithoragarh</item>
+        <item>Pratitnagar</item>
+        <item>Raipur</item>
+        <item>Raiwala</item>
+        <item>Ramnagar</item>
+        <item>Ranikhet</item>
+        <item>Ranipur</item>
+        <item>Rishikesh</item>
+        <item>Rishikesh Cantonment</item>
+        <item>Roorkee</item>
+        <item>Rudraprayag</item>
+        <item>Rudrapur</item>
+        <item>Rurki</item>
+        <item>Rurki Cantonment</item>
+        <item>Shaktigarh</item>
+        <item>Sitarganj</item>
+        <item>Srinagar</item>
+        <item>Sultanpur</item>
+        <item>Tanakpur</item>
+        <item>Tehri</item>
+        <item>Udham Singh Nagar</item>
+        <item>Uttarkashi</item>
+        <item>Vikasnagar</item>
+        <item>Virbhadra</item>
+    </string-array>
+
+    <string-array name="cities_Uttar_Pradesh">
+        <item>Select</item>
+        <item>Achhalda</item>
+        <item>Achhnera</item>
+        <item>Adari</item>
+        <item>Afzalgarh</item>
+        <item>Agarwal Mandi</item>
+        <item>Agra</item>
+        <item>Agra Cantonment</item>
+        <item>Ahraura</item>
+        <item>Ailum</item>
+        <item>Air Force Area</item>
+        <item>Ajhuwa</item>
+        <item>Akbarpur</item>
+        <item>Alapur</item>
+        <item>Aliganj</item>
+        <item>Aligarh</item>
+        <item>Allahabad</item>
+        <item>Allahabad Cantonment</item>
+        <item>Allahganj</item>
+        <item>Amanpur</item>
+        <item>Ambahta</item>
+        <item>Amethi</item>
+        <item>Amila</item>
+        <item>Amilo</item>
+        <item>Aminagar Sarai</item>
+        <item>Aminagar Urf Bhurbaral</item>
+        <item>Amraudha</item>
+        <item>Amroha</item>
+        <item>Anandnagar</item>
+        <item>Anpara</item>
+        <item>Antu</item>
+        <item>Anupshahr</item>
+        <item>Aonla</item>
+        <item>Armapur Estate</item>
+        <item>Ashokpuram</item>
+        <item>Ashrafpur Kichhauchha</item>
+        <item>Atarra</item>
+        <item>Atasu</item>
+        <item>Atrauli</item>
+        <item>Atraulia</item>
+        <item>Auraiya</item>
+        <item>Aurangabad</item>
+        <item>Aurangabad Bangar</item>
+        <item>Auras</item>
+        <item>Awagarh</item>
+        <item>Ayodhya</item>
+        <item>Azamgarh</item>
+        <item>Azizpur</item>
+        <item>Azmatgarh</item>
+        <item>Babarpur Ajitmal</item>
+        <item>Baberu</item>
+        <item>Babina</item>
+        <item>Babrala</item>
+        <item>Babugarh</item>
+        <item>Bachhiowan</item>
+        <item>Bachhraon</item>
+        <item>Bad</item>
+        <item>Badaun</item>
+        <item>Baghpat</item>
+        <item>Bah</item>
+        <item>Bahadurganj</item>
+        <item>Baheri</item>
+        <item>Bahjoi</item>
+        <item>Bahraich</item>
+        <item>Bahsuma</item>
+        <item>Bahua</item>
+        <item>Bajna</item>
+        <item>Bakewar</item>
+        <item>Bakiabad</item>
+        <item>Baldeo</item>
+        <item>Ballia</item>
+        <item>Balrampur</item>
+        <item>Banat</item>
+        <item>Banda</item>
+        <item>Bangarmau</item>
+        <item>Banki</item>
+        <item>Bansdih</item>
+        <item>Bansgaon</item>
+        <item>Bansi</item>
+        <item>Barabanki</item>
+        <item>Baragaon</item>
+        <item>Baraut</item>
+        <item>Bareilly</item>
+        <item>Bareilly Cantonment</item>
+        <item>Barhalganj</item>
+        <item>Barhani</item>
+        <item>Barhapur</item>
+        <item>Barkhera</item>
+        <item>Barsana</item>
+        <item>Barva Sagar</item>
+        <item>Barwar</item>
+        <item>Basti</item>
+        <item>Begumabad Budhana</item>
+        <item>Behat</item>
+        <item>Behta Hajipur</item>
+        <item>Bela</item>
+        <item>Belthara</item>
+        <item>Beniganj</item>
+        <item>Beswan</item>
+        <item>Bewar</item>
+        <item>Bhadarsa</item>
+        <item>Bhadohi</item>
+        <item>Bhagwantnagar</item>
+        <item>Bharatganj</item>
+        <item>Bhargain</item>
+        <item>Bharthana</item>
+        <item>Bharuhana</item>
+        <item>Bharwari</item>
+        <item>Bhatni Bazar</item>
+        <item>Bhatpar Rani</item>
+        <item>Bhawan Bahadurnagar</item>
+        <item>Bhinga</item>
+        <item>Bhojpur Dharampur</item>
+        <item>Bhokarhedi</item>
+        <item>Bhongaon</item>
+        <item>Bhulepur</item>
+        <item>Bidhuna</item>
+        <item>Bighapur</item>
+        <item>Bijnor</item>
+        <item>Bijpur</item>
+        <item>Bikapur</item>
+        <item>Bilari</item>
+        <item>Bilaspur</item>
+        <item>Bilgram</item>
+        <item>Bilhaur</item>
+        <item>Bilram</item>
+        <item>Bilrayaganj</item>
+        <item>Bilsanda</item>
+        <item>Bilsi</item>
+        <item>Bindki</item>
+        <item>Bisalpur</item>
+        <item>Bisanda Buzurg</item>
+        <item>Bisauli</item>
+        <item>Bisharatganj</item>
+        <item>Bisokhar</item>
+        <item>Biswan</item>
+        <item>Bithur</item>
+        <item>Budaun</item>
+        <item>Bugrasi</item>
+        <item>Bulandshahar</item>
+        <item>Burhana</item>
+        <item>Chail</item>
+        <item>Chak Imam Ali</item>
+        <item>Chakeri</item>
+        <item>Chakia</item>
+        <item>Chandauli</item>
+        <item>Chandausi</item>
+        <item>Chandpur</item>
+        <item>Charkhari</item>
+        <item>Charthawal</item>
+        <item>Chaumuhan</item>
+        <item>Chhaprauli</item>
+        <item>Chhara Rafatpur</item>
+        <item>Chharprauli</item>
+        <item>Chhata</item>
+        <item>Chhatari</item>
+        <item>Chhibramau</item>
+        <item>Chhutmalpur</item>
+        <item>Chilkana Sultanpur</item>
+        <item>Chirgaon</item>
+        <item>Chit Baragaon</item>
+        <item>Chitrakut Dham</item>
+        <item>Chopan</item>
+        <item>Choubepur Kalan</item>
+        <item>Chunar</item>
+        <item>Churk Ghurma</item>
+        <item>Colonelganj</item>
+        <item>Dadri</item>
+        <item>Dalmau</item>
+        <item>Dankaur</item>
+        <item>Dariyabad</item>
+        <item>Dasna</item>
+        <item>Dataganj</item>
+        <item>Daurala</item>
+        <item>Dayal Bagh</item>
+        <item>Deoband</item>
+        <item>Deoranian</item>
+        <item>Deoria</item>
+        <item>Dewa</item>
+        <item>Dhampur</item>
+        <item>Dhanauha</item>
+        <item>Dhanauli</item>
+        <item>Dhanaura</item>
+        <item>Dharoti Khurd</item>
+        <item>Dhauratanda</item>
+        <item>Dhaurhra</item>
+        <item>Dibai</item>
+        <item>Dibiyapur</item>
+        <item>Dildarnagar Fatehpur</item>
+        <item>Do Ghat</item>
+        <item>Dohrighat</item>
+        <item>Dostpur</item>
+        <item>Dudhinagar</item>
+        <item>Dulhipur</item>
+        <item>Dundwaraganj</item>
+        <item>Ekdil</item>
+        <item>Erich</item>
+        <item>Etah</item>
+        <item>Etawah</item>
+        <item>Faizabad</item>
+        <item>Faizabad Cantonment</item>
+        <item>Faizganj</item>
+        <item>Farah</item>
+        <item>Faridnagar</item>
+        <item>Faridpur</item>
+        <item>Faridpur Cantonment</item>
+        <item>Fariha</item>
+        <item>Farrukhabad</item>
+        <item>Fatehabad</item>
+        <item>Fatehganj Pashchimi</item>
+        <item>Fatehganj Purvi</item>
+        <item>Fatehgarh</item>
+        <item>Fatehpur</item>
+        <item>Fatehpur Chaurasi</item>
+        <item>Fatehpur Sikri</item>
+        <item>Firozabad</item>
+        <item>Gajraula</item>
+        <item>Ganga Ghat</item>
+        <item>Gangapur</item>
+        <item>Gangoh</item>
+        <item>Ganj Muradabad</item>
+        <item>Garautha</item>
+        <item>Garhi Pukhta</item>
+        <item>Garhmukteshwar</item>
+        <item>Gaura Barahaj</item>
+        <item>Gauri Bazar</item>
+        <item>Gausganj</item>
+        <item>Gawan</item>
+        <item>Ghatampur</item>
+        <item>Ghaziabad</item>
+        <item>Ghazipur</item>
+        <item>Ghiror</item>
+        <item>Ghorawal</item>
+        <item>Ghosi</item>
+        <item>Ghosia Bazar</item>
+        <item>Ghughuli</item>
+        <item>Gohand</item>
+        <item>Gokul</item>
+        <item>Gola Bazar</item>
+        <item>Gola Gokarannath</item>
+        <item>Gonda</item>
+        <item>Gopamau</item>
+        <item>Gopiganj</item>
+        <item>Gorakhpur</item>
+        <item>Gosainganj</item>
+        <item>Govardhan</item>
+        <item>Greater Noida</item>
+        <item>Gulaothi</item>
+        <item>Gulariya</item>
+        <item>Gulariya Bhindara</item>
+        <item>Gunnaur</item>
+        <item>Gursahaiganj</item>
+        <item>Gursarai</item>
+        <item>Gyanpur</item>
+        <item>Hafizpur</item>
+        <item>Haidergarh</item>
+        <item>Haldaur</item>
+        <item>Hamirpur</item>
+        <item>Handia</item>
+        <item>Hapur</item>
+        <item>Hardoi</item>
+        <item>Harduaganj</item>
+        <item>Hargaon</item>
+        <item>Hariharpur</item>
+        <item>Harraiya</item>
+        <item>Hasanpur</item>
+        <item>Hasayan</item>
+        <item>Hastinapur</item>
+        <item>Hata</item>
+        <item>Hathras</item>
+        <item>Hyderabad</item>
+        <item>Ibrahimpur</item>
+        <item>Iglas</item>
+        <item>Ikauna</item>
+        <item>Iltifatganj Bazar</item>
+        <item>Indian Telephone Industry Mank</item>
+        <item>Islamnagar</item>
+        <item>Itaunja</item>
+        <item>Itimadpur</item>
+        <item>Jagner</item>
+        <item>Jahanabad</item>
+        <item>Jahangirabad</item>
+        <item>Jahangirpur</item>
+        <item>Jais</item>
+        <item>Jaithara</item>
+        <item>Jalalabad</item>
+        <item>Jalali</item>
+        <item>Jalalpur</item>
+        <item>Jalaun</item>
+        <item>Jalesar</item>
+        <item>Jamshila</item>
+        <item>Jangipur</item>
+        <item>Jansath</item>
+        <item>Jarwal</item>
+        <item>Jasrana</item>
+        <item>Jaswantnagar</item>
+        <item>Jatari</item>
+        <item>Jaunpur</item>
+        <item>Jewar</item>
+        <item>Jhalu</item>
+        <item>Jhansi</item>
+        <item>Jhansi Cantonment</item>
+        <item>Jhansi Railway Settlement</item>
+        <item>Jhinjhak</item>
+        <item>Jhinjhana</item>
+        <item>Jhusi</item>
+        <item>Jhusi Kohna</item>
+        <item>Jiyanpur</item>
+        <item>Joya</item>
+        <item>Jyoti Khuria</item>
+        <item>Jyotiba Phule Nagar</item>
+        <item>Kabrai</item>
+        <item>Kachhauna Patseni</item>
+        <item>Kachhla</item>
+        <item>Kachhwa</item>
+        <item>Kadaura</item>
+        <item>Kadipur</item>
+        <item>Kailashpur</item>
+        <item>Kaimganj</item>
+        <item>Kairana</item>
+        <item>Kakgaina</item>
+        <item>Kakod</item>
+        <item>Kakori</item>
+        <item>Kakrala</item>
+        <item>Kalinagar</item>
+        <item>Kalpi</item>
+        <item>Kamalganj</item>
+        <item>Kampil</item>
+        <item>Kandhla</item>
+        <item>Kandwa</item>
+        <item>Kannauj</item>
+        <item>Kanpur</item>
+        <item>Kant</item>
+        <item>Kanth</item>
+        <item>Kaptanganj</item>
+        <item>Karaon</item>
+        <item>Karari</item>
+        <item>Karhal</item>
+        <item>Karnawal</item>
+        <item>Kasganj</item>
+        <item>Katariya</item>
+        <item>Katghar Lalganj</item>
+        <item>Kathera</item>
+        <item>Katra</item>
+        <item>Katra Medniganj</item>
+        <item>Kauriaganj</item>
+        <item>Kemri</item>
+        <item>Kerakat</item>
+        <item>Khadda</item>
+        <item>Khaga</item>
+        <item>Khailar</item>
+        <item>Khair</item>
+        <item>Khairabad</item>
+        <item>Khairagarh</item>
+        <item>Khalilabad</item>
+        <item>Khamaria</item>
+        <item>Khanpur</item>
+        <item>Kharela</item>
+        <item>Khargupur</item>
+        <item>Khariya</item>
+        <item>Kharkhoda</item>
+        <item>Khatauli</item>
+        <item>Khatauli Rural</item>
+        <item>Khekra</item>
+        <item>Kheri</item>
+        <item>Kheta Sarai</item>
+        <item>Khudaganj</item>
+        <item>Khurja</item>
+        <item>Khutar</item>
+        <item>Kiraoli</item>
+        <item>Kiratpur</item>
+        <item>Kishanpur</item>
+        <item>Kishni</item>
+        <item>Kithaur</item>
+        <item>Koiripur</item>
+        <item>Konch</item>
+        <item>Kopaganj</item>
+        <item>Kora Jahanabad</item>
+        <item>Korwa</item>
+        <item>Kosi Kalan</item>
+        <item>Kota</item>
+        <item>Kotra</item>
+        <item>Kotwa</item>
+        <item>Kulpahar</item>
+        <item>Kunda</item>
+        <item>Kundarki</item>
+        <item>Kunwargaon</item>
+        <item>Kurara</item>
+        <item>Kurawali</item>
+        <item>Kursath</item>
+        <item>Kurthi Jafarpur</item>
+        <item>Kushinagar</item>
+        <item>Kusmara</item>
+        <item>Laharpur</item>
+        <item>Lakhimpur</item>
+        <item>Lakhna</item>
+        <item>Lalganj</item>
+        <item>Lalitpur</item>
+        <item>Lar</item>
+        <item>Lawar</item>
+        <item>Ledwa Mahuwa</item>
+        <item>Lohta</item>
+        <item>Loni</item>
+        <item>Lucknow</item>
+        <item>Machhlishahr</item>
+        <item>Madhoganj</item>
+        <item>Madhogarh</item>
+        <item>Maghar</item>
+        <item>Mahaban</item>
+        <item>Maharajganj</item>
+        <item>Mahmudabad</item>
+        <item>Mahoba</item>
+        <item>Maholi</item>
+        <item>Mahona</item>
+        <item>Mahroni</item>
+        <item>Mailani</item>
+        <item>Mainpuri</item>
+        <item>Majhara Pipar Ehatmali</item>
+        <item>Majhauli Raj</item>
+        <item>Malihabad</item>
+        <item>Mallanwam</item>
+        <item>Mandawar</item>
+        <item>Manikpur</item>
+        <item>Maniyar</item>
+        <item>Manjhanpur</item>
+        <item>Mankapur</item>
+        <item>Marehra</item>
+        <item>Mariahu</item>
+        <item>Maruadih</item>
+        <item>Maswasi</item>
+        <item>Mataundh</item>
+        <item>Mathu</item>
+        <item>Mathura</item>
+        <item>Mathura Cantonment</item>
+        <item>Mau</item>
+        <item>Mau Aima</item>
+        <item>Maudaha</item>
+        <item>Mauranipur</item>
+        <item>Maurawan</item>
+        <item>Mawana</item>
+        <item>Meerut</item>
+        <item>Mehnagar</item>
+        <item>Mehndawal</item>
+        <item>Mendu</item>
+        <item>Milak</item>
+        <item>Miranpur</item>
+        <item>Mirat</item>
+        <item>Mirat Cantonment</item>
+        <item>Mirganj</item>
+        <item>Mirzapur</item>
+        <item>Misrikh</item>
+        <item>Modinagar</item>
+        <item>Mogra Badshahpur</item>
+        <item>Mohan</item>
+        <item>Mohanpur</item>
+        <item>Mohiuddinpur</item>
+        <item>Moradabad</item>
+        <item>Moth</item>
+        <item>Mubarakpur</item>
+        <item>Mughal Sarai</item>
+        <item>Mughal Sarai Railway Settlemen</item>
+        <item>Muhammadabad</item>
+        <item>Muhammadi</item>
+        <item>Mukrampur Khema</item>
+        <item>Mundia</item>
+        <item>Mundora</item>
+        <item>Muradnagar</item>
+        <item>Mursan</item>
+        <item>Musafirkhana</item>
+        <item>Muzaffarnagar</item>
+        <item>Nadigaon</item>
+        <item>Nagina</item>
+        <item>Nagram</item>
+        <item>Nai Bazar</item>
+        <item>Nainana Jat</item>
+        <item>Najibabad</item>
+        <item>Nakur</item>
+        <item>Nanaunta</item>
+        <item>Nandgaon</item>
+        <item>Nanpara</item>
+        <item>Naraini</item>
+        <item>Narauli</item>
+        <item>Naraura</item>
+        <item>Naugawan Sadat</item>
+        <item>Nautanwa</item>
+        <item>Nawabganj</item>
+        <item>Nichlaul</item>
+        <item>Nidhauli Kalan</item>
+        <item>Nihtaur</item>
+        <item>Nindaura</item>
+        <item>Niwari</item>
+        <item>Nizamabad</item>
+        <item>Noida</item>
+        <item>Northern Railway Colony</item>
+        <item>Nurpur</item>
+        <item>Nyoria Husenpur</item>
+        <item>Nyotini</item>
+        <item>Obra</item>
+        <item>Oel Dhakwa</item>
+        <item>Orai</item>
+        <item>Oran</item>
+        <item>Ordinance Factory Muradnagar</item>
+        <item>Pachperwa</item>
+        <item>Padrauna</item>
+        <item>Pahasu</item>
+        <item>Paintepur</item>
+        <item>Pali</item>
+        <item>Palia Kalan</item>
+        <item>Parasi</item>
+        <item>Parichha</item>
+        <item>Parichhatgarh</item>
+        <item>Parsadepur</item>
+        <item>Patala</item>
+        <item>Patiyali</item>
+        <item>Patti</item>
+        <item>Pawayan</item>
+        <item>Phalauda</item>
+        <item>Phaphund</item>
+        <item>Phulpur</item>
+        <item>Phulwaria</item>
+        <item>Pihani</item>
+        <item>Pilibhit</item>
+        <item>Pilkana</item>
+        <item>Pilkhuwa</item>
+        <item>Pinahat</item>
+        <item>Pipalsana Chaudhari</item>
+        <item>Pipiganj</item>
+        <item>Pipraich</item>
+        <item>Pipri</item>
+        <item>Pratapgarh</item>
+        <item>Pukhrayan</item>
+        <item>Puranpur</item>
+        <item>Purdil Nagar</item>
+        <item>Purqazi</item>
+        <item>Purwa</item>
+        <item>Qasimpur</item>
+        <item>Rabupura</item>
+        <item>Radha Kund</item>
+        <item>Rae Bareilly</item>
+        <item>Raja Ka Rampur</item>
+        <item>Rajapur</item>
+        <item>Ramkola</item>
+        <item>Ramnagar</item>
+        <item>Rampur</item>
+        <item>Rampur Bhawanipur</item>
+        <item>Rampur Karkhana</item>
+        <item>Rampur Maniharan</item>
+        <item>Rampura</item>
+        <item>Ranipur</item>
+        <item>Rashidpur Garhi</item>
+        <item>Rasra</item>
+        <item>Rasulabad</item>
+        <item>Rath</item>
+        <item>Raya</item>
+        <item>Renukut</item>
+        <item>Reoti</item>
+        <item>Richha</item>
+        <item>Risia Bazar</item>
+        <item>Rithora</item>
+        <item>Robertsganj</item>
+        <item>Roza</item>
+        <item>Rudarpur</item>
+        <item>Rudauli</item>
+        <item>Rudayan</item>
+        <item>Rura</item>
+        <item>Rustamnagar Sahaspur</item>
+        <item>Sabatwar</item>
+        <item>Sadabad</item>
+        <item>Sadat</item>
+        <item>Safipur</item>
+        <item>Sahanpur</item>
+        <item>Saharanpur</item>
+        <item>Sahaspur</item>
+        <item>Sahaswan</item>
+        <item>Sahawar</item>
+        <item>Sahibabad</item>
+        <item>Sahjanwa</item>
+        <item>Sahpau</item>
+        <item>Saidpur</item>
+        <item>Sainthal</item>
+        <item>Saiyadraja</item>
+        <item>Sakhanu</item>
+        <item>Sakit</item>
+        <item>Salarpur Khadar</item>
+        <item>Salimpur</item>
+        <item>Salon</item>
+        <item>Sambhal</item>
+        <item>Sambhawali</item>
+        <item>Samdhan</item>
+        <item>Samthar</item>
+        <item>Sandi</item>
+        <item>Sandila</item>
+        <item>Sarai Mir</item>
+        <item>Sarai akil</item>
+        <item>Sarauli</item>
+        <item>Sardhana</item>
+        <item>Sarila</item>
+        <item>Sarsawan</item>
+        <item>Sasni</item>
+        <item>Satrikh</item>
+        <item>Saunkh</item>
+        <item>Saurikh</item>
+        <item>Seohara</item>
+        <item>Sewal Khas</item>
+        <item>Sewarhi</item>
+        <item>Shahabad</item>
+        <item>Shahganj</item>
+        <item>Shahi</item>
+        <item>Shahjahanpur</item>
+        <item>Shahjahanpur Cantonment</item>
+        <item>Shahpur</item>
+        <item>Shamli</item>
+        <item>Shamsabad</item>
+        <item>Shankargarh</item>
+        <item>Shergarh</item>
+        <item>Sherkot</item>
+        <item>Shikarpur</item>
+        <item>Shikohabad</item>
+        <item>Shisgarh</item>
+        <item>Shivdaspur</item>
+        <item>Shivli</item>
+        <item>Shivrajpur</item>
+        <item>Shohratgarh</item>
+        <item>Siddhanur</item>
+        <item>Siddharthnagar</item>
+        <item>Sidhauli</item>
+        <item>Sidhpura</item>
+        <item>Sikandarabad</item>
+        <item>Sikandarpur</item>
+        <item>Sikandra</item>
+        <item>Sikandra Rao</item>
+        <item>Singahi Bhiraura</item>
+        <item>Sirathu</item>
+        <item>Sirsa</item>
+        <item>Sirsaganj</item>
+        <item>Sirsi</item>
+        <item>Sisauli</item>
+        <item>Siswa Bazar</item>
+        <item>Sitapur</item>
+        <item>Siyana</item>
+        <item>Som</item>
+        <item>Sonbhadra</item>
+        <item>Soron</item>
+        <item>Suar</item>
+        <item>Sukhmalpur Nizamabad</item>
+        <item>Sultanpur</item>
+        <item>Sumerpur</item>
+        <item>Suriyawan</item>
+        <item>Swamibagh</item>
+        <item>Tajpur</item>
+        <item>Talbahat</item>
+        <item>Talgram</item>
+        <item>Tambaur</item>
+        <item>Tanda</item>
+        <item>Tatarpur Lallu</item>
+        <item>Tetribazar</item>
+        <item>Thakurdwara</item>
+        <item>Thana Bhawan</item>
+        <item>Thiriya Nizamat Khan</item>
+        <item>Tikaitnagar</item>
+        <item>Tikri</item>
+        <item>Tilhar</item>
+        <item>Tindwari</item>
+        <item>Tirwaganj</item>
+        <item>Titron</item>
+        <item>Tori Fatehpur</item>
+        <item>Tulsipur</item>
+        <item>Tundla</item>
+        <item>Tundla Kham</item>
+        <item>Tundla Railway Colony</item>
+        <item>Ugu</item>
+        <item>Ujhani</item>
+        <item>Ujhari</item>
+        <item>Umri</item>
+        <item>Umri Kalan</item>
+        <item>Un</item>
+        <item>Unchahar</item>
+        <item>Unnao</item>
+        <item>Usaihat</item>
+        <item>Usawan</item>
+        <item>Utraula</item>
+        <item>Varanasi</item>
+        <item>Varanasi Cantonment</item>
+        <item>Vijaigarh</item>
+        <item>Vrindavan</item>
+        <item>Wazirganj</item>
+        <item>Zafarabad</item>
+        <item>Zaidpur</item>
+        <item>Zamania</item>
+    </string-array>
+
+    <string-array name="cities_Tripura">
+        <item>Select</item>
+        <item>Agartala</item>
+        <item>Amarpur</item>
+        <item>Ambassa</item>
+        <item>Badharghat</item>
+        <item>Belonia</item>
+        <item>Dharmanagar</item>
+        <item>Gakulnagar</item>
+        <item>Gandhigram</item>
+        <item>Indranagar</item>
+        <item>Jogendranagar</item>
+        <item>Kailasahar</item>
+        <item>Kamalpur</item>
+        <item>Kanchanpur</item>
+        <item>Khowai</item>
+        <item>Kumarghat</item>
+        <item>Kunjaban</item>
+        <item>Narsingarh</item>
+        <item>Pratapgarh</item>
+        <item>Ranir Bazar</item>
+        <item>Sabrum</item>
+        <item>Sonamura</item>
+        <item>Teliamura</item>
+        <item>Udaipur</item>
+    </string-array>
+
+    <string-array name="cities_Telangana">
+        <item>Select</item>
+        <item>Achampet</item>
+        <item>Adilabad</item>
+        <item>Armoor</item>
+        <item>Asifabad</item>
+        <item>Badepally</item>
+        <item>Banswada</item>
+        <item>Bellampalli</item>
+        <item>Bhadrachalam</item>
+        <item>Bhainsa</item>
+        <item>Bhongir</item>
+        <item>Bhupalpally</item>
+        <item>Bodhan</item>
+        <item>Bollaram</item>
+        <item>Devarkonda</item>
+        <item>Farooqnagar</item>
+        <item>Gadwal</item>
+        <item>Gajwel</item>
+        <item>Ghatkesar</item>
+        <item>Hyderabad</item>
+        <item>Jagtial</item>
+        <item>Jangaon</item>
+        <item>Kagaznagar</item>
+        <item>Kalwakurthy</item>
+        <item>Kamareddy</item>
+        <item>Karimnagar</item>
+        <item>Khammam</item>
+        <item>Kodada</item>
+        <item>Koratla</item>
+        <item>Kottagudem</item>
+        <item>Kyathampalle</item>
+        <item>Madhira</item>
+        <item>Mahabubabad</item>
+        <item>Mahbubnagar</item>
+        <item>Mancherial</item>
+        <item>Mandamarri</item>
+        <item>Manuguru</item>
+        <item>Medak</item>
+        <item>Medchal</item>
+        <item>Miryalaguda</item>
+        <item>Nagar Karnul</item>
+        <item>Nakrekal</item>
+        <item>Nalgonda</item>
+        <item>Narayanpet</item>
+        <item>Narsampet</item>
+        <item>Nirmal</item>
+        <item>Nizamabad</item>
+        <item>Palwancha</item>
+        <item>Peddapalli</item>
+        <item>Ramagundam</item>
+        <item>Ranga Reddy district</item>
+        <item>Sadasivpet</item>
+        <item>Sangareddy</item>
+        <item>Sarapaka</item>
+        <item>Sathupalle</item>
+        <item>Secunderabad</item>
+        <item>Siddipet</item>
+        <item>Singapur</item>
+        <item>Sircilla</item>
+        <item>Suryapet</item>
+        <item>Tandur</item>
+        <item>Vemulawada</item>
+        <item>Vikarabad</item>
+        <item>Wanaparthy</item>
+        <item>Warangal</item>
+        <item>Yellandu</item>
+        <item>Zahirabad</item>
+    </string-array>
+
+    <string-array name="cities_Tamil_Nadu">
+        <item>Select</item>
+        <item>Abiramam</item>
+        <item>Achampudur</item>
+        <item>Acharapakkam</item>
+        <item>Acharipallam</item>
+        <item>Achipatti</item>
+        <item>Adikaratti</item>
+        <item>Adiramapattinam</item>
+        <item>Aduturai</item>
+        <item>Adyar</item>
+        <item>Agaram</item>
+        <item>Agasthiswaram</item>
+        <item>Akkaraipettai</item>
+        <item>Alagappapuram</item>
+        <item>Alagapuri</item>
+        <item>Alampalayam</item>
+        <item>Alandur</item>
+        <item>Alanganallur</item>
+        <item>Alangayam</item>
+        <item>Alangudi</item>
+        <item>Alangulam</item>
+        <item>Alanthurai</item>
+        <item>Alapakkam</item>
+        <item>Allapuram</item>
+        <item>Alur</item>
+        <item>Alwar Tirunagari</item>
+        <item>Alwarkurichi</item>
+        <item>Ambasamudram</item>
+        <item>Ambur</item>
+        <item>Ammainaickanur</item>
+        <item>Ammaparikuppam</item>
+        <item>Ammapettai</item>
+        <item>Ammavarikuppam</item>
+        <item>Ammur</item>
+        <item>Anaimalai</item>
+        <item>Anaiyur</item>
+        <item>Anakaputhur</item>
+        <item>Ananthapuram</item>
+        <item>Andanappettai</item>
+        <item>Andipalayam</item>
+        <item>Andippatti</item>
+        <item>Anjugramam</item>
+        <item>Annamalainagar</item>
+        <item>Annavasal</item>
+        <item>Annur</item>
+        <item>Anthiyur</item>
+        <item>Appakudal</item>
+        <item>Arachalur</item>
+        <item>Arakandanallur</item>
+        <item>Arakonam</item>
+        <item>Aralvaimozhi</item>
+        <item>Arani</item>
+        <item>Arani Road</item>
+        <item>Arantangi</item>
+        <item>Arasiramani</item>
+        <item>Aravakurichi</item>
+        <item>Aravankadu</item>
+        <item>Arcot</item>
+        <item>Arimalam</item>
+        <item>Ariyalur</item>
+        <item>Ariyappampalayam</item>
+        <item>Ariyur</item>
+        <item>Arni</item>
+        <item>Arulmigu Thirumuruganpundi</item>
+        <item>Arumanai</item>
+        <item>Arumbavur</item>
+        <item>Arumuganeri</item>
+        <item>Aruppukkottai</item>
+        <item>Ashokapuram</item>
+        <item>Athani</item>
+        <item>Athanur</item>
+        <item>Athimarapatti</item>
+        <item>Athipattu</item>
+        <item>Athur</item>
+        <item>Attayyampatti</item>
+        <item>Attur</item>
+        <item>Auroville</item>
+        <item>Avadattur</item>
+        <item>Avadi</item>
+        <item>Avalpundurai</item>
+        <item>Avaniapuram</item>
+        <item>Avinashi</item>
+        <item>Ayakudi</item>
+        <item>Ayanadaippu</item>
+        <item>Aygudi</item>
+        <item>Ayothiapattinam</item>
+        <item>Ayyalur</item>
+        <item>Ayyampalayam</item>
+        <item>Ayyampettai</item>
+        <item>Azhagiapandiapuram</item>
+        <item>Balakrishnampatti</item>
+        <item>Balakrishnapuram</item>
+        <item>Balapallam</item>
+        <item>Balasamudram</item>
+        <item>Bargur</item>
+        <item>Belur</item>
+        <item>Berhatty</item>
+        <item>Bhavani</item>
+        <item>Bhawanisagar</item>
+        <item>Bhuvanagiri</item>
+        <item>Bikketti</item>
+        <item>Bodinayakkanur</item>
+        <item>Brahmana Periya Agraharam</item>
+        <item>Buthapandi</item>
+        <item>Buthipuram</item>
+        <item>Chatrapatti</item>
+        <item>Chembarambakkam</item>
+        <item>Chengalpattu</item>
+        <item>Chengam</item>
+        <item>Chennai</item>
+        <item>Chennasamudram</item>
+        <item>Chennimalai</item>
+        <item>Cheranmadevi</item>
+        <item>Cheruvanki</item>
+        <item>Chetpet</item>
+        <item>Chettiarpatti</item>
+        <item>Chettipalaiyam</item>
+        <item>Chettipalayam Cantonment</item>
+        <item>Chettithangal</item>
+        <item>Cheyur</item>
+        <item>Cheyyar</item>
+        <item>Chidambaram</item>
+        <item>Chinalapatti</item>
+        <item>Chinna Anuppanadi</item>
+        <item>Chinna Salem</item>
+        <item>Chinnakkampalayam</item>
+        <item>Chinnammanur</item>
+        <item>Chinnampalaiyam</item>
+        <item>Chinnasekkadu</item>
+        <item>Chinnavedampatti</item>
+        <item>Chitlapakkam</item>
+        <item>Chittodu</item>
+        <item>Cholapuram</item>
+        <item>Coimbatore</item>
+        <item>Coonoor</item>
+        <item>Courtalam</item>
+        <item>Cuddalore</item>
+        <item>Dalavaipatti</item>
+        <item>Darasuram</item>
+        <item>Denkanikottai</item>
+        <item>Desur</item>
+        <item>Devadanapatti</item>
+        <item>Devakkottai</item>
+        <item>Devakottai</item>
+        <item>Devanangurichi</item>
+        <item>Devarshola</item>
+        <item>Devasthanam</item>
+        <item>Dhalavoipuram</item>
+        <item>Dhali</item>
+        <item>Dhaliyur</item>
+        <item>Dharapadavedu</item>
+        <item>Dharapuram</item>
+        <item>Dharmapuri</item>
+        <item>Dindigul</item>
+        <item>Dusi</item>
+        <item>Edaganasalai</item>
+        <item>Edaikodu</item>
+        <item>Edakalinadu</item>
+        <item>Elathur</item>
+        <item>Elayirampannai</item>
+        <item>Elumalai</item>
+        <item>Eral</item>
+        <item>Eraniel</item>
+        <item>Eriodu</item>
+        <item>Erode</item>
+        <item>Erumaipatti</item>
+        <item>Eruvadi</item>
+        <item>Ethapur</item>
+        <item>Ettaiyapuram</item>
+        <item>Ettimadai</item>
+        <item>Ezhudesam</item>
+        <item>Ganapathipuram</item>
+        <item>Gandhi Nagar</item>
+        <item>Gangaikondan</item>
+        <item>Gangavalli</item>
+        <item>Ganguvarpatti</item>
+        <item>Gingi</item>
+        <item>Gopalasamudram</item>
+        <item>Gopichettipalaiyam</item>
+        <item>Gudalur</item>
+        <item>Gudiyattam</item>
+        <item>Guduvanchery</item>
+        <item>Gummidipoondi</item>
+        <item>Hanumanthampatti</item>
+        <item>Harur</item>
+        <item>Harveypatti</item>
+        <item>Highways</item>
+        <item>Hosur</item>
+        <item>Hubbathala</item>
+        <item>Huligal</item>
+        <item>Idappadi</item>
+        <item>Idikarai</item>
+        <item>Ilampillai</item>
+        <item>Ilanji</item>
+        <item>Iluppaiyurani</item>
+        <item>Iluppur</item>
+        <item>Inam Karur</item>
+        <item>Injambakkam</item>
+        <item>Irugur</item>
+        <item>Jaffrabad</item>
+        <item>Jagathala</item>
+        <item>Jalakandapuram</item>
+        <item>Jalladiampet</item>
+        <item>Jambai</item>
+        <item>Jayankondam</item>
+        <item>Jolarpet</item>
+        <item>Kadambur</item>
+        <item>Kadathur</item>
+        <item>Kadayal</item>
+        <item>Kadayampatti</item>
+        <item>Kadayanallur</item>
+        <item>Kadiapatti</item>
+        <item>Kalakkad</item>
+        <item>Kalambur</item>
+        <item>Kalapatti</item>
+        <item>Kalappanaickenpatti</item>
+        <item>Kalavai</item>
+        <item>Kalinjur</item>
+        <item>Kaliyakkavilai</item>
+        <item>Kallakkurichi</item>
+        <item>Kallakudi</item>
+        <item>Kallidaikurichchi</item>
+        <item>Kallukuttam</item>
+        <item>Kallupatti</item>
+        <item>Kalpakkam</item>
+        <item>Kalugumalai</item>
+        <item>Kamayagoundanpatti</item>
+        <item>Kambainallur</item>
+        <item>Kambam</item>
+        <item>Kamuthi</item>
+        <item>Kanadukathan</item>
+        <item>Kanakkampalayam</item>
+        <item>Kanam</item>
+        <item>Kanchipuram</item>
+        <item>Kandanur</item>
+        <item>Kangayam</item>
+        <item>Kangayampalayam</item>
+        <item>Kangeyanallur</item>
+        <item>Kaniyur</item>
+        <item>Kanjikoil</item>
+        <item>Kannadendal</item>
+        <item>Kannamangalam</item>
+        <item>Kannampalayam</item>
+        <item>Kannankurichi</item>
+        <item>Kannapalaiyam</item>
+        <item>Kannivadi</item>
+        <item>Kanyakumari</item>
+        <item>Kappiyarai</item>
+        <item>Karaikkudi</item>
+        <item>Karamadai</item>
+        <item>Karambakkam</item>
+        <item>Karambakkudi</item>
+        <item>Kariamangalam</item>
+        <item>Kariapatti</item>
+        <item>Karugampattur</item>
+        <item>Karumandi Chellipalayam</item>
+        <item>Karumathampatti</item>
+        <item>Karumbakkam</item>
+        <item>Karungal</item>
+        <item>Karunguzhi</item>
+        <item>Karuppur</item>
+        <item>Karur</item>
+        <item>Kasipalaiyam</item>
+        <item>Kasipalayam G</item>
+        <item>Kathirvedu</item>
+        <item>Kathujuganapalli</item>
+        <item>Katpadi</item>
+        <item>Kattivakkam</item>
+        <item>Kattumannarkoil</item>
+        <item>Kattupakkam</item>
+        <item>Kattuputhur</item>
+        <item>Kaveripakkam</item>
+        <item>Kaveripattinam</item>
+        <item>Kavundampalaiyam</item>
+        <item>Kavundampalayam</item>
+        <item>Kayalpattinam</item>
+        <item>Kayattar</item>
+        <item>Kelamangalam</item>
+        <item>Kelambakkam</item>
+        <item>Kembainaickenpalayam</item>
+        <item>Kethi</item>
+        <item>Kilakarai</item>
+        <item>Kilampadi</item>
+        <item>Kilkulam</item>
+        <item>Kilkunda</item>
+        <item>Killiyur</item>
+        <item>Killlai</item>
+        <item>Kilpennathur</item>
+        <item>Kilvelur</item>
+        <item>Kinathukadavu</item>
+        <item>Kiramangalam</item>
+        <item>Kiranur</item>
+        <item>Kiripatti</item>
+        <item>Kizhapavur</item>
+        <item>Kmarasamipatti</item>
+        <item>Kochadai</item>
+        <item>Kodaikanal</item>
+        <item>Kodambakkam</item>
+        <item>Kodavasal</item>
+        <item>Kodumudi</item>
+        <item>Kolachal</item>
+        <item>Kolappalur</item>
+        <item>Kolathupalayam</item>
+        <item>Kolathur</item>
+        <item>Kollankodu</item>
+        <item>Kollankoil</item>
+        <item>Komaralingam</item>
+        <item>Komarapalayam</item>
+        <item>Kombai</item>
+        <item>Konakkarai</item>
+        <item>Konavattam</item>
+        <item>Kondalampatti</item>
+        <item>Konganapuram</item>
+        <item>Koradacheri</item>
+        <item>Korampallam</item>
+        <item>Kotagiri</item>
+        <item>Kothinallur</item>
+        <item>Kottaiyur</item>
+        <item>Kottakuppam</item>
+        <item>Kottaram</item>
+        <item>Kottivakkam</item>
+        <item>Kottur</item>
+        <item>Kovilpatti</item>
+        <item>Koyampattur</item>
+        <item>Krishnagiri</item>
+        <item>Krishnarayapuram</item>
+        <item>Krishnasamudram</item>
+        <item>Kuchanur</item>
+        <item>Kuhalur</item>
+        <item>Kulasekarappattinam</item>
+        <item>Kulasekarapuram</item>
+        <item>Kulithalai</item>
+        <item>Kumarapalaiyam</item>
+        <item>Kumarapalayam</item>
+        <item>Kumarapuram</item>
+        <item>Kumbakonam</item>
+        <item>Kundrathur</item>
+        <item>Kuniyamuthur</item>
+        <item>Kunnathur</item>
+        <item>Kunur</item>
+        <item>Kuraikundu</item>
+        <item>Kurichi</item>
+        <item>Kurinjippadi</item>
+        <item>Kurudampalaiyam</item>
+        <item>Kurumbalur</item>
+        <item>Kuthalam</item>
+        <item>Kuthappar</item>
+        <item>Kuttalam</item>
+        <item>Kuttanallur</item>
+        <item>Kuzhithurai</item>
+        <item>Labbaikudikadu</item>
+        <item>Lakkampatti</item>
+        <item>Lalgudi</item>
+        <item>Lalpet</item>
+        <item>Llayangudi</item>
+        <item>Madambakkam</item>
+        <item>Madanur</item>
+        <item>Madathukulam</item>
+        <item>Madhavaram</item>
+        <item>Madippakkam</item>
+        <item>Madukkarai</item>
+        <item>Madukkur</item>
+        <item>Madurai</item>
+        <item>Maduranthakam</item>
+        <item>Maduravoyal</item>
+        <item>Mahabalipuram</item>
+        <item>Makkinanpatti</item>
+        <item>Mallamuppampatti</item>
+        <item>Mallankinaru</item>
+        <item>Mallapuram</item>
+        <item>Mallasamudram</item>
+        <item>Mallur</item>
+        <item>Mamallapuram</item>
+        <item>Mamsapuram</item>
+        <item>Manachanallur</item>
+        <item>Manali</item>
+        <item>Manalmedu</item>
+        <item>Manalurpet</item>
+        <item>Manamadurai</item>
+        <item>Manapakkam</item>
+        <item>Manapparai</item>
+        <item>Manavalakurichi</item>
+        <item>Mandaikadu</item>
+        <item>Mandapam</item>
+        <item>Mangadu</item>
+        <item>Mangalam</item>
+        <item>Mangalampet</item>
+        <item>Manimutharu</item>
+        <item>Mannargudi</item>
+        <item>Mappilaiurani</item>
+        <item>Maraimalai Nagar</item>
+        <item>Marakkanam</item>
+        <item>Maramangalathupatti</item>
+        <item>Marandahalli</item>
+        <item>Markayankottai</item>
+        <item>Marudur</item>
+        <item>Marungur</item>
+        <item>Masinigudi</item>
+        <item>Mathigiri</item>
+        <item>Mattur</item>
+        <item>Mayiladuthurai</item>
+        <item>Mecheri</item>
+        <item>Melacheval</item>
+        <item>Melachokkanathapuram</item>
+        <item>Melagaram</item>
+        <item>Melamadai</item>
+        <item>Melamaiyur</item>
+        <item>Melanattam</item>
+        <item>Melathiruppanthuruthi</item>
+        <item>Melattur</item>
+        <item>Melmananbedu</item>
+        <item>Melpattampakkam</item>
+        <item>Melur</item>
+        <item>Melvisharam</item>
+        <item>Mettupalayam</item>
+        <item>Mettur</item>
+        <item>Meyyanur</item>
+        <item>Milavittan</item>
+        <item>Minakshipuram</item>
+        <item>Minambakkam</item>
+        <item>Minjur</item>
+        <item>Modakurichi</item>
+        <item>Mohanur</item>
+        <item>Mopperipalayam</item>
+        <item>Mudalur</item>
+        <item>Mudichur</item>
+        <item>Mudukulathur</item>
+        <item>Mukasipidariyur</item>
+        <item>Mukkudal</item>
+        <item>Mulagumudu</item>
+        <item>Mulakaraipatti</item>
+        <item>Mulanur</item>
+        <item>Mullakkadu</item>
+        <item>Muruganpalayam</item>
+        <item>Musiri</item>
+        <item>Muthupet</item>
+        <item>Muthur</item>
+        <item>Muttayyapuram</item>
+        <item>Muttupet</item>
+        <item>Muvarasampettai</item>
+        <item>Myladi</item>
+        <item>Mylapore</item>
+        <item>Nadukkuthagai</item>
+        <item>Naduvattam</item>
+        <item>Nagapattinam</item>
+        <item>Nagavakulam</item>
+        <item>Nagercoil</item>
+        <item>Nagojanahalli</item>
+        <item>Nallampatti</item>
+        <item>Nallur</item>
+        <item>Namagiripettai</item>
+        <item>Namakkal</item>
+        <item>Nambiyur</item>
+        <item>Nambutalai</item>
+        <item>Nandambakkam</item>
+        <item>Nandivaram</item>
+        <item>Nangavalli</item>
+        <item>Nangavaram</item>
+        <item>Nanguneri</item>
+        <item>Nanjikottai</item>
+        <item>Nannilam</item>
+        <item>Naranammalpuram</item>
+        <item>Naranapuram</item>
+        <item>Narasimhanaickenpalayam</item>
+        <item>Narasingapuram</item>
+        <item>Narasojipatti</item>
+        <item>Naravarikuppam</item>
+        <item>Nasiyanur</item>
+        <item>Natham</item>
+        <item>Nathampannai</item>
+        <item>Natrampalli</item>
+        <item>Nattam</item>
+        <item>Nattapettai</item>
+        <item>Nattarasankottai</item>
+        <item>Navalpattu</item>
+        <item>Nazarethpettai</item>
+        <item>Nazerath</item>
+        <item>Neikkarapatti</item>
+        <item>Neiyyur</item>
+        <item>Nellikkuppam</item>
+        <item>Nelliyalam</item>
+        <item>Nemili</item>
+        <item>Nemilicheri</item>
+        <item>Neripperichal</item>
+        <item>Nerkunram</item>
+        <item>Nerkuppai</item>
+        <item>Nerunjipettai</item>
+        <item>Neykkarappatti</item>
+        <item>Neyveli</item>
+        <item>Nidamangalam</item>
+        <item>Nilagiri</item>
+        <item>Nilakkottai</item>
+        <item>Nilankarai</item>
+        <item>Odaipatti</item>
+        <item>Odaiyakulam</item>
+        <item>Oddanchatram</item>
+        <item>Odugathur</item>
+        <item>Oggiyamduraipakkam</item>
+        <item>Olagadam</item>
+        <item>Omalur</item>
+        <item>Ooty</item>
+        <item>Orathanadu</item>
+        <item>Othakadai</item>
+        <item>Othakalmandapam</item>
+        <item>Ottapparai</item>
+        <item>Pacode</item>
+        <item>Padaividu</item>
+        <item>Padianallur</item>
+        <item>Padirikuppam</item>
+        <item>Padmanabhapuram</item>
+        <item>Padririvedu</item>
+        <item>Palaganangudy</item>
+        <item>Palaimpatti</item>
+        <item>Palakkodu</item>
+        <item>Palamedu</item>
+        <item>Palani</item>
+        <item>Palani Chettipatti</item>
+        <item>Palavakkam</item>
+        <item>Palavansathu</item>
+        <item>Palayakayal</item>
+        <item>Palayam</item>
+        <item>Palayamkottai</item>
+        <item>Palladam</item>
+        <item>Pallapalayam</item>
+        <item>Pallapatti</item>
+        <item>Pallattur</item>
+        <item>Pallavaram</item>
+        <item>Pallikaranai</item>
+        <item>Pallikonda</item>
+        <item>Pallipalaiyam</item>
+        <item>Pallipalaiyam Agraharam</item>
+        <item>Pallipattu</item>
+        <item>Pammal</item>
+        <item>Panagudi</item>
+        <item>Panaimarathupatti</item>
+        <item>Panapakkam</item>
+        <item>Panboli</item>
+        <item>Pandamangalam</item>
+        <item>Pannaikadu</item>
+        <item>Pannaipuram</item>
+        <item>Pannuratti</item>
+        <item>Panruti</item>
+        <item>Papanasam</item>
+        <item>Pappankurichi</item>
+        <item>Papparapatti</item>
+        <item>Pappireddipatti</item>
+        <item>Paramakkudi</item>
+        <item>Paramankurichi</item>
+        <item>Paramathi</item>
+        <item>Parangippettai</item>
+        <item>Paravai</item>
+        <item>Pasur</item>
+        <item>Pathamadai</item>
+        <item>Pattinam</item>
+        <item>Pattiviranpatti</item>
+        <item>Pattukkottai</item>
+        <item>Pazhugal</item>
+        <item>Pennadam</item>
+        <item>Pennagaram</item>
+        <item>Pennathur</item>
+        <item>Peraiyur</item>
+        <item>Peralam</item>
+        <item>Perambalur</item>
+        <item>Peranamallur</item>
+        <item>Peravurani</item>
+        <item>Periyakodiveri</item>
+        <item>Periyakulam</item>
+        <item>Periyanayakkanpalaiyam</item>
+        <item>Periyanegamam</item>
+        <item>Periyapatti</item>
+        <item>Periyasemur</item>
+        <item>Pernambut</item>
+        <item>Perumagalur</item>
+        <item>Perumandi</item>
+        <item>Perumuchi</item>
+        <item>Perundurai</item>
+        <item>Perungalathur</item>
+        <item>Perungudi</item>
+        <item>Perungulam</item>
+        <item>Perur</item>
+        <item>Perur Chettipalaiyam</item>
+        <item>Pethampalayam</item>
+        <item>Pethanaickenpalayam</item>
+        <item>Pillanallur</item>
+        <item>Pirkankaranai</item>
+        <item>Polichalur</item>
+        <item>Pollachi</item>
+        <item>Polur</item>
+        <item>Ponmani</item>
+        <item>Ponnamaravathi</item>
+        <item>Ponnampatti</item>
+        <item>Ponneri</item>
+        <item>Porur</item>
+        <item>Pothanur</item>
+        <item>Pothatturpettai</item>
+        <item>Pudukadai</item>
+        <item>Pudukkottai Cantonment</item>
+        <item>Pudukottai</item>
+        <item>Pudupalaiyam Aghraharam</item>
+        <item>Pudupalayam</item>
+        <item>Pudupatti</item>
+        <item>Pudupattinam</item>
+        <item>Pudur</item>
+        <item>Puduvayal</item>
+        <item>Pulambadi</item>
+        <item>Pulampatti</item>
+        <item>Puliyampatti</item>
+        <item>Puliyankudi</item>
+        <item>Puliyur</item>
+        <item>Pullampadi</item>
+        <item>Puluvapatti</item>
+        <item>Punamalli</item>
+        <item>Punjai Puliyampatti</item>
+        <item>Punjai Thottakurichi</item>
+        <item>Punjaipugalur</item>
+        <item>Puthalam</item>
+        <item>Putteri</item>
+        <item>Puvalur</item>
+        <item>Puzhal</item>
+        <item>Puzhithivakkam</item>
+        <item>Rajapalayam</item>
+        <item>Ramanathapuram</item>
+        <item>Ramapuram</item>
+        <item>Rameswaram</item>
+        <item>Ranipet</item>
+        <item>Rasipuram</item>
+        <item>Rayagiri</item>
+        <item>Rithapuram</item>
+        <item>Rosalpatti</item>
+        <item>Rudravathi</item>
+        <item>Sadayankuppam</item>
+        <item>Saint Thomas Mount</item>
+        <item>Salangapalayam</item>
+        <item>Salem</item>
+        <item>Samalapuram</item>
+        <item>Samathur</item>
+        <item>Sambavar Vadagarai</item>
+        <item>Sankaramanallur</item>
+        <item>Sankarankoil</item>
+        <item>Sankarapuram</item>
+        <item>Sankari</item>
+        <item>Sankarnagar</item>
+        <item>Saravanampatti</item>
+        <item>Sarcarsamakulam</item>
+        <item>Sathiyavijayanagaram</item>
+        <item>Sathuvachari</item>
+        <item>Sathyamangalam</item>
+        <item>Sattankulam</item>
+        <item>Sattur</item>
+        <item>Sayalgudi</item>
+        <item>Sayapuram</item>
+        <item>Seithur</item>
+        <item>Sembakkam</item>
+        <item>Semmipalayam</item>
+        <item>Sennirkuppam</item>
+        <item>Senthamangalam</item>
+        <item>Sentharapatti</item>
+        <item>Senur</item>
+        <item>Sethiathoppu</item>
+        <item>Sevilimedu</item>
+        <item>Sevugampatti</item>
+        <item>Shenbakkam</item>
+        <item>Shencottai</item>
+        <item>Shenkottai</item>
+        <item>Sholavandan</item>
+        <item>Sholinganallur</item>
+        <item>Sholingur</item>
+        <item>Sholur</item>
+        <item>Sikkarayapuram</item>
+        <item>Singampuneri</item>
+        <item>Singanallur</item>
+        <item>Singaperumalkoil</item>
+        <item>Sirapalli</item>
+        <item>Sirkali</item>
+        <item>Sirugamani</item>
+        <item>Sirumugai</item>
+        <item>Sithayankottai</item>
+        <item>Sithurajapuram</item>
+        <item>Sivaganga</item>
+        <item>Sivagiri</item>
+        <item>Sivakasi</item>
+        <item>Sivanthipuram</item>
+        <item>Sivur</item>
+        <item>Soranjeri</item>
+        <item>South Kannanur</item>
+        <item>South Kodikulam</item>
+        <item>Srimushnam</item>
+        <item>Sriperumpudur</item>
+        <item>Sriramapuram</item>
+        <item>Srirangam</item>
+        <item>Srivaikuntam</item>
+        <item>Srivilliputtur</item>
+        <item>Suchindram</item>
+        <item>Suliswaranpatti</item>
+        <item>Sulur</item>
+        <item>Sundarapandiam</item>
+        <item>Sundarapandiapuram</item>
+        <item>Surampatti</item>
+        <item>Surandai</item>
+        <item>Suriyampalayam</item>
+        <item>Swamimalai</item>
+        <item>TNPL Pugalur</item>
+        <item>Tambaram</item>
+        <item>Taramangalam</item>
+        <item>Tattayyangarpettai</item>
+        <item>Tayilupatti</item>
+        <item>Tenkasi</item>
+        <item>Thadikombu</item>
+        <item>Thakkolam</item>
+        <item>Thalainayar</item>
+        <item>Thalakudi</item>
+        <item>Thamaraikulam</item>
+        <item>Thammampatti</item>
+        <item>Thanjavur</item>
+        <item>Thanthoni</item>
+        <item>Tharangambadi</item>
+        <item>Thedavur</item>
+        <item>Thenambakkam</item>
+        <item>Thengampudur</item>
+        <item>Theni</item>
+        <item>Theni Allinagaram</item>
+        <item>Thenkarai</item>
+        <item>Thenthamaraikulam</item>
+        <item>Thenthiruperai</item>
+        <item>Thesur</item>
+        <item>Thevaram</item>
+        <item>Thevur</item>
+        <item>Thiagadurgam</item>
+        <item>Thiagarajar Colony</item>
+        <item>Thingalnagar</item>
+        <item>Thiruchirapalli</item>
+        <item>Thirukarungudi</item>
+        <item>Thirukazhukundram</item>
+        <item>Thirumalayampalayam</item>
+        <item>Thirumazhisai</item>
+        <item>Thirunagar</item>
+        <item>Thirunageswaram</item>
+        <item>Thirunindravur</item>
+        <item>Thirunirmalai</item>
+        <item>Thiruparankundram</item>
+        <item>Thiruparappu</item>
+        <item>Thiruporur</item>
+        <item>Thiruppanandal</item>
+        <item>Thirupuvanam</item>
+        <item>Thiruthangal</item>
+        <item>Thiruthuraipundi</item>
+        <item>Thiruvaivaru</item>
+        <item>Thiruvalam</item>
+        <item>Thiruvarur</item>
+        <item>Thiruvattaru</item>
+        <item>Thiruvenkatam</item>
+        <item>Thiruvennainallur</item>
+        <item>Thiruvithankodu</item>
+        <item>Thisayanvilai</item>
+        <item>Thittacheri</item>
+        <item>Thondamuthur</item>
+        <item>Thorapadi</item>
+        <item>Thottipalayam</item>
+        <item>Thottiyam</item>
+        <item>Thudiyalur</item>
+        <item>Thuthipattu</item>
+        <item>Thuvakudi</item>
+        <item>Timiri</item>
+        <item>Tindivanam</item>
+        <item>Tinnanur</item>
+        <item>Tiruchchendur</item>
+        <item>Tiruchengode</item>
+        <item>Tirukkalukkundram</item>
+        <item>Tirukkattuppalli</item>
+        <item>Tirukkoyilur</item>
+        <item>Tirumangalam</item>
+        <item>Tirumullaivasal</item>
+        <item>Tirumuruganpundi</item>
+        <item>Tirunageswaram</item>
+        <item>Tirunelveli</item>
+        <item>Tirupathur</item>
+        <item>Tirupattur</item>
+        <item>Tiruppuvanam</item>
+        <item>Tirupur</item>
+        <item>Tirusulam</item>
+        <item>Tiruttani</item>
+        <item>Tiruvallur</item>
+        <item>Tiruvannamalai</item>
+        <item>Tiruverambur</item>
+        <item>Tiruverkadu</item>
+        <item>Tiruvethipuram</item>
+        <item>Tiruvidaimarudur</item>
+        <item>Tiruvottiyur</item>
+        <item>Tittakudi</item>
+        <item>Tondi</item>
+        <item>Turaiyur</item>
+        <item>Tuticorin</item>
+        <item>Udagamandalam</item>
+        <item>Udagamandalam Valley</item>
+        <item>Udankudi</item>
+        <item>Udayarpalayam</item>
+        <item>Udumalaipettai</item>
+        <item>Udumalpet</item>
+        <item>Ullur</item>
+        <item>Ulundurpettai</item>
+        <item>Unjalaur</item>
+        <item>Unnamalaikadai</item>
+        <item>Uppidamangalam</item>
+        <item>Uppiliapuram</item>
+        <item>Urachikkottai</item>
+        <item>Urapakkam</item>
+        <item>Usilampatti</item>
+        <item>Uthangarai</item>
+        <item>Uthayendram</item>
+        <item>Uthiramerur</item>
+        <item>Uthukkottai</item>
+        <item>Uttamapalaiyam</item>
+        <item>Uttukkuli</item>
+        <item>Vadakarai Kizhpadugai</item>
+        <item>Vadakkanandal</item>
+        <item>Vadakku Valliyur</item>
+        <item>Vadalur</item>
+        <item>Vadamadurai</item>
+        <item>Vadavalli</item>
+        <item>Vadipatti</item>
+        <item>Vadugapatti</item>
+        <item>Vaithiswarankoil</item>
+        <item>Valangaiman</item>
+        <item>Valasaravakkam</item>
+        <item>Valavanur</item>
+        <item>Vallam</item>
+        <item>Valparai</item>
+        <item>Valvaithankoshtam</item>
+        <item>Vanavasi</item>
+        <item>Vandalur</item>
+        <item>Vandavasi</item>
+        <item>Vandiyur</item>
+        <item>Vaniputhur</item>
+        <item>Vaniyambadi</item>
+        <item>Varadarajanpettai</item>
+        <item>Varadharajapuram</item>
+        <item>Vasudevanallur</item>
+        <item>Vathirairuppu</item>
+        <item>Vattalkundu</item>
+        <item>Vazhapadi</item>
+        <item>Vedapatti</item>
+        <item>Vedaranniyam</item>
+        <item>Vedasandur</item>
+        <item>Velampalaiyam</item>
+        <item>Velankanni</item>
+        <item>Vellakinar</item>
+        <item>Vellakoil</item>
+        <item>Vellalapatti</item>
+        <item>Vellalur</item>
+        <item>Vellanur</item>
+        <item>Vellimalai</item>
+        <item>Vellore</item>
+        <item>Vellottamparappu</item>
+        <item>Velluru</item>
+        <item>Vengampudur</item>
+        <item>Vengathur</item>
+        <item>Vengavasal</item>
+        <item>Venghatur</item>
+        <item>Venkarai</item>
+        <item>Vennanthur</item>
+        <item>Veppathur</item>
+        <item>Verkilambi</item>
+        <item>Vettaikaranpudur</item>
+        <item>Vettavalam</item>
+        <item>Vijayapuri</item>
+        <item>Vikramasingapuram</item>
+        <item>Vikravandi</item>
+        <item>Vilangudi</item>
+        <item>Vilankurichi</item>
+        <item>Vilapakkam</item>
+        <item>Vilathikulam</item>
+        <item>Vilavur</item>
+        <item>Villukuri</item>
+        <item>Villupuram</item>
+        <item>Viraganur</item>
+        <item>Virakeralam</item>
+        <item>Virakkalpudur</item>
+        <item>Virapandi</item>
+        <item>Virapandi Cantonment</item>
+        <item>Virappanchatram</item>
+        <item>Viravanallur</item>
+        <item>Virudambattu</item>
+        <item>Virudhachalam</item>
+        <item>Virudhunagar</item>
+        <item>Virupakshipuram</item>
+        <item>Viswanatham</item>
+        <item>Vriddhachalam</item>
+        <item>Walajabad</item>
+        <item>Walajapet</item>
+        <item>Wellington</item>
+        <item>Yercaud</item>
+        <item>Zamin Uthukuli</item>
+    </string-array>
+
+    <string-array name="cities_Sikkim">
+        <item>Select</item>
+        <item>Gangtok</item>
+        <item>Gezing</item>
+        <item>Jorethang</item>
+        <item>Mangan</item>
+        <item>Namchi</item>
+        <item>Naya Bazar</item>
+        <item>No City</item>
+        <item>Rangpo</item>
+        <item>Sikkim</item>
+        <item>Singtam</item>
+        <item>Upper Tadong</item>
+    </string-array>
+
+    <string-array name="cities_Rajasthan">
+        <item>Select</item>
+        <item>Abu Road</item>
+        <item>Ajmer</item>
+        <item>Aklera</item>
+        <item>Alwar</item>
+        <item>Amet</item>
+        <item>Antah</item>
+        <item>Anupgarh</item>
+        <item>Asind</item>
+        <item>Bagar</item>
+        <item>Bagru</item>
+        <item>Bahror</item>
+        <item>Bakani</item>
+        <item>Bali</item>
+        <item>Balotra</item>
+        <item>Bandikui</item>
+        <item>Banswara</item>
+        <item>Baran</item>
+        <item>Bari</item>
+        <item>Bari Sadri</item>
+        <item>Barmer</item>
+        <item>Basi</item>
+        <item>Basni Belima</item>
+        <item>Baswa</item>
+        <item>Bayana</item>
+        <item>Beawar</item>
+        <item>Begun</item>
+        <item>Bhadasar</item>
+        <item>Bhadra</item>
+        <item>Bhalariya</item>
+        <item>Bharatpur</item>
+        <item>Bhasawar</item>
+        <item>Bhawani Mandi</item>
+        <item>Bhawri</item>
+        <item>Bhilwara</item>
+        <item>Bhindar</item>
+        <item>Bhinmal</item>
+        <item>Bhiwadi</item>
+        <item>Bijoliya Kalan</item>
+        <item>Bikaner</item>
+        <item>Bilara</item>
+        <item>Bissau</item>
+        <item>Borkhera</item>
+        <item>Budhpura</item>
+        <item>Bundi</item>
+        <item>Chatsu</item>
+        <item>Chechat</item>
+        <item>Chhabra</item>
+        <item>Chhapar</item>
+        <item>Chhipa Barod</item>
+        <item>Chhoti Sadri</item>
+        <item>Chirawa</item>
+        <item>Chittaurgarh</item>
+        <item>Chittorgarh</item>
+        <item>Chomun</item>
+        <item>Churu</item>
+        <item>Daosa</item>
+        <item>Dariba</item>
+        <item>Dausa</item>
+        <item>Deoli</item>
+        <item>Deshnok</item>
+        <item>Devgarh</item>
+        <item>Devli</item>
+        <item>Dhariawad</item>
+        <item>Dhaulpur</item>
+        <item>Dholpur</item>
+        <item>Didwana</item>
+        <item>Dig</item>
+        <item>Dungargarh</item>
+        <item>Dungarpur</item>
+        <item>Falna</item>
+        <item>Fatehnagar</item>
+        <item>Fatehpur</item>
+        <item>Gajsinghpur</item>
+        <item>Galiakot</item>
+        <item>Ganganagar</item>
+        <item>Gangapur</item>
+        <item>Goredi Chancha</item>
+        <item>Gothra</item>
+        <item>Govindgarh</item>
+        <item>Gulabpura</item>
+        <item>Hanumangarh</item>
+        <item>Hindaun</item>
+        <item>Indragarh</item>
+        <item>Jahazpur</item>
+        <item>Jaipur</item>
+        <item>Jaisalmer</item>
+        <item>Jaiselmer</item>
+        <item>Jaitaran</item>
+        <item>Jalore</item>
+        <item>Jhalawar</item>
+        <item>Jhalrapatan</item>
+        <item>Jhunjhunun</item>
+        <item>Jobner</item>
+        <item>Jodhpur</item>
+        <item>Kaithun</item>
+        <item>Kaman</item>
+        <item>Kankroli</item>
+        <item>Kanor</item>
+        <item>Kapasan</item>
+        <item>Kaprain</item>
+        <item>Karanpura</item>
+        <item>Karauli</item>
+        <item>Kekri</item>
+        <item>Keshorai Patan</item>
+        <item>Kesrisinghpur</item>
+        <item>Khairthal</item>
+        <item>Khandela</item>
+        <item>Khanpur</item>
+        <item>Kherli</item>
+        <item>Kherliganj</item>
+        <item>Kherwara Chhaoni</item>
+        <item>Khetri</item>
+        <item>Kiranipura</item>
+        <item>Kishangarh</item>
+        <item>Kishangarh Ranwal</item>
+        <item>Kolvi Rajendrapura</item>
+        <item>Kot Putli</item>
+        <item>Kota</item>
+        <item>Kuchaman</item>
+        <item>Kuchera</item>
+        <item>Kumbhalgarh</item>
+        <item>Kumbhkot</item>
+        <item>Kumher</item>
+        <item>Kushalgarh</item>
+        <item>Lachhmangarh</item>
+        <item>Ladnun</item>
+        <item>Lakheri</item>
+        <item>Lalsot</item>
+        <item>Losal</item>
+        <item>Madanganj</item>
+        <item>Mahu Kalan</item>
+        <item>Mahwa</item>
+        <item>Makrana</item>
+        <item>Malpura</item>
+        <item>Mandal</item>
+        <item>Mandalgarh</item>
+        <item>Mandawar</item>
+        <item>Mandwa</item>
+        <item>Mangrol</item>
+        <item>Manohar Thana</item>
+        <item>Manoharpur</item>
+        <item>Marwar</item>
+        <item>Merta</item>
+        <item>Modak</item>
+        <item>Mount Abu</item>
+        <item>Mukandgarh</item>
+        <item>Mundwa</item>
+        <item>Nadbai</item>
+        <item>Naenwa</item>
+        <item>Nagar</item>
+        <item>Nagaur</item>
+        <item>Napasar</item>
+        <item>Naraina</item>
+        <item>Nasirabad</item>
+        <item>Nathdwara</item>
+        <item>Nawa</item>
+        <item>Nawalgarh</item>
+        <item>Neem Ka Thana</item>
+        <item>Neemrana</item>
+        <item>Newa Talai</item>
+        <item>Nimaj</item>
+        <item>Nimbahera</item>
+        <item>Niwai</item>
+        <item>Nohar</item>
+        <item>Nokha</item>
+        <item>One SGM</item>
+        <item>Padampur</item>
+        <item>Pali</item>
+        <item>Partapur</item>
+        <item>Parvatsar</item>
+        <item>Pasoond</item>
+        <item>Phalna</item>
+        <item>Phalodi</item>
+        <item>Phulera</item>
+        <item>Pilani</item>
+        <item>Pilibanga</item>
+        <item>Pindwara</item>
+        <item>Pipalia Kalan</item>
+        <item>Pipar</item>
+        <item>Pirawa</item>
+        <item>Pokaran</item>
+        <item>Pratapgarh</item>
+        <item>Pushkar</item>
+        <item>Raipur</item>
+        <item>Raisinghnagar</item>
+        <item>Rajakhera</item>
+        <item>Rajaldesar</item>
+        <item>Rajgarh</item>
+        <item>Rajsamand</item>
+        <item>Ramganj Mandi</item>
+        <item>Ramgarh</item>
+        <item>Rani</item>
+        <item>Raniwara</item>
+        <item>Ratan Nagar</item>
+        <item>Ratangarh</item>
+        <item>Rawatbhata</item>
+        <item>Rawatsar</item>
+        <item>Rikhabdev</item>
+        <item>Ringas</item>
+        <item>Sadri</item>
+        <item>Sadulshahar</item>
+        <item>Sagwara</item>
+        <item>Salumbar</item>
+        <item>Sambhar</item>
+        <item>Samdari</item>
+        <item>Sanchor</item>
+        <item>Sangariya</item>
+        <item>Sangod</item>
+        <item>Sardarshahr</item>
+        <item>Sarwar</item>
+        <item>Satal Kheri</item>
+        <item>Sawai Madhopur</item>
+        <item>Sewan Kalan</item>
+        <item>Shahpura</item>
+        <item>Sheoganj</item>
+        <item>Sikar</item>
+        <item>Sirohi</item>
+        <item>Siwana</item>
+        <item>Sogariya</item>
+        <item>Sojat</item>
+        <item>Sojat Road</item>
+        <item>Sri Madhopur</item>
+        <item>Sriganganagar</item>
+        <item>Sujangarh</item>
+        <item>Suket</item>
+        <item>Sumerpur</item>
+        <item>Sunel</item>
+        <item>Surajgarh</item>
+        <item>Suratgarh</item>
+        <item>Swaroopganj</item>
+        <item>Takhatgarh</item>
+        <item>Taranagar</item>
+        <item>Three STR</item>
+        <item>Tijara</item>
+        <item>Toda Bhim</item>
+        <item>Toda Raisingh</item>
+        <item>Todra</item>
+        <item>Tonk</item>
+        <item>Udaipur</item>
+        <item>Udpura</item>
+        <item>Uniara</item>
+        <item>Vanasthali</item>
+        <item>Vidyavihar</item>
+        <item>Vijainagar</item>
+        <item>Viratnagar</item>
+        <item>Wer</item>
+    </string-array>
+
+    <string-array name="cities_Punjab">
+        <item>Select</item>
+        <item>Abohar</item>
+        <item>Adampur</item>
+        <item>Ahmedgarh</item>
+        <item>Ajnala</item>
+        <item>Akalgarh</item>
+        <item>Alawalpur</item>
+        <item>Amloh</item>
+        <item>Amritsar</item>
+        <item>Amritsar Cantonment</item>
+        <item>Anandpur Sahib</item>
+        <item>Badhni Kalan</item>
+        <item>Bagh Purana</item>
+        <item>Balachaur</item>
+        <item>Banaur</item>
+        <item>Banga</item>
+        <item>Banur</item>
+        <item>Baretta</item>
+        <item>Bariwala</item>
+        <item>Barnala</item>
+        <item>Bassi Pathana</item>
+        <item>Batala</item>
+        <item>Bathinda</item>
+        <item>Begowal</item>
+        <item>Behrampur</item>
+        <item>Bhabat</item>
+        <item>Bhadur</item>
+        <item>Bhankharpur</item>
+        <item>Bharoli Kalan</item>
+        <item>Bhawanigarh</item>
+        <item>Bhikhi</item>
+        <item>Bhikhiwind</item>
+        <item>Bhisiana</item>
+        <item>Bhogpur</item>
+        <item>Bhuch</item>
+        <item>Bhulath</item>
+        <item>Budha Theh</item>
+        <item>Budhlada</item>
+        <item>Chima</item>
+        <item>Chohal</item>
+        <item>Dasuya</item>
+        <item>Daulatpur</item>
+        <item>Dera Baba Nanak</item>
+        <item>Dera Bassi</item>
+        <item>Dhanaula</item>
+        <item>Dharam Kot</item>
+        <item>Dhariwal</item>
+        <item>Dhilwan</item>
+        <item>Dhuri</item>
+        <item>Dinanagar</item>
+        <item>Dirba</item>
+        <item>Doraha</item>
+        <item>Faridkot</item>
+        <item>Fateh Nangal</item>
+        <item>Fatehgarh Churian</item>
+        <item>Fatehgarh Sahib</item>
+        <item>Fazilka</item>
+        <item>Firozpur</item>
+        <item>Firozpur Cantonment</item>
+        <item>Gardhiwala</item>
+        <item>Garhshankar</item>
+        <item>Ghagga</item>
+        <item>Ghanaur</item>
+        <item>Giddarbaha</item>
+        <item>Gobindgarh</item>
+        <item>Goniana</item>
+        <item>Goraya</item>
+        <item>Gurdaspur</item>
+        <item>Guru Har Sahai</item>
+        <item>Hajipur</item>
+        <item>Handiaya</item>
+        <item>Hariana</item>
+        <item>Hoshiarpur</item>
+        <item>Hussainpur</item>
+        <item>Jagraon</item>
+        <item>Jaitu</item>
+        <item>Jalalabad</item>
+        <item>Jalandhar</item>
+        <item>Jalandhar Cantonment</item>
+        <item>Jandiala</item>
+        <item>Jugial</item>
+        <item>Kalanaur</item>
+        <item>Kapurthala</item>
+        <item>Karoran</item>
+        <item>Kartarpur</item>
+        <item>Khamanon</item>
+        <item>Khanauri</item>
+        <item>Khanna</item>
+        <item>Kharar</item>
+        <item>Khem Karan</item>
+        <item>Kot Fatta</item>
+        <item>Kot Isa Khan</item>
+        <item>Kot Kapura</item>
+        <item>Kotkapura</item>
+        <item>Kurali</item>
+        <item>Lalru</item>
+        <item>Lehra Gaga</item>
+        <item>Lodhian Khas</item>
+        <item>Longowal</item>
+        <item>Ludhiana</item>
+        <item>Machhiwara</item>
+        <item>Mahilpur</item>
+        <item>Majitha</item>
+        <item>Makhu</item>
+        <item>Malaut</item>
+        <item>Malerkotla</item>
+        <item>Maloud</item>
+        <item>Mandi Gobindgarh</item>
+        <item>Mansa</item>
+        <item>Maur</item>
+        <item>Moga</item>
+        <item>Mohali</item>
+        <item>Moonak</item>
+        <item>Morinda</item>
+        <item>Mukerian</item>
+        <item>Muktsar</item>
+        <item>Mullanpur Dakha</item>
+        <item>Mullanpur Garibdas</item>
+        <item>Munak</item>
+        <item>Muradpura</item>
+        <item>Nabha</item>
+        <item>Nakodar</item>
+        <item>Nangal</item>
+        <item>Nawashahr</item>
+        <item>Naya Nangal</item>
+        <item>Nehon</item>
+        <item>Nurmahal</item>
+        <item>Pathankot</item>
+        <item>Patiala</item>
+        <item>Patti</item>
+        <item>Pattran</item>
+        <item>Payal</item>
+        <item>Phagwara</item>
+        <item>Phillaur</item>
+        <item>Qadian</item>
+        <item>Rahon</item>
+        <item>Raikot</item>
+        <item>Raja Sansi</item>
+        <item>Rajpura</item>
+        <item>Ram Das</item>
+        <item>Raman</item>
+        <item>Rampura</item>
+        <item>Rayya</item>
+        <item>Rupnagar</item>
+        <item>Rurki Kasba</item>
+        <item>Sahnewal</item>
+        <item>Samana</item>
+        <item>Samrala</item>
+        <item>Sanaur</item>
+        <item>Sangat</item>
+        <item>Sangrur</item>
+        <item>Sansarpur</item>
+        <item>Sardulgarh</item>
+        <item>Shahkot</item>
+        <item>Sham Churasi</item>
+        <item>Shekhpura</item>
+        <item>Sirhind</item>
+        <item>Sri Hargobindpur</item>
+        <item>Sujanpur</item>
+        <item>Sultanpur Lodhi</item>
+        <item>Sunam</item>
+        <item>Talwandi Bhai</item>
+        <item>Talwara</item>
+        <item>Tappa</item>
+        <item>Tarn Taran</item>
+        <item>Urmar Tanda</item>
+        <item>Zira</item>
+        <item>Zirakpur</item>
+    </string-array>
+
+    <string-array name="cities_Odisha">
+        <item>Select</item>
+        <item>Anandapur</item>
+        <item>Angul</item>
+        <item>Aska</item>
+        <item>Athgarh</item>
+        <item>Athmallik</item>
+        <item>Balagoda</item>
+        <item>Balangir</item>
+        <item>Balasore</item>
+        <item>Baleshwar</item>
+        <item>Balimeta</item>
+        <item>Balugaon</item>
+        <item>Banapur</item>
+        <item>Bangura</item>
+        <item>Banki</item>
+        <item>Banposh</item>
+        <item>Barbil</item>
+        <item>Bargarh</item>
+        <item>Baripada</item>
+        <item>Barpali</item>
+        <item>Basudebpur</item>
+        <item>Baudh</item>
+        <item>Belagachhia</item>
+        <item>Belaguntha</item>
+        <item>Belpahar</item>
+        <item>Berhampur</item>
+        <item>Bhadrak</item>
+        <item>Bhanjanagar</item>
+        <item>Bhawanipatna</item>
+        <item>Bhuban</item>
+        <item>Bhubaneswar</item>
+        <item>Binika</item>
+        <item>Birmitrapur</item>
+        <item>Bishama Katek</item>
+        <item>Bolangir</item>
+        <item>Brahmapur</item>
+        <item>Brajrajnagar</item>
+        <item>Buguda</item>
+        <item>Burla</item>
+        <item>Byasanagar</item>
+        <item>Champua</item>
+        <item>Chandapur</item>
+        <item>Chandbali</item>
+        <item>Chandili</item>
+        <item>Charibatia</item>
+        <item>Chatrapur</item>
+        <item>Chikitigarh</item>
+        <item>Chitrakonda</item>
+        <item>Choudwar</item>
+        <item>Cuttack</item>
+        <item>Dadhapatna</item>
+        <item>Daitari</item>
+        <item>Damanjodi</item>
+        <item>Deogarh</item>
+        <item>Deracolliery</item>
+        <item>Dhamanagar</item>
+        <item>Dhenkanal</item>
+        <item>Digapahandi</item>
+        <item>Dungamal</item>
+        <item>Fertilizer Corporation of Indi</item>
+        <item>Ganjam</item>
+        <item>Ghantapada</item>
+        <item>Gopalpur</item>
+        <item>Gudari</item>
+        <item>Gunupur</item>
+        <item>Hatibandha</item>
+        <item>Hinjilikatu</item>
+        <item>Hirakud</item>
+        <item>Jagatsinghapur</item>
+        <item>Jajpur</item>
+        <item>Jalda</item>
+        <item>Jaleswar</item>
+        <item>Jatni</item>
+        <item>Jaypur</item>
+        <item>Jeypore</item>
+        <item>Jharsuguda</item>
+        <item>Jhumpura</item>
+        <item>Joda</item>
+        <item>Junagarh</item>
+        <item>Kamakhyanagar</item>
+        <item>Kantabanji</item>
+        <item>Kantilo</item>
+        <item>Karanja</item>
+        <item>Kashinagara</item>
+        <item>Kataka</item>
+        <item>Kavisuryanagar</item>
+        <item>Kendrapara</item>
+        <item>Kendujhar</item>
+        <item>Keonjhar</item>
+        <item>Kesinga</item>
+        <item>Khaliapali</item>
+        <item>Khalikote</item>
+        <item>Khandaparha</item>
+        <item>Kharhial</item>
+        <item>Kharhial Road</item>
+        <item>Khatiguda</item>
+        <item>Khurda</item>
+        <item>Kochinda</item>
+        <item>Kodala</item>
+        <item>Konark</item>
+        <item>Koraput</item>
+        <item>Kotaparh</item>
+        <item>Lanjigarh</item>
+        <item>Lattikata</item>
+        <item>Makundapur</item>
+        <item>Malkangiri</item>
+        <item>Mukhiguda</item>
+        <item>Nabarangpur</item>
+        <item>Nalco</item>
+        <item>Naurangapur</item>
+        <item>Nayagarh</item>
+        <item>Nilagiri</item>
+        <item>Nimaparha</item>
+        <item>Nuapada</item>
+        <item>Nuapatna</item>
+        <item>OCL Industrialship</item>
+        <item>Padampur</item>
+        <item>Paradip</item>
+        <item>Paradwip</item>
+        <item>Parlakimidi</item>
+        <item>Patamundai</item>
+        <item>Patnagarh</item>
+        <item>Phulabani</item>
+        <item>Pipili</item>
+        <item>Polasara</item>
+        <item>Pratapsasan</item>
+        <item>Puri</item>
+        <item>Purushottampur</item>
+        <item>Rairangpur</item>
+        <item>Raj Gangpur</item>
+        <item>Rambha</item>
+        <item>Raurkela</item>
+        <item>Raurkela Civil Township</item>
+        <item>Rayagada</item>
+        <item>Redhakhol</item>
+        <item>Remuna</item>
+        <item>Rengali</item>
+        <item>Rourkela</item>
+        <item>Sambalpur</item>
+        <item>Sinapali</item>
+        <item>Sonepur</item>
+        <item>Sorada</item>
+        <item>Soro</item>
+        <item>Sunabeda</item>
+        <item>Sundargarh</item>
+        <item>Talcher</item>
+        <item>Talcher Thermal Power Station </item>
+        <item>Tarabha</item>
+        <item>Tensa</item>
+        <item>Titlagarh</item>
+        <item>Udala</item>
+        <item>Udayagiri</item>
+        <item>Umarkot</item>
+        <item>Vikrampur</item>
+    </string-array>
+
+    <string-array name="cities_Nagaland">
+        <item>Select</item>
+        <item>Chumukedima</item>
+        <item>Dimapur</item>
+        <item>Kohima</item>
+        <item>Mokokchung</item>
+        <item>Mon</item>
+        <item>Phek</item>
+        <item>Tuensang</item>
+        <item>Wokha</item>
+        <item>Zunheboto</item>
+    </string-array>
+
+    <string-array name="cities_Mizoram">
+        <item>Select</item>
+        <item>Aizawl</item>
+        <item>Bairabi</item>
+        <item>Biate</item>
+        <item>Champhai</item>
+        <item>Darlawn</item>
+        <item>Hnahthial</item>
+        <item>Kawnpui</item>
+        <item>Khawhai</item>
+        <item>Khawzawl</item>
+        <item>Kolasib</item>
+        <item>Lengpui</item>
+        <item>Lunglei</item>
+        <item>Mamit</item>
+        <item>North Vanlaiphai</item>
+        <item>Saiha</item>
+        <item>Sairang</item>
+        <item>Saitul</item>
+        <item>Serchhip</item>
+        <item>Thenzawl</item>
+        <item>Tlabung</item>
+        <item>Vairengte</item>
+        <item>Zawlnuam</item>
+    </string-array>
+
+    <string-array name="cities_Meghalaya">
+        <item>Select</item>
+        <item>Baghmara</item>
+        <item>Cherrapunji</item>
+        <item>Jawai</item>
+        <item>Madanrting</item>
+        <item>Mairang</item>
+        <item>Mawlai</item>
+        <item>Nongmynsong</item>
+        <item>Nongpoh</item>
+        <item>Nongstoin</item>
+        <item>Nongthymmai</item>
+        <item>Pynthorumkhrah</item>
+        <item>Resubelpara</item>
+        <item>Shillong</item>
+        <item>Shillong Cantonment</item>
+        <item>Tura</item>
+        <item>Williamnagar</item>
+    </string-array>
+
+    <string-array name="cities_Manipur">
+        <item>Select</item>
+        <item>Andro</item>
+        <item>Bijoy Govinda</item>
+        <item>Bishnupur</item>
+        <item>Churachandpur</item>
+        <item>Heriok</item>
+        <item>Imphal</item>
+        <item>Jiribam</item>
+        <item>Kakching</item>
+        <item>Kakching Khunou</item>
+        <item>Khongman</item>
+        <item>Kumbi</item>
+        <item>Kwakta</item>
+        <item>Lamai</item>
+        <item>Lamjaotongba</item>
+        <item>Lamshang</item>
+        <item>Lilong</item>
+        <item>Mayang Imphal</item>
+        <item>Moirang</item>
+        <item>Moreh</item>
+        <item>Nambol</item>
+        <item>Naoriya Pakhanglakpa</item>
+        <item>Ningthoukhong</item>
+        <item>Oinam</item>
+        <item>Porompat</item>
+        <item>Samurou</item>
+        <item>Sekmai Bazar</item>
+        <item>Senapati</item>
+        <item>Sikhong Sekmai</item>
+        <item>Sugnu</item>
+        <item>Thongkhong Laxmi Bazar</item>
+        <item>Thoubal</item>
+        <item>Torban</item>
+        <item>Wangjing</item>
+        <item>Wangoi</item>
+        <item>Yairipok</item>
+    </string-array>
+
+    <string-array name="cities_Maharashtra">
+        <item>Select</item>
+        <item>Achalpur</item>
+        <item>Aheri</item>
+        <item>Ahmadnagar Cantonment</item>
+        <item>Ahmadpur</item>
+        <item>Ahmednagar</item>
+        <item>Ajra</item>
+        <item>Akalkot</item>
+        <item>Akkalkuwa</item>
+        <item>Akola</item>
+        <item>Akot</item>
+        <item>Alandi</item>
+        <item>Alibag</item>
+        <item>Allapalli</item>
+        <item>Alore</item>
+        <item>Amalner</item>
+        <item>Ambad</item>
+        <item>Ambajogai</item>
+        <item>Ambernath</item>
+        <item>Ambivali Tarf Wankhal</item>
+        <item>Amgaon</item>
+        <item>Amravati</item>
+        <item>Anjangaon</item>
+        <item>Arvi</item>
+        <item>Ashta</item>
+        <item>Ashti</item>
+        <item>Aurangabad</item>
+        <item>Aurangabad Cantonment</item>
+        <item>Ausa</item>
+        <item>Babhulgaon</item>
+        <item>Badlapur</item>
+        <item>Balapur</item>
+        <item>Ballarpur</item>
+        <item>Baramati</item>
+        <item>Barshi</item>
+        <item>Basmat</item>
+        <item>Beed</item>
+        <item>Bhadravati</item>
+        <item>Bhagur</item>
+        <item>Bhandara</item>
+        <item>Bhigvan</item>
+        <item>Bhingar</item>
+        <item>Bhiwandi</item>
+        <item>Bhokhardan</item>
+        <item>Bhor</item>
+        <item>Bhosari</item>
+        <item>Bhum</item>
+        <item>Bhusawal</item>
+        <item>Bid</item>
+        <item>Biloli</item>
+        <item>Birwadi</item>
+        <item>Boisar</item>
+        <item>Bop Khel</item>
+        <item>Brahmapuri</item>
+        <item>Budhgaon</item>
+        <item>Buldana</item>
+        <item>Buldhana</item>
+        <item>Butibori</item>
+        <item>Chakan</item>
+        <item>Chalisgaon</item>
+        <item>Chandrapur</item>
+        <item>Chandur</item>
+        <item>Chandur Bazar</item>
+        <item>Chandvad</item>
+        <item>Chicholi</item>
+        <item>Chikhala</item>
+        <item>Chikhaldara</item>
+        <item>Chikhli</item>
+        <item>Chinchani</item>
+        <item>Chinchwad</item>
+        <item>Chiplun</item>
+        <item>Chopda</item>
+        <item>Dabhol</item>
+        <item>Dahance</item>
+        <item>Dahanu</item>
+        <item>Daharu</item>
+        <item>Dapoli Camp</item>
+        <item>Darwa</item>
+        <item>Daryapur</item>
+        <item>Dattapur</item>
+        <item>Daund</item>
+        <item>Davlameti</item>
+        <item>Deglur</item>
+        <item>Dehu Road</item>
+        <item>Deolali</item>
+        <item>Deolali Pravara</item>
+        <item>Deoli</item>
+        <item>Desaiganj</item>
+        <item>Deulgaon Raja</item>
+        <item>Dewhadi</item>
+        <item>Dharangaon</item>
+        <item>Dharmabad</item>
+        <item>Dharur</item>
+        <item>Dhatau</item>
+        <item>Dhule</item>
+        <item>Digdoh</item>
+        <item>Diglur</item>
+        <item>Digras</item>
+        <item>Dombivli</item>
+        <item>Dondaicha</item>
+        <item>Dudhani</item>
+        <item>Durgapur</item>
+        <item>Dyane</item>
+        <item>Edandol</item>
+        <item>Eklahare</item>
+        <item>Faizpur</item>
+        <item>Fekari</item>
+        <item>Gadchiroli</item>
+        <item>Gadhinghaj</item>
+        <item>Gandhi Nagar</item>
+        <item>Ganeshpur</item>
+        <item>Gangakher</item>
+        <item>Gangapur</item>
+        <item>Gevrai</item>
+        <item>Ghatanji</item>
+        <item>Ghoti</item>
+        <item>Ghugus</item>
+        <item>Ghulewadi</item>
+        <item>Godoli</item>
+        <item>Gondia</item>
+        <item>Guhagar</item>
+        <item>Hadgaon</item>
+        <item>Harnai Beach</item>
+        <item>Hinganghat</item>
+        <item>Hingoli</item>
+        <item>Hupari</item>
+        <item>Ichalkaranji</item>
+        <item>Igatpuri</item>
+        <item>Indapur</item>
+        <item>Jaisinghpur</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Jamkhed</item>
+        <item>Jawhar</item>
+        <item>Jaysingpur</item>
+        <item>Jejuri</item>
+        <item>Jintur</item>
+        <item>Junnar</item>
+        <item>Kabnur</item>
+        <item>Kagal</item>
+        <item>Kalamb</item>
+        <item>Kalamnuri</item>
+        <item>Kalas</item>
+        <item>Kalmeshwar</item>
+        <item>Kalundre</item>
+        <item>Kalyan</item>
+        <item>Kamthi</item>
+        <item>Kamthi Cantonment</item>
+        <item>Kandari</item>
+        <item>Kandhar</item>
+        <item>Kandri</item>
+        <item>Kandri II</item>
+        <item>Kanhan</item>
+        <item>Kankavli</item>
+        <item>Kannad</item>
+        <item>Karad</item>
+        <item>Karanja</item>
+        <item>Karanje Tarf</item>
+        <item>Karivali</item>
+        <item>Karjat</item>
+        <item>Karmala</item>
+        <item>Kasara Budruk</item>
+        <item>Katai</item>
+        <item>Katkar</item>
+        <item>Katol</item>
+        <item>Kegaon</item>
+        <item>Khadkale</item>
+        <item>Khadki</item>
+        <item>Khamgaon</item>
+        <item>Khapa</item>
+        <item>Kharadi</item>
+        <item>Kharakvasla</item>
+        <item>Khed</item>
+        <item>Kherdi</item>
+        <item>Khoni</item>
+        <item>Khopoli</item>
+        <item>Khuldabad</item>
+        <item>Kinwat</item>
+        <item>Kodoli</item>
+        <item>Kolhapur</item>
+        <item>Kon</item>
+        <item>Kondumal</item>
+        <item>Kopargaon</item>
+        <item>Kopharad</item>
+        <item>Koradi</item>
+        <item>Koregaon</item>
+        <item>Korochi</item>
+        <item>Kudal</item>
+        <item>Kundaim</item>
+        <item>Kundalwadi</item>
+        <item>Kurandvad</item>
+        <item>Kurduvadi</item>
+        <item>Kusgaon Budruk</item>
+        <item>Lanja</item>
+        <item>Lasalgaon</item>
+        <item>Latur</item>
+        <item>Loha</item>
+        <item>Lohegaon</item>
+        <item>Lonar</item>
+        <item>Lonavala</item>
+        <item>Madhavnagar</item>
+        <item>Mahabaleshwar</item>
+        <item>Mahad</item>
+        <item>Mahadula</item>
+        <item>Maindargi</item>
+        <item>Majalgaon</item>
+        <item>Malegaon</item>
+        <item>Malgaon</item>
+        <item>Malkapur</item>
+        <item>Malwan</item>
+        <item>Manadur</item>
+        <item>Manchar</item>
+        <item>Mangalvedhe</item>
+        <item>Mangrul Pir</item>
+        <item>Manmad</item>
+        <item>Manor</item>
+        <item>Mansar</item>
+        <item>Manwath</item>
+        <item>Mapuca</item>
+        <item>Matheran</item>
+        <item>Mehkar</item>
+        <item>Mhasla</item>
+        <item>Mhaswad</item>
+        <item>Mira Bhayandar</item>
+        <item>Miraj</item>
+        <item>Mohpa</item>
+        <item>Mohpada</item>
+        <item>Moram</item>
+        <item>Morshi</item>
+        <item>Mowad</item>
+        <item>Mudkhed</item>
+        <item>Mukhed</item>
+        <item>Mul</item>
+        <item>Mulshi</item>
+        <item>Mumbai</item>
+        <item>Murbad</item>
+        <item>Murgud</item>
+        <item>Murtijapur</item>
+        <item>Murud</item>
+        <item>Nachane</item>
+        <item>Nagardeole</item>
+        <item>Nagothane</item>
+        <item>Nagpur</item>
+        <item>Nakoda</item>
+        <item>Nalasopara</item>
+        <item>Naldurg</item>
+        <item>Nanded</item>
+        <item>Nandgaon</item>
+        <item>Nandura</item>
+        <item>Nandurbar</item>
+        <item>Narkhed</item>
+        <item>Nashik</item>
+        <item>Navapur</item>
+        <item>Navi Mumbai</item>
+        <item>Navi Mumbai Panvel</item>
+        <item>Neral</item>
+        <item>Nigdi</item>
+        <item>Nilanga</item>
+        <item>Nildoh</item>
+        <item>Nimbhore</item>
+        <item>Ojhar</item>
+        <item>Osmanabad</item>
+        <item>Pachgaon</item>
+        <item>Pachora</item>
+        <item>Padagha</item>
+        <item>Paithan</item>
+        <item>Palghar</item>
+        <item>Pali</item>
+        <item>Panchgani</item>
+        <item>Pandhakarwada</item>
+        <item>Pandharpur</item>
+        <item>Panhala</item>
+        <item>Panvel</item>
+        <item>Paranda</item>
+        <item>Parbhani</item>
+        <item>Parli</item>
+        <item>Parola</item>
+        <item>Partur</item>
+        <item>Pasthal</item>
+        <item>Patan</item>
+        <item>Pathardi</item>
+        <item>Pathri</item>
+        <item>Patur</item>
+        <item>Pawni</item>
+        <item>Pen</item>
+        <item>Pethumri</item>
+        <item>Phaltan</item>
+        <item>Pimpri</item>
+        <item>Poladpur</item>
+        <item>Pulgaon</item>
+        <item>Pune</item>
+        <item>Pune Cantonment</item>
+        <item>Purna</item>
+        <item>Purushottamnagar</item>
+        <item>Pusad</item>
+        <item>Rahimatpur</item>
+        <item>Rahta Pimplas</item>
+        <item>Rahuri</item>
+        <item>Raigad</item>
+        <item>Rajapur</item>
+        <item>Rajgurunagar</item>
+        <item>Rajur</item>
+        <item>Rajura</item>
+        <item>Ramtek</item>
+        <item>Ratnagiri</item>
+        <item>Ravalgaon</item>
+        <item>Raver</item>
+        <item>Revadanda</item>
+        <item>Risod</item>
+        <item>Roha Ashtami</item>
+        <item>Sakri</item>
+        <item>Sandor</item>
+        <item>Sangamner</item>
+        <item>Sangli</item>
+        <item>Sangole</item>
+        <item>Sasti</item>
+        <item>Sasvad</item>
+        <item>Satana</item>
+        <item>Satara</item>
+        <item>Savantvadi</item>
+        <item>Savda</item>
+        <item>Savner</item>
+        <item>Sawari Jawharnagar</item>
+        <item>Selu</item>
+        <item>Shahada</item>
+        <item>Shahapur</item>
+        <item>Shegaon</item>
+        <item>Shelar</item>
+        <item>Shendurjana</item>
+        <item>Shirdi</item>
+        <item>Shirgaon</item>
+        <item>Shirpur</item>
+        <item>Shirur</item>
+        <item>Shirwal</item>
+        <item>Shivatkar</item>
+        <item>Shrigonda</item>
+        <item>Shrirampur</item>
+        <item>Shrirampur Rural</item>
+        <item>Sillewada</item>
+        <item>Sillod</item>
+        <item>Sindhudurg</item>
+        <item>Sindi</item>
+        <item>Sindi Turf Hindnagar</item>
+        <item>Sindkhed Raja</item>
+        <item>Singnapur</item>
+        <item>Sinnar</item>
+        <item>Sirur</item>
+        <item>Sitasawangi</item>
+        <item>Solapur</item>
+        <item>Sonai</item>
+        <item>Sonegaon</item>
+        <item>Soyagaon</item>
+        <item>Srivardhan</item>
+        <item>Surgana</item>
+        <item>Talegaon Dabhade</item>
+        <item>Taloda</item>
+        <item>Taloja</item>
+        <item>Talwade</item>
+        <item>Tarapur</item>
+        <item>Tasgaon</item>
+        <item>Tathavade</item>
+        <item>Tekadi</item>
+        <item>Telhara</item>
+        <item>Thane</item>
+        <item>Tirira</item>
+        <item>Totaladoh</item>
+        <item>Trimbak</item>
+        <item>Tuljapur</item>
+        <item>Tumsar</item>
+        <item>Uchgaon</item>
+        <item>Udgir</item>
+        <item>Ulhasnagar</item>
+        <item>Umarga</item>
+        <item>Umarkhed</item>
+        <item>Umarsara</item>
+        <item>Umbar Pada Nandade</item>
+        <item>Umred</item>
+        <item>Umri Pragane Balapur</item>
+        <item>Uran</item>
+        <item>Uran Islampur</item>
+        <item>Utekhol</item>
+        <item>Vada</item>
+        <item>Vadgaon</item>
+        <item>Vadgaon Kasba</item>
+        <item>Vaijapur</item>
+        <item>Vanvadi</item>
+        <item>Varangaon</item>
+        <item>Vasai</item>
+        <item>Vasantnagar</item>
+        <item>Vashind</item>
+        <item>Vengurla</item>
+        <item>Virar</item>
+        <item>Visapur</item>
+        <item>Vite</item>
+        <item>Vithalwadi</item>
+        <item>Wadi</item>
+        <item>Waghapur</item>
+        <item>Wai</item>
+        <item>Wajegaon</item>
+        <item>Walani</item>
+        <item>Wanadongri</item>
+        <item>Wani</item>
+        <item>Wardha</item>
+        <item>Warora</item>
+        <item>Warthi</item>
+        <item>Warud</item>
+        <item>Washim</item>
+        <item>Yaval</item>
+        <item>Yavatmal</item>
+        <item>Yeola</item>
+        <item>Yerkheda</item>
+    </string-array>
+
+    <string-array name="cities_Madhya_Pradesh">
+        <item>Select</item>
+        <item>Agar</item>
+        <item>Ajaigarh</item>
+        <item>Akoda</item>
+        <item>Akodia</item>
+        <item>Alampur</item>
+        <item>Alirajpur</item>
+        <item>Alot</item>
+        <item>Amanganj</item>
+        <item>Amarkantak</item>
+        <item>Amarpatan</item>
+        <item>Amarwara</item>
+        <item>Ambada</item>
+        <item>Ambah</item>
+        <item>Amla</item>
+        <item>Amlai</item>
+        <item>Anjad</item>
+        <item>Antri</item>
+        <item>Anuppur</item>
+        <item>Aron</item>
+        <item>Ashoknagar</item>
+        <item>Ashta</item>
+        <item>Babai</item>
+        <item>Bada Malhera</item>
+        <item>Badagaon</item>
+        <item>Badagoan</item>
+        <item>Badarwas</item>
+        <item>Badawada</item>
+        <item>Badi</item>
+        <item>Badkuhi</item>
+        <item>Badnagar</item>
+        <item>Badnawar</item>
+        <item>Badod</item>
+        <item>Badoda</item>
+        <item>Badra</item>
+        <item>Bagh</item>
+        <item>Bagli</item>
+        <item>Baihar</item>
+        <item>Baikunthpur</item>
+        <item>Bakswaha</item>
+        <item>Balaghat</item>
+        <item>Baldeogarh</item>
+        <item>Bamaniya</item>
+        <item>Bamhani</item>
+        <item>Bamor</item>
+        <item>Bamora</item>
+        <item>Banda</item>
+        <item>Bangawan</item>
+        <item>Bansatar Kheda</item>
+        <item>Baraily</item>
+        <item>Barela</item>
+        <item>Barghat</item>
+        <item>Bargi</item>
+        <item>Barhi</item>
+        <item>Barigarh</item>
+        <item>Barwaha</item>
+        <item>Barwani</item>
+        <item>Basoda</item>
+        <item>Begamganj</item>
+        <item>Beohari</item>
+        <item>Berasia</item>
+        <item>Betma</item>
+        <item>Betul</item>
+        <item>Betul Bazar</item>
+        <item>Bhainsdehi</item>
+        <item>Bhamodi</item>
+        <item>Bhander</item>
+        <item>Bhanpura</item>
+        <item>Bharveli</item>
+        <item>Bhaurasa</item>
+        <item>Bhavra</item>
+        <item>Bhedaghat</item>
+        <item>Bhikangaon</item>
+        <item>Bhilakhedi</item>
+        <item>Bhind</item>
+        <item>Bhitarwar</item>
+        <item>Bhopal</item>
+        <item>Bhuibandh</item>
+        <item>Biaora</item>
+        <item>Bijawar</item>
+        <item>Bijeypur</item>
+        <item>Bijrauni</item>
+        <item>Bijuri</item>
+        <item>Bilaua</item>
+        <item>Bilpura</item>
+        <item>Bina Railway Colony</item>
+        <item>Bina-Etawa</item>
+        <item>Birsinghpur</item>
+        <item>Boda</item>
+        <item>Budhni</item>
+        <item>Burhanpur</item>
+        <item>Burhar</item>
+        <item>Chachaura Binaganj</item>
+        <item>Chakghat</item>
+        <item>Chandameta Butar</item>
+        <item>Chanderi</item>
+        <item>Chandia</item>
+        <item>Chandla</item>
+        <item>Chaurai Khas</item>
+        <item>Chhatarpur</item>
+        <item>Chhindwara</item>
+        <item>Chhota Chhindwara</item>
+        <item>Chichli</item>
+        <item>Chitrakut</item>
+        <item>Churhat</item>
+        <item>Daboh</item>
+        <item>Dabra</item>
+        <item>Damoh</item>
+        <item>Damua</item>
+        <item>Datia</item>
+        <item>Deodara</item>
+        <item>Deori</item>
+        <item>Deori Khas</item>
+        <item>Depalpur</item>
+        <item>Devendranagar</item>
+        <item>Devhara</item>
+        <item>Dewas</item>
+        <item>Dhamnod</item>
+        <item>Dhana</item>
+        <item>Dhanpuri</item>
+        <item>Dhar</item>
+        <item>Dharampuri</item>
+        <item>Dighawani</item>
+        <item>Diken</item>
+        <item>Dindori</item>
+        <item>Dola</item>
+        <item>Dumar Kachhar</item>
+        <item>Dungariya Chhapara</item>
+        <item>Gadarwara</item>
+        <item>Gairatganj</item>
+        <item>Gandhi Sagar Hydel Colony</item>
+        <item>Ganjbasoda</item>
+        <item>Garhakota</item>
+        <item>Garhi Malhara</item>
+        <item>Garoth</item>
+        <item>Gautapura</item>
+        <item>Ghansor</item>
+        <item>Ghuwara</item>
+        <item>Gogaon</item>
+        <item>Gogapur</item>
+        <item>Gohad</item>
+        <item>Gormi</item>
+        <item>Govindgarh</item>
+        <item>Guna</item>
+        <item>Gurh</item>
+        <item>Gwalior</item>
+        <item>Hanumana</item>
+        <item>Harda</item>
+        <item>Harpalpur</item>
+        <item>Harrai</item>
+        <item>Harsud</item>
+        <item>Hatod</item>
+        <item>Hatpipalya</item>
+        <item>Hatta</item>
+        <item>Hindoria</item>
+        <item>Hirapur</item>
+        <item>Hoshangabad</item>
+        <item>Ichhawar</item>
+        <item>Iklehra</item>
+        <item>Indergarh</item>
+        <item>Indore</item>
+        <item>Isagarh</item>
+        <item>Itarsi</item>
+        <item>Jabalpur</item>
+        <item>Jabalpur Cantonment</item>
+        <item>Jabalpur G.C.F</item>
+        <item>Jaisinghnagar</item>
+        <item>Jaithari</item>
+        <item>Jaitwara</item>
+        <item>Jamai</item>
+        <item>Jaora</item>
+        <item>Jatachhapar</item>
+        <item>Jatara</item>
+        <item>Jawad</item>
+        <item>Jawar</item>
+        <item>Jeronkhalsa</item>
+        <item>Jhabua</item>
+        <item>Jhundpura</item>
+        <item>Jiran</item>
+        <item>Jirapur</item>
+        <item>Jobat</item>
+        <item>Joura</item>
+        <item>Kailaras</item>
+        <item>Kaimur</item>
+        <item>Kakarhati</item>
+        <item>Kalichhapar</item>
+        <item>Kanad</item>
+        <item>Kannod</item>
+        <item>Kantaphod</item>
+        <item>Kareli</item>
+        <item>Karera</item>
+        <item>Kari</item>
+        <item>Karnawad</item>
+        <item>Karrapur</item>
+        <item>Kasrawad</item>
+        <item>Katangi</item>
+        <item>Katni</item>
+        <item>Kelhauri</item>
+        <item>Khachrod</item>
+        <item>Khajuraho</item>
+        <item>Khamaria</item>
+        <item>Khand</item>
+        <item>Khandwa</item>
+        <item>Khaniyadhana</item>
+        <item>Khargapur</item>
+        <item>Khargone</item>
+        <item>Khategaon</item>
+        <item>Khetia</item>
+        <item>Khilchipur</item>
+        <item>Khirkiya</item>
+        <item>Khujner</item>
+        <item>Khurai</item>
+        <item>Kolaras</item>
+        <item>Kotar</item>
+        <item>Kothi</item>
+        <item>Kotma</item>
+        <item>Kukshi</item>
+        <item>Kumbhraj</item>
+        <item>Kurwai</item>
+        <item>Lahar</item>
+        <item>Lakhnadon</item>
+        <item>Lateri</item>
+        <item>Laundi</item>
+        <item>Lidhora Khas</item>
+        <item>Lodhikheda</item>
+        <item>Loharda</item>
+        <item>Machalpur</item>
+        <item>Madhogarh</item>
+        <item>Maharajpur</item>
+        <item>Maheshwar</item>
+        <item>Mahidpur</item>
+        <item>Maihar</item>
+        <item>Majholi</item>
+        <item>Makronia</item>
+        <item>Maksi</item>
+        <item>Malaj Khand</item>
+        <item>Malanpur</item>
+        <item>Malhargarh</item>
+        <item>Manasa</item>
+        <item>Manawar</item>
+        <item>Mandav</item>
+        <item>Mandideep</item>
+        <item>Mandla</item>
+        <item>Mandleshwar</item>
+        <item>Mandsaur</item>
+        <item>Manegaon</item>
+        <item>Mangawan</item>
+        <item>Manglaya Sadak</item>
+        <item>Manpur</item>
+        <item>Mau</item>
+        <item>Mauganj</item>
+        <item>Meghnagar</item>
+        <item>Mehara Gaon</item>
+        <item>Mehgaon</item>
+        <item>Mhaugaon</item>
+        <item>Mhow</item>
+        <item>Mihona</item>
+        <item>Mohgaon</item>
+        <item>Morar</item>
+        <item>Morena</item>
+        <item>Morwa</item>
+        <item>Multai</item>
+        <item>Mundi</item>
+        <item>Mungaoli</item>
+        <item>Murwara</item>
+        <item>Nagda</item>
+        <item>Nagod</item>
+        <item>Nagri</item>
+        <item>Naigarhi</item>
+        <item>Nainpur</item>
+        <item>Nalkheda</item>
+        <item>Namli</item>
+        <item>Narayangarh</item>
+        <item>Narsimhapur</item>
+        <item>Narsingarh</item>
+        <item>Narsinghpur</item>
+        <item>Narwar</item>
+        <item>Nasrullaganj</item>
+        <item>Naudhia</item>
+        <item>Naugaon</item>
+        <item>Naurozabad</item>
+        <item>Neemuch</item>
+        <item>Nepa Nagar</item>
+        <item>Neuton Chikhli Kalan</item>
+        <item>Nimach</item>
+        <item>Niwari</item>
+        <item>Obedullaganj</item>
+        <item>Omkareshwar</item>
+        <item>Orachha</item>
+        <item>Ordinance Factory Itarsi</item>
+        <item>Pachmarhi</item>
+        <item>Pachmarhi Cantonment</item>
+        <item>Pachore</item>
+        <item>Palchorai</item>
+        <item>Palda</item>
+        <item>Palera</item>
+        <item>Pali</item>
+        <item>Panagar</item>
+        <item>Panara</item>
+        <item>Pandaria</item>
+        <item>Pandhana</item>
+        <item>Pandhurna</item>
+        <item>Panna</item>
+        <item>Pansemal</item>
+        <item>Parasia</item>
+        <item>Pasan</item>
+        <item>Patan</item>
+        <item>Patharia</item>
+        <item>Pawai</item>
+        <item>Petlawad</item>
+        <item>Phuph Kalan</item>
+        <item>Pichhore</item>
+        <item>Pipariya</item>
+        <item>Pipliya Mandi</item>
+        <item>Piploda</item>
+        <item>Pithampur</item>
+        <item>Polay Kalan</item>
+        <item>Porsa</item>
+        <item>Prithvipur</item>
+        <item>Raghogarh</item>
+        <item>Rahatgarh</item>
+        <item>Raisen</item>
+        <item>Rajakhedi</item>
+        <item>Rajgarh</item>
+        <item>Rajnagar</item>
+        <item>Rajpur</item>
+        <item>Rampur Baghelan</item>
+        <item>Rampur Naikin</item>
+        <item>Rampura</item>
+        <item>Ranapur</item>
+        <item>Ranipura</item>
+        <item>Ratangarh</item>
+        <item>Ratlam</item>
+        <item>Ratlam Kasba</item>
+        <item>Rau</item>
+        <item>Rehli</item>
+        <item>Rehti</item>
+        <item>Rewa</item>
+        <item>Sabalgarh</item>
+        <item>Sagar</item>
+        <item>Sagar Cantonment</item>
+        <item>Sailana</item>
+        <item>Sanawad</item>
+        <item>Sanchi</item>
+        <item>Sanwer</item>
+        <item>Sarangpur</item>
+        <item>Sardarpur</item>
+        <item>Sarni</item>
+        <item>Satai</item>
+        <item>Satna</item>
+        <item>Satwas</item>
+        <item>Sausar</item>
+        <item>Sehore</item>
+        <item>Semaria</item>
+        <item>Sendhwa</item>
+        <item>Seondha</item>
+        <item>Seoni</item>
+        <item>Seoni Malwa</item>
+        <item>Sethia</item>
+        <item>Shahdol</item>
+        <item>Shahgarh</item>
+        <item>Shahpur</item>
+        <item>Shahpura</item>
+        <item>Shajapur</item>
+        <item>Shamgarh</item>
+        <item>Sheopur</item>
+        <item>Shivpuri</item>
+        <item>Shujalpur</item>
+        <item>Sidhi</item>
+        <item>Sihora</item>
+        <item>Singolo</item>
+        <item>Singrauli</item>
+        <item>Sinhasa</item>
+        <item>Sirgora</item>
+        <item>Sirmaur</item>
+        <item>Sironj</item>
+        <item>Sitamau</item>
+        <item>Sohagpur</item>
+        <item>Sonkatch</item>
+        <item>Soyatkalan</item>
+        <item>Suhagi</item>
+        <item>Sultanpur</item>
+        <item>Susner</item>
+        <item>Suthaliya</item>
+        <item>Tal</item>
+        <item>Talen</item>
+        <item>Tarana</item>
+        <item>Taricharkalan</item>
+        <item>Tekanpur</item>
+        <item>Tendukheda</item>
+        <item>Teonthar</item>
+        <item>Thandia</item>
+        <item>Tikamgarh</item>
+        <item>Timarni</item>
+        <item>Tirodi</item>
+        <item>Udaipura</item>
+        <item>Ujjain</item>
+        <item>Ukwa</item>
+        <item>Umaria</item>
+        <item>Unchahara</item>
+        <item>Unhel</item>
+        <item>Vehicle Factory Jabalpur</item>
+        <item>Vidisha</item>
+        <item>Vijayraghavgarh</item>
+        <item>Waraseoni</item>
+    </string-array>
+
+    <string-array name="cities_Lakshadweep">
+        <item>Select</item>
+        <item>Agethi</item>
+        <item>Amini</item>
+        <item>Androth Island</item>
+        <item>Kavaratti</item>
+        <item>Minicoy</item>
+    </string-array>
+
+    <string-array name="cities_Kerala">
+        <item>Select</item>
+        <item>Adimaly</item>
+        <item>Adoor</item>
+        <item>Adur</item>
+        <item>Akathiyur</item>
+        <item>Alangad</item>
+        <item>Alappuzha</item>
+        <item>Aluva</item>
+        <item>Ancharakandy</item>
+        <item>Angamaly</item>
+        <item>Aroor</item>
+        <item>Arukutti</item>
+        <item>Attingal</item>
+        <item>Avinissery</item>
+        <item>Azhikode North</item>
+        <item>Azhikode South</item>
+        <item>Azhiyur</item>
+        <item>Balussery</item>
+        <item>Bangramanjeshwar</item>
+        <item>Beypur</item>
+        <item>Brahmakulam</item>
+        <item>Chala</item>
+        <item>Chalakudi</item>
+        <item>Changanacheri</item>
+        <item>Chauwara</item>
+        <item>Chavakkad</item>
+        <item>Chelakkara</item>
+        <item>Chelora</item>
+        <item>Chendamangalam</item>
+        <item>Chengamanad</item>
+        <item>Chengannur</item>
+        <item>Cheranallur</item>
+        <item>Cheriyakadavu</item>
+        <item>Cherthala</item>
+        <item>Cherukunnu</item>
+        <item>Cheruthazham</item>
+        <item>Cheruvannur</item>
+        <item>Cheruvattur</item>
+        <item>Chevvur</item>
+        <item>Chirakkal</item>
+        <item>Chittur</item>
+        <item>Chockli</item>
+        <item>Churnikkara</item>
+        <item>Dharmadam</item>
+        <item>Edappal</item>
+        <item>Edathala</item>
+        <item>Elayavur</item>
+        <item>Elur</item>
+        <item>Eranholi</item>
+        <item>Erattupetta</item>
+        <item>Ernakulam</item>
+        <item>Eruvatti</item>
+        <item>Ettumanoor</item>
+        <item>Feroke</item>
+        <item>Guruvayur</item>
+        <item>Haripad</item>
+        <item>Hosabettu</item>
+        <item>Idukki</item>
+        <item>Iringaprom</item>
+        <item>Irinjalakuda</item>
+        <item>Iriveri</item>
+        <item>Kadachira</item>
+        <item>Kadalundi</item>
+        <item>Kadamakkudy</item>
+        <item>Kadirur</item>
+        <item>Kadungallur</item>
+        <item>Kakkodi</item>
+        <item>Kalady</item>
+        <item>Kalamassery</item>
+        <item>Kalliasseri</item>
+        <item>Kalpetta</item>
+        <item>Kanhangad</item>
+        <item>Kanhirode</item>
+        <item>Kanjikkuzhi</item>
+        <item>Kanjikode</item>
+        <item>Kanjirappalli</item>
+        <item>Kannadiparamba</item>
+        <item>Kannangad</item>
+        <item>Kannapuram</item>
+        <item>Kannur</item>
+        <item>Kannur Cantonment</item>
+        <item>Karunagappally</item>
+        <item>Karuvamyhuruthy</item>
+        <item>Kasaragod</item>
+        <item>Kasargod</item>
+        <item>Kattappana</item>
+        <item>Kayamkulam</item>
+        <item>Kedamangalam</item>
+        <item>Kochi</item>
+        <item>Kodamthuruthu</item>
+        <item>Kodungallur</item>
+        <item>Koduvally</item>
+        <item>Koduvayur</item>
+        <item>Kokkothamangalam</item>
+        <item>Kolazhy</item>
+        <item>Kollam</item>
+        <item>Komalapuram</item>
+        <item>Koothattukulam</item>
+        <item>Koratty</item>
+        <item>Kothamangalam</item>
+        <item>Kottarakkara</item>
+        <item>Kottayam</item>
+        <item>Kottayam Malabar</item>
+        <item>Kottuvally</item>
+        <item>Koyilandi</item>
+        <item>Kozhikode</item>
+        <item>Kudappanakunnu</item>
+        <item>Kudlu</item>
+        <item>Kumarakom</item>
+        <item>Kumily</item>
+        <item>Kunnamangalam</item>
+        <item>Kunnamkulam</item>
+        <item>Kurikkad</item>
+        <item>Kurkkanchery</item>
+        <item>Kuthuparamba</item>
+        <item>Kuttakulam</item>
+        <item>Kuttikkattur</item>
+        <item>Kuttur</item>
+        <item>Malappuram</item>
+        <item>Mallappally</item>
+        <item>Manjeri</item>
+        <item>Manjeshwar</item>
+        <item>Mannancherry</item>
+        <item>Mannar</item>
+        <item>Mannarakkat</item>
+        <item>Maradu</item>
+        <item>Marathakkara</item>
+        <item>Marutharod</item>
+        <item>Mattannur</item>
+        <item>Mavelikara</item>
+        <item>Mavilayi</item>
+        <item>Mavur</item>
+        <item>Methala</item>
+        <item>Muhamma</item>
+        <item>Mulavukad</item>
+        <item>Mundakayam</item>
+        <item>Munderi</item>
+        <item>Munnar</item>
+        <item>Muthakunnam</item>
+        <item>Muvattupuzha</item>
+        <item>Muzhappilangad</item>
+        <item>Nadapuram</item>
+        <item>Nadathara</item>
+        <item>Narath</item>
+        <item>Nattakam</item>
+        <item>Nedumangad</item>
+        <item>Nenmenikkara</item>
+        <item>New Mahe</item>
+        <item>Neyyattinkara</item>
+        <item>Nileshwar</item>
+        <item>Olavanna</item>
+        <item>Ottapalam</item>
+        <item>Ottappalam</item>
+        <item>Paduvilayi</item>
+        <item>Palai</item>
+        <item>Palakkad</item>
+        <item>Palayad</item>
+        <item>Palissery</item>
+        <item>Pallikkunnu</item>
+        <item>Paluvai</item>
+        <item>Panniyannur</item>
+        <item>Pantalam</item>
+        <item>Panthiramkavu</item>
+        <item>Panur</item>
+        <item>Pappinisseri</item>
+        <item>Parassala</item>
+        <item>Paravur</item>
+        <item>Pathanamthitta</item>
+        <item>Pathanapuram</item>
+        <item>Pathiriyad</item>
+        <item>Pattambi</item>
+        <item>Pattiom</item>
+        <item>Pavaratty</item>
+        <item>Payyannur</item>
+        <item>Peermade</item>
+        <item>Perakam</item>
+        <item>Peralasseri</item>
+        <item>Peringathur</item>
+        <item>Perinthalmanna</item>
+        <item>Perole</item>
+        <item>Perumanna</item>
+        <item>Perumbaikadu</item>
+        <item>Perumbavoor</item>
+        <item>Pinarayi</item>
+        <item>Piravam</item>
+        <item>Ponnani</item>
+        <item>Pottore</item>
+        <item>Pudukad</item>
+        <item>Punalur</item>
+        <item>Puranattukara</item>
+        <item>Puthunagaram</item>
+        <item>Puthuppariyaram</item>
+        <item>Puzhathi</item>
+        <item>Ramanattukara</item>
+        <item>Shoranur</item>
+        <item>Sultans Battery</item>
+        <item>Sulthan Bathery</item>
+        <item>Talipparamba</item>
+        <item>Thaikkad</item>
+        <item>Thalassery</item>
+        <item>Thannirmukkam</item>
+        <item>Theyyalingal</item>
+        <item>Thiruvalla</item>
+        <item>Thiruvananthapuram</item>
+        <item>Thiruvankulam</item>
+        <item>Thodupuzha</item>
+        <item>Thottada</item>
+        <item>Thrippunithura</item>
+        <item>Thrissur</item>
+        <item>Tirur</item>
+        <item>Udma</item>
+        <item>Vadakara</item>
+        <item>Vaikam</item>
+        <item>Valapattam</item>
+        <item>Vallachira</item>
+        <item>Varam</item>
+        <item>Varappuzha</item>
+        <item>Varkala</item>
+        <item>Vayalar</item>
+        <item>Vazhakkala</item>
+        <item>Venmanad</item>
+        <item>Villiappally</item>
+        <item>Wayanad</item>
+    </string-array>
+
+    <string-array name="cities_Karnataka">
+        <item>Select</item>
+        <item>Adityanagar</item>
+        <item>Adityapatna</item>
+        <item>Afzalpur</item>
+        <item>Ajjampur</item>
+        <item>Aland</item>
+        <item>Almatti Sitimani</item>
+        <item>Alnavar</item>
+        <item>Alur</item>
+        <item>Ambikanagara</item>
+        <item>Anekal</item>
+        <item>Ankola</item>
+        <item>Annigeri</item>
+        <item>Arkalgud</item>
+        <item>Arsikere</item>
+        <item>Athni</item>
+        <item>Aurad</item>
+        <item>Badagavettu</item>
+        <item>Badami</item>
+        <item>Bagalkot</item>
+        <item>Bagepalli</item>
+        <item>Bailhongal</item>
+        <item>Baindur</item>
+        <item>Bajala</item>
+        <item>Bajpe</item>
+        <item>Banavar</item>
+        <item>Bangarapet</item>
+        <item>Bankapura</item>
+        <item>Bannur</item>
+        <item>Bantwal</item>
+        <item>Basavakalyan</item>
+        <item>Basavana Bagevadi</item>
+        <item>Belagula</item>
+        <item>Belakavadiq</item>
+        <item>Belgaum</item>
+        <item>Belgaum Cantonment</item>
+        <item>Bellary</item>
+        <item>Belluru</item>
+        <item>Beltangadi</item>
+        <item>Belur</item>
+        <item>Belvata</item>
+        <item>Bengaluru</item>
+        <item>Bhadravati</item>
+        <item>Bhalki</item>
+        <item>Bhatkal</item>
+        <item>Bhimarayanagudi</item>
+        <item>Bhogadi</item>
+        <item>Bidar</item>
+        <item>Bijapur</item>
+        <item>Bilgi</item>
+        <item>Birur</item>
+        <item>Bommanahalli</item>
+        <item>Bommasandra</item>
+        <item>Byadgi</item>
+        <item>Byatarayanapura</item>
+        <item>Chakranagar Colony</item>
+        <item>Challakere</item>
+        <item>Chamrajnagar</item>
+        <item>Chamundi Betta</item>
+        <item>Channagiri</item>
+        <item>Channapatna</item>
+        <item>Channarayapatna</item>
+        <item>Chickballapur</item>
+        <item>Chik Ballapur</item>
+        <item>Chikkaballapur</item>
+        <item>Chikmagalur</item>
+        <item>Chiknayakanhalli</item>
+        <item>Chikodi</item>
+        <item>Chincholi</item>
+        <item>Chintamani</item>
+        <item>Chitaguppa</item>
+        <item>Chitapur</item>
+        <item>Chitradurga</item>
+        <item>Coorg</item>
+        <item>Dandeli</item>
+        <item>Dargajogihalli</item>
+        <item>Dasarahalli</item>
+        <item>Davangere</item>
+        <item>Devadurga</item>
+        <item>Devagiri</item>
+        <item>Devanhalli</item>
+        <item>Dharwar</item>
+        <item>Dhupdal</item>
+        <item>Dod Ballapur</item>
+        <item>Donimalai</item>
+        <item>Gadag</item>
+        <item>Gajendragarh</item>
+        <item>Ganeshgudi</item>
+        <item>Gangawati</item>
+        <item>Gangoli</item>
+        <item>Gauribidanur</item>
+        <item>Gokak</item>
+        <item>Gokak Falls</item>
+        <item>Gonikoppal</item>
+        <item>Gorur</item>
+        <item>Gottikere</item>
+        <item>Gubbi</item>
+        <item>Gudibanda</item>
+        <item>Gulbarga</item>
+        <item>Guledgudda</item>
+        <item>Gundlupet</item>
+        <item>Gurmatkal</item>
+        <item>Haliyal</item>
+        <item>Hangal</item>
+        <item>Harihar</item>
+        <item>Harpanahalli</item>
+        <item>Hassan</item>
+        <item>Hatti</item>
+        <item>Hatti Gold Mines</item>
+        <item>Haveri</item>
+        <item>Hebbagodi</item>
+        <item>Hebbalu</item>
+        <item>Hebri</item>
+        <item>Heggadadevanakote</item>
+        <item>Herohalli</item>
+        <item>Hidkal</item>
+        <item>Hindalgi</item>
+        <item>Hirekerur</item>
+        <item>Hiriyur</item>
+        <item>Holalkere</item>
+        <item>Hole Narsipur</item>
+        <item>Homnabad</item>
+        <item>Honavar</item>
+        <item>Honnali</item>
+        <item>Hosakote</item>
+        <item>Hosanagara</item>
+        <item>Hosangadi</item>
+        <item>Hosdurga</item>
+        <item>Hoskote</item>
+        <item>Hospet</item>
+        <item>Hubli</item>
+        <item>Hukeri</item>
+        <item>Hunasagi</item>
+        <item>Hunasamaranahalli</item>
+        <item>Hungund</item>
+        <item>Hunsur</item>
+        <item>Huvina Hadagalli</item>
+        <item>Ilkal</item>
+        <item>Indi</item>
+        <item>Jagalur</item>
+        <item>Jamkhandi</item>
+        <item>Jevargi</item>
+        <item>Jog Falls</item>
+        <item>Kabini Colony</item>
+        <item>Kadur</item>
+        <item>Kalghatgi</item>
+        <item>Kamalapuram</item>
+        <item>Kampli</item>
+        <item>Kanakapura</item>
+        <item>Kangrali BK</item>
+        <item>Kangrali KH</item>
+        <item>Kannur</item>
+        <item>Karkala</item>
+        <item>Karwar</item>
+        <item>Kemminja</item>
+        <item>Kengeri</item>
+        <item>Kerur</item>
+        <item>Khanapur</item>
+        <item>Kodigenahalli</item>
+        <item>Kodiyal</item>
+        <item>Kodlipet</item>
+        <item>Kolar</item>
+        <item>Kollegal</item>
+        <item>Konanakunte</item>
+        <item>Konanur</item>
+        <item>Konnur</item>
+        <item>Koppa</item>
+        <item>Koppal</item>
+        <item>Koratagere</item>
+        <item>Kotekara</item>
+        <item>Kothnur</item>
+        <item>Kotturu</item>
+        <item>Krishnapura</item>
+        <item>Krishnarajanagar</item>
+        <item>Krishnarajapura</item>
+        <item>Krishnarajasagara</item>
+        <item>Krishnarajpet</item>
+        <item>Kudchi</item>
+        <item>Kudligi</item>
+        <item>Kudremukh</item>
+        <item>Kumsi</item>
+        <item>Kumta</item>
+        <item>Kundapura</item>
+        <item>Kundgol</item>
+        <item>Kunigal</item>
+        <item>Kurgunta</item>
+        <item>Kushalnagar</item>
+        <item>Kushtagi</item>
+        <item>Kyathanahalli</item>
+        <item>Lakshmeshwar</item>
+        <item>Lingsugur</item>
+        <item>Londa</item>
+        <item>Maddur</item>
+        <item>Madhugiri</item>
+        <item>Madikeri</item>
+        <item>Magadi</item>
+        <item>Magod Falls</item>
+        <item>Mahadeswara Hills</item>
+        <item>Mahadevapura</item>
+        <item>Mahalingpur</item>
+        <item>Maisuru</item>
+        <item>Maisuru Cantonment</item>
+        <item>Malavalli</item>
+        <item>Mallar</item>
+        <item>Malpe</item>
+        <item>Malur</item>
+        <item>Manchenahalli</item>
+        <item>Mandya</item>
+        <item>Mangalore</item>
+        <item>Mangaluru</item>
+        <item>Manipal</item>
+        <item>Manvi</item>
+        <item>Maski</item>
+        <item>Mastikatte Colony</item>
+        <item>Mayakonda</item>
+        <item>Melukote</item>
+        <item>Molakalmuru</item>
+        <item>Mudalgi</item>
+        <item>Mudbidri</item>
+        <item>Muddebihal</item>
+        <item>Mudgal</item>
+        <item>Mudhol</item>
+        <item>Mudigere</item>
+        <item>Mudushedde</item>
+        <item>Mulbagal</item>
+        <item>Mulgund</item>
+        <item>Mulki</item>
+        <item>Mulur</item>
+        <item>Mundargi</item>
+        <item>Mundgod</item>
+        <item>Munirabad</item>
+        <item>Munnur</item>
+        <item>Murudeshwara</item>
+        <item>Mysore</item>
+        <item>Nagamangala</item>
+        <item>Nanjangud</item>
+        <item>Naragund</item>
+        <item>Narasimharajapura</item>
+        <item>Naravi</item>
+        <item>Narayanpur</item>
+        <item>Naregal</item>
+        <item>Navalgund</item>
+        <item>Nelmangala</item>
+        <item>Nipani</item>
+        <item>Nitte</item>
+        <item>Nyamati</item>
+        <item>Padu</item>
+        <item>Pandavapura</item>
+        <item>Pattanagere</item>
+        <item>Pavagada</item>
+        <item>Piriyapatna</item>
+        <item>Ponnampet</item>
+        <item>Puttur</item>
+        <item>Rabkavi</item>
+        <item>Raichur</item>
+        <item>Ramanagaram</item>
+        <item>Ramdurg</item>
+        <item>Ranibennur</item>
+        <item>Raybag</item>
+        <item>Robertsonpet</item>
+        <item>Ron</item>
+        <item>Sadalgi</item>
+        <item>Sagar</item>
+        <item>Sakleshpur</item>
+        <item>Saligram</item>
+        <item>Sandur</item>
+        <item>Sanivarsante</item>
+        <item>Sankeshwar</item>
+        <item>Sargur</item>
+        <item>Sathyamangala</item>
+        <item>Saundatti Yellamma</item>
+        <item>Savanur</item>
+        <item>Sedam</item>
+        <item>Shahabad</item>
+        <item>Shahabad A.C.C.</item>
+        <item>Shahapur</item>
+        <item>Shahpur</item>
+        <item>Shaktinagar</item>
+        <item>Shiggaon</item>
+        <item>Shikarpur</item>
+        <item>Shimoga</item>
+        <item>Shirhatti</item>
+        <item>Shorapur</item>
+        <item>Shravanabelagola</item>
+        <item>Shrirangapattana</item>
+        <item>Siddapur</item>
+        <item>Sidlaghatta</item>
+        <item>Sindgi</item>
+        <item>Sindhnur</item>
+        <item>Sira</item>
+        <item>Sirakoppa</item>
+        <item>Sirsi</item>
+        <item>Siruguppa</item>
+        <item>Someshwar</item>
+        <item>Somvarpet</item>
+        <item>Sorab</item>
+        <item>Sringeri</item>
+        <item>Srinivaspur</item>
+        <item>Sulya</item>
+        <item>Suntikopa</item>
+        <item>Talikota</item>
+        <item>Tarikera</item>
+        <item>Tekkalakota</item>
+        <item>Terdal</item>
+        <item>Thokur</item>
+        <item>Thumbe</item>
+        <item>Tiptur</item>
+        <item>Tirthahalli</item>
+        <item>Tirumakudal Narsipur</item>
+        <item>Tonse</item>
+        <item>Tumkur</item>
+        <item>Turuvekere</item>
+        <item>Udupi</item>
+        <item>Ullal</item>
+        <item>Uttarahalli</item>
+        <item>Venkatapura</item>
+        <item>Vijayapura</item>
+        <item>Virarajendrapet</item>
+        <item>Wadi</item>
+        <item>Wadi A.C.C.</item>
+        <item>Yadgir</item>
+        <item>Yelahanka</item>
+        <item>Yelandur</item>
+        <item>Yelbarga</item>
+        <item>Yellapur</item>
+        <item>Yenagudde</item>
+    </string-array>
+
+    <string-array name="cities_Jammu_and_Kashmir">
+        <item>Select</item>
+        <item>Achabal</item>
+        <item>Akhnur</item>
+        <item>Anantnag</item>
+        <item>Arnia</item>
+        <item>Awantipora</item>
+        <item>Badami Bagh</item>
+        <item>Bandipur</item>
+        <item>Banihal</item>
+        <item>Baramula</item>
+        <item>Baramulla</item>
+        <item>Bari Brahmana</item>
+        <item>Bashohli</item>
+        <item>Batote</item>
+        <item>Bhaderwah</item>
+        <item>Bijbiara</item>
+        <item>Billawar</item>
+        <item>Birwah</item>
+        <item>Bishna</item>
+        <item>Budgam</item>
+        <item>Charari Sharief</item>
+        <item>Chenani</item>
+        <item>Doda</item>
+        <item>Duru-Verinag</item>
+        <item>Gandarbat</item>
+        <item>Gho Manhasan</item>
+        <item>Gorah Salathian</item>
+        <item>Gulmarg</item>
+        <item>Hajan</item>
+        <item>Handwara</item>
+        <item>Hiranagar</item>
+        <item>Jammu</item>
+        <item>Jammu Cantonment</item>
+        <item>Jammu Tawi</item>
+        <item>Jourian</item>
+        <item>Kargil</item>
+        <item>Kathua</item>
+        <item>Katra</item>
+        <item>Khan Sahib</item>
+        <item>Khour</item>
+        <item>Khrew</item>
+        <item>Kishtwar</item>
+        <item>Kud</item>
+        <item>Kukernag</item>
+        <item>Kulgam</item>
+        <item>Kunzer</item>
+        <item>Kupwara</item>
+        <item>Lakhenpur</item>
+        <item>Leh</item>
+        <item>Magam</item>
+        <item>Mattan</item>
+        <item>Naushehra</item>
+        <item>Pahalgam</item>
+        <item>Pampore</item>
+        <item>Parole</item>
+        <item>Pattan</item>
+        <item>Pulwama</item>
+        <item>Punch</item>
+        <item>Qazigund</item>
+        <item>Rajauri</item>
+        <item>Ramban</item>
+        <item>Ramgarh</item>
+        <item>Ramnagar</item>
+        <item>Ranbirsingh Pora</item>
+        <item>Reasi</item>
+        <item>Rehambal</item>
+        <item>Samba</item>
+        <item>Shupiyan</item>
+        <item>Sopur</item>
+        <item>Srinagar</item>
+        <item>Sumbal</item>
+        <item>Sunderbani</item>
+        <item>Talwara</item>
+        <item>Thanamandi</item>
+        <item>Tral</item>
+        <item>Udhampur</item>
+        <item>Uri</item>
+        <item>Vijaypur</item>
+    </string-array>
+
+    <string-array name="cities_Himachal_Pradesh">
+        <item>Select</item>
+        <item>Arki</item>
+        <item>Baddi</item>
+        <item>Bakloh</item>
+        <item>Banjar</item>
+        <item>Bhota</item>
+        <item>Bhuntar</item>
+        <item>Bilaspur</item>
+        <item>Chamba</item>
+        <item>Chaupal</item>
+        <item>Chuari Khas</item>
+        <item>Dagshai</item>
+        <item>Dalhousie</item>
+        <item>Dalhousie Cantonment</item>
+        <item>Damtal</item>
+        <item>Daulatpur</item>
+        <item>Dera Gopipur</item>
+        <item>Dhalli</item>
+        <item>Dharamshala</item>
+        <item>Gagret</item>
+        <item>Ghamarwin</item>
+        <item>Hamirpur</item>
+        <item>Jawala Mukhi</item>
+        <item>Jogindarnagar</item>
+        <item>Jubbal</item>
+        <item>Jutogh</item>
+        <item>Kala Amb</item>
+        <item>Kalpa</item>
+        <item>Kangra</item>
+        <item>Kasauli</item>
+        <item>Kot Khai</item>
+        <item>Kullu</item>
+        <item>Kulu</item>
+        <item>Manali</item>
+        <item>Mandi</item>
+        <item>Mant Khas</item>
+        <item>Mehatpur Basdehra</item>
+        <item>Nadaun</item>
+        <item>Nagrota</item>
+        <item>Nahan</item>
+        <item>Naina Devi</item>
+        <item>Nalagarh</item>
+        <item>Narkanda</item>
+        <item>Nurpur</item>
+        <item>Palampur</item>
+        <item>Pandoh</item>
+        <item>Paonta Sahib</item>
+        <item>Parwanoo</item>
+        <item>Parwanu</item>
+        <item>Rajgarh</item>
+        <item>Rampur</item>
+        <item>Rawalsar</item>
+        <item>Rohru</item>
+        <item>Sabathu</item>
+        <item>Santokhgarh</item>
+        <item>Sarahan</item>
+        <item>Sarka Ghat</item>
+        <item>Seoni</item>
+        <item>Shimla</item>
+        <item>Sirmaur</item>
+        <item>Solan</item>
+        <item>Solon</item>
+        <item>Sundarnagar</item>
+        <item>Sundernagar</item>
+        <item>Talai</item>
+        <item>Theog</item>
+        <item>Tira Sujanpur</item>
+        <item>Una</item>
+        <item>Yol</item>
+    </string-array>
+
+    <string-array name="cities_Haryana">
+        <item>Select</item>
+        <item>Ambala</item>
+        <item>Ambala Cantt</item>
+        <item>Asan Khurd</item>
+        <item>Asandh</item>
+        <item>Ateli</item>
+        <item>Babiyal</item>
+        <item>Bahadurgarh</item>
+        <item>Ballabgarh</item>
+        <item>Barwala</item>
+        <item>Bawal</item>
+        <item>Bawani Khera</item>
+        <item>Beri</item>
+        <item>Bhiwani</item>
+        <item>Bilaspur</item>
+        <item>Buria</item>
+        <item>Charkhi Dadri</item>
+        <item>Chhachhrauli</item>
+        <item>Chita</item>
+        <item>Dabwali</item>
+        <item>Dharuhera</item>
+        <item>Dundahera</item>
+        <item>Ellenabad</item>
+        <item>Farakhpur</item>
+        <item>Faridabad</item>
+        <item>Farrukhnagar</item>
+        <item>Fatehabad</item>
+        <item>Firozpur Jhirka</item>
+        <item>Gannaur</item>
+        <item>Ghraunda</item>
+        <item>Gohana</item>
+        <item>Gurgaon</item>
+        <item>Haileymandi</item>
+        <item>Hansi</item>
+        <item>Hasanpur</item>
+        <item>Hathin</item>
+        <item>Hisar</item>
+        <item>Hissar</item>
+        <item>Hodal</item>
+        <item>Indri</item>
+        <item>Jagadhri</item>
+        <item>Jakhal Mandi</item>
+        <item>Jhajjar</item>
+        <item>Jind</item>
+        <item>Julana</item>
+        <item>Kaithal</item>
+        <item>Kalanur</item>
+        <item>Kalanwali</item>
+        <item>Kalayat</item>
+        <item>Kalka</item>
+        <item>Kanina</item>
+        <item>Kansepur</item>
+        <item>Kardhan</item>
+        <item>Karnal</item>
+        <item>Kharkhoda</item>
+        <item>Kheri Sampla</item>
+        <item>Kundli</item>
+        <item>Kurukshetra</item>
+        <item>Ladrawan</item>
+        <item>Ladwa</item>
+        <item>Loharu</item>
+        <item>Maham</item>
+        <item>Mahendragarh</item>
+        <item>Mustafabad</item>
+        <item>Nagai Chaudhry</item>
+        <item>Narayangarh</item>
+        <item>Narnaul</item>
+        <item>Narnaund</item>
+        <item>Narwana</item>
+        <item>Nilokheri</item>
+        <item>Nuh</item>
+        <item>Palwal</item>
+        <item>Panchkula</item>
+        <item>Panipat</item>
+        <item>Panipat Taraf Ansar</item>
+        <item>Panipat Taraf Makhdum Zadgan</item>
+        <item>Panipat Taraf Rajputan</item>
+        <item>Pehowa</item>
+        <item>Pinjaur</item>
+        <item>Punahana</item>
+        <item>Pundri</item>
+        <item>Radaur</item>
+        <item>Raipur Rani</item>
+        <item>Rania</item>
+        <item>Ratiya</item>
+        <item>Rewari</item>
+        <item>Rohtak</item>
+        <item>Ropar</item>
+        <item>Sadauri</item>
+        <item>Safidon</item>
+        <item>Samalkha</item>
+        <item>Sankhol</item>
+        <item>Sasauli</item>
+        <item>Shahabad</item>
+        <item>Sirsa</item>
+        <item>Siwani</item>
+        <item>Sohna</item>
+        <item>Sonipat</item>
+        <item>Sukhrali</item>
+        <item>Taoru</item>
+        <item>Taraori</item>
+        <item>Tauru</item>
+        <item>Thanesar</item>
+        <item>Tilpat</item>
+        <item>Tohana</item>
+        <item>Tosham</item>
+        <item>Uchana</item>
+        <item>Uklana Mandi</item>
+        <item>Uncha Siwana</item>
+        <item>Yamunanagar</item>
+    </string-array>
+
+    <string-array name="cities_Gujarat">
+        <item>Select</item>
+        <item>Abrama</item>
+        <item>Adalaj</item>
+        <item>Adityana</item>
+        <item>Advana</item>
+        <item>Ahmedabad</item>
+        <item>Ahwa</item>
+        <item>Alang</item>
+        <item>Ambaji</item>
+        <item>Ambaliyasan</item>
+        <item>Amod</item>
+        <item>Amreli</item>
+        <item>Amroli</item>
+        <item>Anand</item>
+        <item>Andada</item>
+        <item>Anjar</item>
+        <item>Anklav</item>
+        <item>Ankleshwar</item>
+        <item>Anklesvar INA</item>
+        <item>Antaliya</item>
+        <item>Arambhada</item>
+        <item>Asarma</item>
+        <item>Atul</item>
+        <item>Babra</item>
+        <item>Bag-e-Firdosh</item>
+        <item>Bagasara</item>
+        <item>Bahadarpar</item>
+        <item>Bajipura</item>
+        <item>Bajva</item>
+        <item>Balasinor</item>
+        <item>Banaskantha</item>
+        <item>Bansda</item>
+        <item>Bantva</item>
+        <item>Bardoli</item>
+        <item>Barwala</item>
+        <item>Bayad</item>
+        <item>Bechar</item>
+        <item>Bedi</item>
+        <item>Beyt</item>
+        <item>Bhachau</item>
+        <item>Bhanvad</item>
+        <item>Bharuch</item>
+        <item>Bharuch INA</item>
+        <item>Bhavnagar</item>
+        <item>Bhayavadar</item>
+        <item>Bhestan</item>
+        <item>Bhuj</item>
+        <item>Bilimora</item>
+        <item>Bilkha</item>
+        <item>Billimora</item>
+        <item>Bodakdev</item>
+        <item>Bodeli</item>
+        <item>Bopal</item>
+        <item>Boria</item>
+        <item>Boriavi</item>
+        <item>Borsad</item>
+        <item>Botad</item>
+        <item>Cambay</item>
+        <item>Chaklasi</item>
+        <item>Chala</item>
+        <item>Chalala</item>
+        <item>Chalthan</item>
+        <item>Chanasma</item>
+        <item>Chandisar</item>
+        <item>Chandkheda</item>
+        <item>Chanod</item>
+        <item>Chaya</item>
+        <item>Chenpur</item>
+        <item>Chhapi</item>
+        <item>Chhaprabhatha</item>
+        <item>Chhatral</item>
+        <item>Chhota Udepur</item>
+        <item>Chikhli</item>
+        <item>Chiloda</item>
+        <item>Chorvad</item>
+        <item>Chotila</item>
+        <item>Dabhoi</item>
+        <item>Dadara</item>
+        <item>Dahod</item>
+        <item>Dakor</item>
+        <item>Damnagar</item>
+        <item>Deesa</item>
+        <item>Delvada</item>
+        <item>Devgadh Baria</item>
+        <item>Devsar</item>
+        <item>Dhandhuka</item>
+        <item>Dhanera</item>
+        <item>Dhangdhra</item>
+        <item>Dhansura</item>
+        <item>Dharampur</item>
+        <item>Dhari</item>
+        <item>Dhola</item>
+        <item>Dholka</item>
+        <item>Dholka Rural</item>
+        <item>Dhoraji</item>
+        <item>Dhrangadhra</item>
+        <item>Dhrol</item>
+        <item>Dhuva</item>
+        <item>Dhuwaran</item>
+        <item>Digvijaygram</item>
+        <item>Disa</item>
+        <item>Dungar</item>
+        <item>Dungarpur</item>
+        <item>Dungra</item>
+        <item>Dwarka</item>
+        <item>Flelanganj</item>
+        <item>GSFC Complex</item>
+        <item>Gadhda</item>
+        <item>Gandevi</item>
+        <item>Gandhidham</item>
+        <item>Gandhinagar</item>
+        <item>Gariadhar</item>
+        <item>Ghogha</item>
+        <item>Godhra</item>
+        <item>Gondal</item>
+        <item>Hajira INA</item>
+        <item>Halol</item>
+        <item>Halvad</item>
+        <item>Hansot</item>
+        <item>Harij</item>
+        <item>Himatnagar</item>
+        <item>Ichchhapor</item>
+        <item>Idar</item>
+        <item>Jafrabad</item>
+        <item>Jalalpore</item>
+        <item>Jambusar</item>
+        <item>Jamjodhpur</item>
+        <item>Jamnagar</item>
+        <item>Jasdan</item>
+        <item>Jawaharnagar</item>
+        <item>Jetalsar</item>
+        <item>Jetpur</item>
+        <item>Jodiya</item>
+        <item>Joshipura</item>
+        <item>Junagadh</item>
+        <item>Kadi</item>
+        <item>Kadodara</item>
+        <item>Kalavad</item>
+        <item>Kali</item>
+        <item>Kaliawadi</item>
+        <item>Kalol</item>
+        <item>Kalol INA</item>
+        <item>Kandla</item>
+        <item>Kanjari</item>
+        <item>Kanodar</item>
+        <item>Kapadwanj</item>
+        <item>Karachiya</item>
+        <item>Karamsad</item>
+        <item>Karjan</item>
+        <item>Kathial</item>
+        <item>Kathor</item>
+        <item>Katpar</item>
+        <item>Kavant</item>
+        <item>Keshod</item>
+        <item>Kevadiya</item>
+        <item>Khambhaliya</item>
+        <item>Khambhat</item>
+        <item>Kharaghoda</item>
+        <item>Khed Brahma</item>
+        <item>Kheda</item>
+        <item>Kheralu</item>
+        <item>Kodinar</item>
+        <item>Kosamba</item>
+        <item>Kundla</item>
+        <item>Kutch</item>
+        <item>Kutiyana</item>
+        <item>Lakhtar</item>
+        <item>Lalpur</item>
+        <item>Lambha</item>
+        <item>Lathi</item>
+        <item>Limbdi</item>
+        <item>Limla</item>
+        <item>Lunavada</item>
+        <item>Madhapar</item>
+        <item>Maflipur</item>
+        <item>Mahemdavad</item>
+        <item>Mahudha</item>
+        <item>Mahuva</item>
+        <item>Mahuvar</item>
+        <item>Makarba</item>
+        <item>Makarpura</item>
+        <item>Makassar</item>
+        <item>Maktampur</item>
+        <item>Malia</item>
+        <item>Malpur</item>
+        <item>Manavadar</item>
+        <item>Mandal</item>
+        <item>Mandvi</item>
+        <item>Mangrol</item>
+        <item>Mansa</item>
+        <item>Meghraj</item>
+        <item>Mehsana</item>
+        <item>Mendarla</item>
+        <item>Mithapur</item>
+        <item>Modasa</item>
+        <item>Mogravadi</item>
+        <item>Morbi</item>
+        <item>Morvi</item>
+        <item>Mundra</item>
+        <item>Nadiad</item>
+        <item>Naliya</item>
+        <item>Nanakvada</item>
+        <item>Nandej</item>
+        <item>Nandesari</item>
+        <item>Nandesari INA</item>
+        <item>Naroda</item>
+        <item>Navagadh</item>
+        <item>Navagam Ghed</item>
+        <item>Navsari</item>
+        <item>Ode</item>
+        <item>Okaf</item>
+        <item>Okha</item>
+        <item>Olpad</item>
+        <item>Paddhari</item>
+        <item>Padra</item>
+        <item>Palanpur</item>
+        <item>Palej</item>
+        <item>Pali</item>
+        <item>Palitana</item>
+        <item>Paliyad</item>
+        <item>Pandesara</item>
+        <item>Panoli</item>
+        <item>Pardi</item>
+        <item>Parnera</item>
+        <item>Parvat</item>
+        <item>Patan</item>
+        <item>Patdi</item>
+        <item>Petlad</item>
+        <item>Petrochemical Complex</item>
+        <item>Porbandar</item>
+        <item>Prantij</item>
+        <item>Radhanpur</item>
+        <item>Raiya</item>
+        <item>Rajkot</item>
+        <item>Rajpipla</item>
+        <item>Rajula</item>
+        <item>Ramod</item>
+        <item>Ranavav</item>
+        <item>Ranoli</item>
+        <item>Rapar</item>
+        <item>Sahij</item>
+        <item>Salaya</item>
+        <item>Sanand</item>
+        <item>Sankheda</item>
+        <item>Santrampur</item>
+        <item>Saribujrang</item>
+        <item>Sarigam INA</item>
+        <item>Sayan</item>
+        <item>Sayla</item>
+        <item>Shahpur</item>
+        <item>Shahwadi</item>
+        <item>Shapar</item>
+        <item>Shivrajpur</item>
+        <item>Siddhapur</item>
+        <item>Sidhpur</item>
+        <item>Sihor</item>
+        <item>Sika</item>
+        <item>Singarva</item>
+        <item>Sinor</item>
+        <item>Sojitra</item>
+        <item>Sola</item>
+        <item>Songadh</item>
+        <item>Suraj Karadi</item>
+        <item>Surat</item>
+        <item>Surendranagar</item>
+        <item>Talaja</item>
+        <item>Talala</item>
+        <item>Talod</item>
+        <item>Tankara</item>
+        <item>Tarsali</item>
+        <item>Thangadh</item>
+        <item>Tharad</item>
+        <item>Thasra</item>
+        <item>Udyognagar</item>
+        <item>Ukai</item>
+        <item>Umbergaon</item>
+        <item>Umbergaon INA</item>
+        <item>Umrala</item>
+        <item>Umreth</item>
+        <item>Un</item>
+        <item>Una</item>
+        <item>Unjha</item>
+        <item>Upleta</item>
+        <item>Utran</item>
+        <item>Uttarsanda</item>
+        <item>V.U. Nagar</item>
+        <item>V.V. Nagar</item>
+        <item>Vadia</item>
+        <item>Vadla</item>
+        <item>Vadnagar</item>
+        <item>Vadodara</item>
+        <item>Vaghodia INA</item>
+        <item>Valbhipur</item>
+        <item>Vallabh Vidyanagar</item>
+        <item>Valsad</item>
+        <item>Valsad INA</item>
+        <item>Vanthali</item>
+        <item>Vapi</item>
+        <item>Vapi INA</item>
+        <item>Vartej</item>
+        <item>Vasad</item>
+        <item>Vasna Borsad INA</item>
+        <item>Vaso</item>
+        <item>Veraval</item>
+        <item>Vidyanagar</item>
+        <item>Vijalpor</item>
+        <item>Vijapur</item>
+        <item>Vinchhiya</item>
+        <item>Vinzol</item>
+        <item>Virpur</item>
+        <item>Visavadar</item>
+        <item>Visnagar</item>
+        <item>Vyara</item>
+        <item>Wadhwan</item>
+        <item>Waghai</item>
+        <item>Waghodia</item>
+        <item>Wankaner</item>
+        <item>Zalod</item>
+    </string-array>
+
+    <string-array name="cities_Goa">
+        <item>Select</item>
+        <item>Aldona</item>
+        <item>Altinho</item>
+        <item>Aquem</item>
+        <item>Arpora</item>
+        <item>Bambolim</item>
+        <item>Bandora</item>
+        <item>Bardez</item>
+        <item>Benaulim</item>
+        <item>Betora</item>
+        <item>Bicholim</item>
+        <item>Calapor</item>
+        <item>Candolim</item>
+        <item>Caranzalem</item>
+        <item>Carapur</item>
+        <item>Chicalim</item>
+        <item>Chimbel</item>
+        <item>Chinchinim</item>
+        <item>Colvale</item>
+        <item>Corlim</item>
+        <item>Cortalim</item>
+        <item>Cuncolim</item>
+        <item>Curchorem</item>
+        <item>Curti</item>
+        <item>Davorlim</item>
+        <item>Dona Paula</item>
+        <item>Goa</item>
+        <item>Guirim</item>
+        <item>Jua</item>
+        <item>Kalangat</item>
+        <item>Kankon</item>
+        <item>Kundaim</item>
+        <item>Loutulim</item>
+        <item>Madgaon</item>
+        <item>Mapusa</item>
+        <item>Margao</item>
+        <item>Margaon</item>
+        <item>Miramar</item>
+        <item>Morjim</item>
+        <item>Mormugao</item>
+        <item>Navelim</item>
+        <item>Pale</item>
+        <item>Panaji</item>
+        <item>Parcem</item>
+        <item>Parra</item>
+        <item>Penha de Franca</item>
+        <item>Pernem</item>
+        <item>Pilerne</item>
+        <item>Pissurlem</item>
+        <item>Ponda</item>
+        <item>Porvorim</item>
+        <item>Quepem</item>
+        <item>Queula</item>
+        <item>Raia</item>
+        <item>Reis Magos</item>
+        <item>Salcette</item>
+        <item>Saligao</item>
+        <item>Sancoale</item>
+        <item>Sanguem</item>
+        <item>Sanquelim</item>
+        <item>Sanvordem</item>
+        <item>Sao Jose-de-Areal</item>
+        <item>Sattari</item>
+        <item>Serula</item>
+        <item>Sinquerim</item>
+        <item>Siolim</item>
+        <item>Taleigao</item>
+        <item>Tivim</item>
+        <item>Valpoi</item>
+        <item>Varca</item>
+        <item>Vasco</item>
+        <item>Verna</item>
+    </string-array>
+
+    <string-array name="cities_Chhattisgarh">
+        <item>Select</item>
+        <item>Ahiwara</item>
+        <item>Akaltara</item>
+        <item>Ambagarh Chauki</item>
+        <item>Ambikapur</item>
+        <item>Arang</item>
+        <item>Bade Bacheli</item>
+        <item>Bagbahara</item>
+        <item>Baikunthpur</item>
+        <item>Balod</item>
+        <item>Baloda</item>
+        <item>Baloda Bazar</item>
+        <item>Banarsi</item>
+        <item>Basna</item>
+        <item>Bemetra</item>
+        <item>Bhanpuri</item>
+        <item>Bhatapara</item>
+        <item>Bhatgaon</item>
+        <item>Bhilai</item>
+        <item>Bilaspur</item>
+        <item>Bilha</item>
+        <item>Birgaon</item>
+        <item>Bodri</item>
+        <item>Champa</item>
+        <item>Charcha</item>
+        <item>Charoda</item>
+        <item>Chhuikhadan</item>
+        <item>Chirmiri</item>
+        <item>Dantewada</item>
+        <item>Deori</item>
+        <item>Dhamdha</item>
+        <item>Dhamtari</item>
+        <item>Dharamjaigarh</item>
+        <item>Dipka</item>
+        <item>Doman Hill Colliery</item>
+        <item>Dongargaon</item>
+        <item>Dongragarh</item>
+        <item>Durg</item>
+        <item>Frezarpur</item>
+        <item>Gandai</item>
+        <item>Gariaband</item>
+        <item>Gaurela</item>
+        <item>Gelhapani</item>
+        <item>Gharghoda</item>
+        <item>Gidam</item>
+        <item>Gobra Nawapara</item>
+        <item>Gogaon</item>
+        <item>Hatkachora</item>
+        <item>Jagdalpur</item>
+        <item>Jamui</item>
+        <item>Jashpurnagar</item>
+        <item>Jhagrakhand</item>
+        <item>Kanker</item>
+        <item>Katghora</item>
+        <item>Kawardha</item>
+        <item>Khairagarh</item>
+        <item>Khamhria</item>
+        <item>Kharod</item>
+        <item>Kharsia</item>
+        <item>Khonga Pani</item>
+        <item>Kirandu</item>
+        <item>Kirandul</item>
+        <item>Kohka</item>
+        <item>Kondagaon</item>
+        <item>Korba</item>
+        <item>Korea</item>
+        <item>Koria Block</item>
+        <item>Kota</item>
+        <item>Kumhari</item>
+        <item>Kumud Katta</item>
+        <item>Kurasia</item>
+        <item>Kurud</item>
+        <item>Lingiyadih</item>
+        <item>Lormi</item>
+        <item>Mahasamund</item>
+        <item>Mahendragarh</item>
+        <item>Mehmand</item>
+        <item>Mongra</item>
+        <item>Mowa</item>
+        <item>Mungeli</item>
+        <item>Nailajanjgir</item>
+        <item>Namna Kalan</item>
+        <item>Naya Baradwar</item>
+        <item>Pandariya</item>
+        <item>Patan</item>
+        <item>Pathalgaon</item>
+        <item>Pendra</item>
+        <item>Phunderdihari</item>
+        <item>Pithora</item>
+        <item>Raigarh</item>
+        <item>Raipur</item>
+        <item>Rajgamar</item>
+        <item>Rajhara</item>
+        <item>Rajnandgaon</item>
+        <item>Ramanuj Ganj</item>
+        <item>Ratanpur</item>
+        <item>Sakti</item>
+        <item>Saraipali</item>
+        <item>Sarajpur</item>
+        <item>Sarangarh</item>
+        <item>Shivrinarayan</item>
+        <item>Simga</item>
+        <item>Sirgiti</item>
+        <item>Takhatpur</item>
+        <item>Telgaon</item>
+        <item>Tildanewra</item>
+        <item>Urla</item>
+        <item>Vishrampur</item>
+    </string-array>
+
+    <string-array name="cities_Bihar">
+        <item>Select</item>
+        <item>Amarpur</item>
+        <item>Ara</item>
+        <item>Araria</item>
+        <item>Areraj</item>
+        <item>Asarganj</item>
+        <item>Aurangabad</item>
+        <item>Bagaha</item>
+        <item>Bahadurganj</item>
+        <item>Bairgania</item>
+        <item>Bakhtiyarpur</item>
+        <item>Banka</item>
+        <item>Banmankhi</item>
+        <item>Bar Bigha</item>
+        <item>Barauli</item>
+        <item>Barauni Oil Township</item>
+        <item>Barh</item>
+        <item>Barhiya</item>
+        <item>Bariapur</item>
+        <item>Baruni</item>
+        <item>Begusarai</item>
+        <item>Behea</item>
+        <item>Belsand</item>
+        <item>Bettiah</item>
+        <item>Bhabua</item>
+        <item>Bhagalpur</item>
+        <item>Bhimnagar</item>
+        <item>Bhojpur</item>
+        <item>Bihar</item>
+        <item>Bihar Sharif</item>
+        <item>Bihariganj</item>
+        <item>Bikramganj</item>
+        <item>Birpur</item>
+        <item>Bodh Gaya</item>
+        <item>Buxar</item>
+        <item>Chakia</item>
+        <item>Chanpatia</item>
+        <item>Chhapra</item>
+        <item>Chhatapur</item>
+        <item>Colgong</item>
+        <item>Dalsingh Sarai</item>
+        <item>Darbhanga</item>
+        <item>Daudnagar</item>
+        <item>Dehri</item>
+        <item>Dhaka</item>
+        <item>Dighwara</item>
+        <item>Dinapur</item>
+        <item>Dinapur Cantonment</item>
+        <item>Dumra</item>
+        <item>Dumraon</item>
+        <item>Fatwa</item>
+        <item>Forbesganj</item>
+        <item>Gaya</item>
+        <item>Gazipur</item>
+        <item>Ghoghardiha</item>
+        <item>Gogri Jamalpur</item>
+        <item>Gopalganj</item>
+        <item>Habibpur</item>
+        <item>Hajipur</item>
+        <item>Hasanpur</item>
+        <item>Hazaribagh</item>
+        <item>Hilsa</item>
+        <item>Hisua</item>
+        <item>Islampur</item>
+        <item>Jagdispur</item>
+        <item>Jahanabad</item>
+        <item>Jamalpur</item>
+        <item>Jamhaur</item>
+        <item>Jamui</item>
+        <item>Janakpur Road</item>
+        <item>Janpur</item>
+        <item>Jaynagar</item>
+        <item>Jha Jha</item>
+        <item>Jhanjharpur</item>
+        <item>Jogbani</item>
+        <item>Kanti</item>
+        <item>Kasba</item>
+        <item>Kataiya</item>
+        <item>Katihar</item>
+        <item>Khagaria</item>
+        <item>Khagaul</item>
+        <item>Kharagpur</item>
+        <item>Khusrupur</item>
+        <item>Kishanganj</item>
+        <item>Koath</item>
+        <item>Koilwar</item>
+        <item>Lakhisarai</item>
+        <item>Lalganj</item>
+        <item>Lauthaha</item>
+        <item>Madhepura</item>
+        <item>Madhubani</item>
+        <item>Maharajganj</item>
+        <item>Mahnar Bazar</item>
+        <item>Mairwa</item>
+        <item>Makhdumpur</item>
+        <item>Maner</item>
+        <item>Manihari</item>
+        <item>Marhaura</item>
+        <item>Masaurhi</item>
+        <item>Mirganj</item>
+        <item>Mohiuddinagar</item>
+        <item>Mokama</item>
+        <item>Motihari</item>
+        <item>Motipur</item>
+        <item>Munger</item>
+        <item>Murliganj</item>
+        <item>Muzaffarpur</item>
+        <item>Nabinagar</item>
+        <item>Narkatiaganj</item>
+        <item>Nasriganj</item>
+        <item>Natwar</item>
+        <item>Naugachhia</item>
+        <item>Nawada</item>
+        <item>Nirmali</item>
+        <item>Nokha</item>
+        <item>Paharpur</item>
+        <item>Patna</item>
+        <item>Phulwari</item>
+        <item>Piro</item>
+        <item>Purnia</item>
+        <item>Pusa</item>
+        <item>Rafiganj</item>
+        <item>Raghunathpur</item>
+        <item>Rajgir</item>
+        <item>Ramnagar</item>
+        <item>Raxaul</item>
+        <item>Revelganj</item>
+        <item>Rusera</item>
+        <item>Sagauli</item>
+        <item>Saharsa</item>
+        <item>Samastipur</item>
+        <item>Sasaram</item>
+        <item>Shahpur</item>
+        <item>Shaikhpura</item>
+        <item>Sherghati</item>
+        <item>Shivhar</item>
+        <item>Silao</item>
+        <item>Sitamarhi</item>
+        <item>Siwan</item>
+        <item>Sonepur</item>
+        <item>Sultanganj</item>
+        <item>Supaul</item>
+        <item>Teghra</item>
+        <item>Tekari</item>
+        <item>Thakurganj</item>
+        <item>Vaishali</item>
+    </string-array>
+
+    <string-array name="cities_Assam">
+        <item>Select</item>
+        <item>Abhayapuri</item>
+        <item>Ambikapur</item>
+        <item>Amguri</item>
+        <item>Anand Nagar</item>
+        <item>Badarpur</item>
+        <item>Badarpur Railway Town</item>
+        <item>Bahbari Gaon</item>
+        <item>Bamun Sualkuchi</item>
+        <item>Barbari</item>
+        <item>Barpathar</item>
+        <item>Barpeta</item>
+        <item>Barpeta Road</item>
+        <item>Basugaon</item>
+        <item>Bihpuria</item>
+        <item>Bijni</item>
+        <item>Bilasipara</item>
+        <item>Biswanath Chariali</item>
+        <item>Bohori</item>
+        <item>Bokajan</item>
+        <item>Bokokhat</item>
+        <item>Bongaigaon</item>
+        <item>Bongaigaon Petro-chemical Town</item>
+        <item>Borgolai</item>
+        <item>Chabua</item>
+        <item>Chandrapur Bagicha</item>
+        <item>Chapar</item>
+        <item>Chekonidhara</item>
+        <item>Choto Haibor</item>
+        <item>Dergaon</item>
+        <item>Dharapur</item>
+        <item>Dhekiajuli</item>
+        <item>Dhemaji</item>
+        <item>Dhing</item>
+        <item>Dhubri</item>
+        <item>Dhuburi</item>
+        <item>Dibrugarh</item>
+        <item>Digboi</item>
+        <item>Digboi Oil Town</item>
+        <item>Dimaruguri</item>
+        <item>Diphu</item>
+        <item>Dispur</item>
+        <item>Doboka</item>
+        <item>Dokmoka</item>
+        <item>Donkamokan</item>
+        <item>Duliagaon</item>
+        <item>Duliajan</item>
+        <item>Duliajan No.1</item>
+        <item>Dum Duma</item>
+        <item>Durga Nagar</item>
+        <item>Gauripur</item>
+        <item>Goalpara</item>
+        <item>Gohpur</item>
+        <item>Golaghat</item>
+        <item>Golakganj</item>
+        <item>Gossaigaon</item>
+        <item>Guwahati</item>
+        <item>Haflong</item>
+        <item>Hailakandi</item>
+        <item>Hamren</item>
+        <item>Hauli</item>
+        <item>Hauraghat</item>
+        <item>Hojai</item>
+        <item>Jagiroad</item>
+        <item>Jagiroad Paper Mill</item>
+        <item>Jogighopa</item>
+        <item>Jonai Bazar</item>
+        <item>Jorhat</item>
+        <item>Kampur Town</item>
+        <item>Kamrup</item>
+        <item>Kanakpur</item>
+        <item>Karimganj</item>
+        <item>Kharijapikon</item>
+        <item>Kharupetia</item>
+        <item>Kochpara</item>
+        <item>Kokrajhar</item>
+        <item>Kumar Kaibarta Gaon</item>
+        <item>Lakhimpur</item>
+        <item>Lakhipur</item>
+        <item>Lala</item>
+        <item>Lanka</item>
+        <item>Lido Tikok</item>
+        <item>Lido Town</item>
+        <item>Lumding</item>
+        <item>Lumding Railway Colony</item>
+        <item>Mahur</item>
+        <item>Maibong</item>
+        <item>Majgaon</item>
+        <item>Makum</item>
+        <item>Mangaldai</item>
+        <item>Mankachar</item>
+        <item>Margherita</item>
+        <item>Mariani</item>
+        <item>Marigaon</item>
+        <item>Moran</item>
+        <item>Moranhat</item>
+        <item>Nagaon</item>
+        <item>Naharkatia</item>
+        <item>Nalbari</item>
+        <item>Namrup</item>
+        <item>Naubaisa Gaon</item>
+        <item>Nazira</item>
+        <item>New Bongaigaon Railway Colony</item>
+        <item>Niz-Hajo</item>
+        <item>North Guwahati</item>
+        <item>Numaligarh</item>
+        <item>Palasbari</item>
+        <item>Panchgram</item>
+        <item>Pathsala</item>
+        <item>Raha</item>
+        <item>Rangapara</item>
+        <item>Rangia</item>
+        <item>Salakati</item>
+        <item>Sapatgram</item>
+        <item>Sarthebari</item>
+        <item>Sarupathar</item>
+        <item>Sarupathar Bengali</item>
+        <item>Senchoagaon</item>
+        <item>Sibsagar</item>
+        <item>Silapathar</item>
+        <item>Silchar</item>
+        <item>Silchar Part-X</item>
+        <item>Sonari</item>
+        <item>Sorbhog</item>
+        <item>Sualkuchi</item>
+        <item>Tangla</item>
+        <item>Tezpur</item>
+        <item>Tihu</item>
+        <item>Tinsukia</item>
+        <item>Titabor</item>
+        <item>Udalguri</item>
+        <item>Umrangso</item>
+        <item>Uttar Krishnapur Part-I</item>
+    </string-array>
+
+    <string-array name="cities_Arunachal_Pradesh">
+        <item>Select</item>
+        <item>Along</item>
+        <item>Basar</item>
+        <item>Bondila</item>
+        <item>Changlang</item>
+        <item>Daporijo</item>
+        <item>Deomali</item>
+        <item>Itanagar</item>
+        <item>Jairampur</item>
+        <item>Khonsa</item>
+        <item>Naharlagun</item>
+        <item>Namsai</item>
+        <item>Pasighat</item>
+        <item>Roing</item>
+        <item>Seppa</item>
+        <item>Tawang</item>
+        <item>Tezu</item>
+        <item>Ziro</item>
+    </string-array>
+
+    <string-array name="cities_Andhra_Pradesh">
+        <item>Select</item>
+        <item>Addanki</item>
+        <item>Adivivaram</item>
+        <item>Adoni</item>
+        <item>Aganampudi</item>
+        <item>Ajjaram</item>
+        <item>Akividu</item>
+        <item>Akkarampalle</item>
+        <item>Akkayapalle</item>
+        <item>Akkireddipalem</item>
+        <item>Alampur</item>
+        <item>Amalapuram</item>
+        <item>Amudalavalasa</item>
+        <item>Amur</item>
+        <item>Anakapalle</item>
+        <item>Anantapur</item>
+        <item>Andole</item>
+        <item>Atmakur</item>
+        <item>Attili</item>
+        <item>Avanigadda</item>
+        <item>Badepalli</item>
+        <item>Badvel</item>
+        <item>Balapur</item>
+        <item>Bandarulanka</item>
+        <item>Banganapalle</item>
+        <item>Bapatla</item>
+        <item>Bapulapadu</item>
+        <item>Belampalli</item>
+        <item>Bestavaripeta</item>
+        <item>Betamcherla</item>
+        <item>Bhattiprolu</item>
+        <item>Bhimavaram</item>
+        <item>Bhimunipatnam</item>
+        <item>Bobbili</item>
+        <item>Bombuflat</item>
+        <item>Bommuru</item>
+        <item>Bugganipalle</item>
+        <item>Challapalle</item>
+        <item>Chandur</item>
+        <item>Chatakonda</item>
+        <item>Chemmumiahpet</item>
+        <item>Chidiga</item>
+        <item>Chilakaluripet</item>
+        <item>Chimakurthy</item>
+        <item>Chinagadila</item>
+        <item>Chinagantyada</item>
+        <item>Chinnachawk</item>
+        <item>Chintalavalasa</item>
+        <item>Chipurupalle</item>
+        <item>Chirala</item>
+        <item>Chittoor</item>
+        <item>Chodavaram</item>
+        <item>Choutuppal</item>
+        <item>Chunchupalle</item>
+        <item>Cuddapah</item>
+        <item>Cumbum</item>
+        <item>Darnakal</item>
+        <item>Dasnapur</item>
+        <item>Dauleshwaram</item>
+        <item>Dharmavaram</item>
+        <item>Dhone</item>
+        <item>Dommara Nandyal</item>
+        <item>Dowlaiswaram</item>
+        <item>East Godavari Dist.</item>
+        <item>Eddumailaram</item>
+        <item>Edulapuram</item>
+        <item>Ekambara kuppam</item>
+        <item>Eluru</item>
+        <item>Enikapadu</item>
+        <item>Fakirtakya</item>
+        <item>Farrukhnagar</item>
+        <item>Gaddiannaram</item>
+        <item>Gajapathinagaram</item>
+        <item>Gajularega</item>
+        <item>Gajuvaka</item>
+        <item>Gannavaram</item>
+        <item>Garacharma</item>
+        <item>Garimellapadu</item>
+        <item>Giddalur</item>
+        <item>Godavarikhani</item>
+        <item>Gopalapatnam</item>
+        <item>Gopalur</item>
+        <item>Gorrekunta</item>
+        <item>Gudivada</item>
+        <item>Gudur</item>
+        <item>Guntakal</item>
+        <item>Guntur</item>
+        <item>Guti</item>
+        <item>Hindupur</item>
+        <item>Hukumpeta</item>
+        <item>Ichchapuram</item>
+        <item>Isnapur</item>
+        <item>Jaggayyapeta</item>
+        <item>Jallaram Kamanpur</item>
+        <item>Jammalamadugu</item>
+        <item>Jangampalli</item>
+        <item>Jarjapupeta</item>
+        <item>Kadiri</item>
+        <item>Kaikalur</item>
+        <item>Kakinada</item>
+        <item>Kallur</item>
+        <item>Kalyandurg</item>
+        <item>Kamalapuram</item>
+        <item>Kamareddi</item>
+        <item>Kanapaka</item>
+        <item>Kanigiri</item>
+        <item>Kanithi</item>
+        <item>Kankipadu</item>
+        <item>Kantabamsuguda</item>
+        <item>Kanuru</item>
+        <item>Karnul</item>
+        <item>Katheru</item>
+        <item>Kavali</item>
+        <item>Kazipet</item>
+        <item>Khanapuram Haveli</item>
+        <item>Kodar</item>
+        <item>Kollapur</item>
+        <item>Kondapalem</item>
+        <item>Kondapalle</item>
+        <item>Kondukur</item>
+        <item>Kosgi</item>
+        <item>Kothavalasa</item>
+        <item>Kottapalli</item>
+        <item>Kovur</item>
+        <item>Kovurpalle</item>
+        <item>Kovvur</item>
+        <item>Krishna</item>
+        <item>Kuppam</item>
+        <item>Kurmannapalem</item>
+        <item>Kurnool</item>
+        <item>Lakshettipet</item>
+        <item>Lalbahadur Nagar</item>
+        <item>Machavaram</item>
+        <item>Macherla</item>
+        <item>Machilipatnam</item>
+        <item>Madanapalle</item>
+        <item>Madaram</item>
+        <item>Madhuravada</item>
+        <item>Madikonda</item>
+        <item>Madugule</item>
+        <item>Mahabubnagar</item>
+        <item>Mahbubabad</item>
+        <item>Malkajgiri</item>
+        <item>Mamilapalle</item>
+        <item>Mancheral</item>
+        <item>Mandapeta</item>
+        <item>Mandasa</item>
+        <item>Mangalagiri</item>
+        <item>Manthani</item>
+        <item>Markapur</item>
+        <item>Marturu</item>
+        <item>Metpalli</item>
+        <item>Mindi</item>
+        <item>Mirpet</item>
+        <item>Moragudi</item>
+        <item>Mothugudam</item>
+        <item>Nagari</item>
+        <item>Nagireddipalle</item>
+        <item>Nandigama</item>
+        <item>Nandikotkur</item>
+        <item>Nandyal</item>
+        <item>Narasannapeta</item>
+        <item>Narasapur</item>
+        <item>Narasaraopet</item>
+        <item>Narayanavanam</item>
+        <item>Narsapur</item>
+        <item>Narsingi</item>
+        <item>Narsipatnam</item>
+        <item>Naspur</item>
+        <item>Nathayyapalem</item>
+        <item>Nayudupeta</item>
+        <item>Nelimaria</item>
+        <item>Nellore</item>
+        <item>Nidadavole</item>
+        <item>Nuzvid</item>
+        <item>Omerkhan daira</item>
+        <item>Ongole</item>
+        <item>Osmania University</item>
+        <item>Pakala</item>
+        <item>Palakole</item>
+        <item>Palakurthi</item>
+        <item>Palasa</item>
+        <item>Palempalle</item>
+        <item>Palkonda</item>
+        <item>Palmaner</item>
+        <item>Pamur</item>
+        <item>Panjim</item>
+        <item>Papampeta</item>
+        <item>Parasamba</item>
+        <item>Parvatipuram</item>
+        <item>Patancheru</item>
+        <item>Payakaraopet</item>
+        <item>Pedagantyada</item>
+        <item>Pedana</item>
+        <item>Peddapuram</item>
+        <item>Pendurthi</item>
+        <item>Penugonda</item>
+        <item>Penukonda</item>
+        <item>Phirangipuram</item>
+        <item>Pithapuram</item>
+        <item>Ponnur</item>
+        <item>Port Blair</item>
+        <item>Pothinamallayyapalem</item>
+        <item>Prakasam</item>
+        <item>Prasadampadu</item>
+        <item>Prasantinilayam</item>
+        <item>Proddatur</item>
+        <item>Pulivendla</item>
+        <item>Punganuru</item>
+        <item>Puttur</item>
+        <item>Qutubullapur</item>
+        <item>Rajahmundry</item>
+        <item>Rajamahendri</item>
+        <item>Rajampet</item>
+        <item>Rajendranagar</item>
+        <item>Rajoli</item>
+        <item>Ramachandrapuram</item>
+        <item>Ramanayyapeta</item>
+        <item>Ramapuram</item>
+        <item>Ramarajupalli</item>
+        <item>Ramavarappadu</item>
+        <item>Rameswaram</item>
+        <item>Rampachodavaram</item>
+        <item>Ravulapalam</item>
+        <item>Rayachoti</item>
+        <item>Rayadrug</item>
+        <item>Razam</item>
+        <item>Razole</item>
+        <item>Renigunta</item>
+        <item>Repalle</item>
+        <item>Rishikonda</item>
+        <item>Salur</item>
+        <item>Samalkot</item>
+        <item>Sattenapalle</item>
+        <item>Seetharampuram</item>
+        <item>Serilungampalle</item>
+        <item>Shankarampet</item>
+        <item>Shar</item>
+        <item>Singarayakonda</item>
+        <item>Sirpur</item>
+        <item>Sirsilla</item>
+        <item>Sompeta</item>
+        <item>Sriharikota</item>
+        <item>Srikakulam</item>
+        <item>Srikalahasti</item>
+        <item>Sriramnagar</item>
+        <item>Sriramsagar</item>
+        <item>Srisailam</item>
+        <item>Srisailamgudem Devasthanam</item>
+        <item>Sulurpeta</item>
+        <item>Suriapet</item>
+        <item>Suryaraopet</item>
+        <item>Tadepalle</item>
+        <item>Tadepalligudem</item>
+        <item>Tadpatri</item>
+        <item>Tallapalle</item>
+        <item>Tanuku</item>
+        <item>Tekkali</item>
+        <item>Tenali</item>
+        <item>Tigalapahad</item>
+        <item>Tiruchanur</item>
+        <item>Tirumala</item>
+        <item>Tirupati</item>
+        <item>Tirvuru</item>
+        <item>Trimulgherry</item>
+        <item>Tuni</item>
+        <item>Turangi</item>
+        <item>Ukkayapalli</item>
+        <item>Ukkunagaram</item>
+        <item>Uppal Kalan</item>
+        <item>Upper Sileru</item>
+        <item>Uravakonda</item>
+        <item>Vadlapudi</item>
+        <item>Vaparala</item>
+        <item>Vemalwada</item>
+        <item>Venkatagiri</item>
+        <item>Venkatapuram</item>
+        <item>Vepagunta</item>
+        <item>Vetapalem</item>
+        <item>Vijayapuri</item>
+        <item>Vijayapuri South</item>
+        <item>Vijayawada</item>
+        <item>Vinukonda</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>Vuyyuru</item>
+        <item>Wanparti</item>
+        <item>West Godavari Dist.</item>
+        <item>Yadagirigutta</item>
+        <item>Yarada</item>
+        <item>Yellamanchili</item>
+        <item>Yemmiganur</item>
+        <item>Yenamalakudru</item>
+        <item>Yendada</item>
+        <item>Yerraguntla</item>
+    </string-array>
+
+</resources>
