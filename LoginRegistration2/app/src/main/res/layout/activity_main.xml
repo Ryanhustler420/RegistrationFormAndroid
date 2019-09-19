@@ -8,8 +8,8 @@
 
     <io.supercharge.shimmerlayout.ShimmerLayout
         android:id="@+id/shimmer_profile_image"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:shimmer_animation_duration="1200"
+        app:shimmer_animation_duration="900"
         app:shimmer_auto_start="true"
         app:shimmer_color="@android:color/holo_green_dark">
 
@@ -28,8 +28,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_user"
-            app:civ_border_color="#000"
-            app:civ_border_width="0dp" />
+            app:civ_border_color="@android:color/darker_gray"
+            app:civ_border_width="1dp" />
 
     </io.supercharge.shimmerlayout.ShimmerLayout>
 
@@ -44,8 +44,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/shimmer_profile_image"
-        app:shimmer_animation_duration="1000"
-        app:shimmer_auto_start="true">
+        app:shimmer_animation_duration="900"
+        app:shimmer_auto_start="true"
+        app:shimmer_color="@android:color/holo_green_dark">
 
         <TextView
             android:id="@+id/profile_name"
@@ -54,6 +55,7 @@
             android:layout_centerInParent="true"
             android:gravity="center"
             android:text="@string/your_name"
+            android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="26sp" />
 

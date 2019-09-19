@@ -57,6 +57,7 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
     //    TODO: ADD IMAGE CROP FOR SAKE OF COMPLETENESS
     //    TODO: PREVENT OPEN AN ACTION TWICE
     //    TODO: LAYOUT DESIGN
+    //    TODO: RUNTIME PERMISSION
 
     private static final int PICK_IMAGE = 0xbb;
     CircleImageView register_image;
@@ -358,7 +359,6 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
                 assert inputStream != null;
                 BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
                 Bitmap photo = BitmapFactory.decodeStream(bufferedInputStream);
-
                 // Getting the image path using URI
                 String Image_path = getPath(getApplicationContext(), selectedPicture);
 

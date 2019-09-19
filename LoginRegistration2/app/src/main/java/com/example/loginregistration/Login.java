@@ -64,6 +64,11 @@ public class Login extends AppCompatActivity {
             return;
         }
 
+        if (password.length() < 6) {
+            password_edt_text.setError("Password must be 6 character long");
+            return;
+        }
+
         progressDialog.show();
 
         auth.signInWithEmailAndPassword(email, password)
@@ -75,7 +80,7 @@ public class Login extends AppCompatActivity {
                         startActivity(comeUser);
                         finish();
                     } else {
-                        Toast.makeText(getApplicationContext(), "Login Failed. Something wrong", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Login Failed. " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                     }
                 });
 

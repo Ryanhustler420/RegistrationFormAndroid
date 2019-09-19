@@ -39,7 +39,6 @@
                 android:autofillHints="@string/address"
                 android:hint="@string/name"
                 android:inputType="textCapSentences"
-                android:textColorHint="@android:color/black"
                 tools:targetApi="o" />
 
             <EditText
@@ -52,7 +51,6 @@
                 android:autofillHints="@string/email"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
-                android:textColorHint="@android:color/black"
                 tools:targetApi="o" />
 
             <EditText
@@ -65,63 +63,7 @@
                 android:autofillHints="@string/password"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:textColorHint="@android:color/black"
                 tools:targetApi="o" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="32dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/gender"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@android:color/black" />
-
-                <RadioGroup
-                    android:id="@+id/register_gender_group"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:paddingStart="10dp"
-                    android:paddingEnd="10dp">
-
-                    <RadioButton
-                        android:id="@+id/male"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/male"
-                        android:textColor="@android:color/black" />
-
-                    <RadioButton
-                        android:id="@+id/female"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/female"
-                        android:textColor="@android:color/black" />
-
-                    <RadioButton
-                        android:id="@+id/others"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/others"
-                        android:textColor="@android:color/black" />
-
-                </RadioGroup>
-
-            </LinearLayout>
 
             <EditText
                 android:id="@+id/register_address"
@@ -135,7 +77,6 @@
                 android:hint="@string/address"
                 android:inputType="textCapSentences|textImeMultiLine"
                 android:maxLines="4"
-                android:textColorHint="@android:color/black"
                 tools:targetApi="o" />
 
             <LinearLayout
@@ -163,67 +104,7 @@
                     android:hint="@string/phone"
                     android:inputType="phone"
                     android:singleLine="true"
-                    android:textColorHint="@android:color/black"
                     tools:targetApi="o" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="32dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="2dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/date_of_birth"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@android:color/black" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="5dp">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        tools:ignore="UselessParent">
-
-                        <TextView
-                            android:id="@+id/selected_dbo_text"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_marginEnd="8dp"
-                            android:gravity="center_vertical"
-                            android:text="@string/not_selected"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:textColor="@android:color/black"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toStartOf="@+id/selected_dbo_btn"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-                        <ImageButton
-                            android:id="@+id/selected_dbo_btn"
-                            android:layout_width="35dp"
-                            android:layout_height="35dp"
-                            android:layout_marginEnd="8dp"
-                            android:background="@drawable/ic_date_range_black_24dp"
-                            android:contentDescription="@android:string/search_go"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </LinearLayout>
 
             </LinearLayout>
 
@@ -232,7 +113,110 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="32dp">
+                android:layout_marginEnd="32dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/gender"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioGroup
+                    android:id="@+id/register_gender_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/male"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/female"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/others"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/others"
+                        android:textColor="@android:color/black" />
+
+                </RadioGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/date_of_birth"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/selected_dbo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="@string/not_selected"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/selected_dbo_btn"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/selected_dbo_btn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/ic_date_range_black_24dp"
+                    android:contentDescription="@android:string/search_go"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="32dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
 
                 <TextView
                     android:id="@+id/textView"
@@ -264,7 +248,9 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="32dp">
+                android:layout_marginEnd="32dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
 
                 <TextView
                     android:id="@+id/textView2"
@@ -296,7 +282,9 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="32dp">
+                android:layout_marginEnd="32dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
 
                 <TextView
                     android:id="@+id/textView3"
@@ -329,7 +317,9 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="32dp"
-                android:gravity="end">
+                android:gravity="end"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp">
 
                 <Button
                     android:id="@+id/register_sign_btn"

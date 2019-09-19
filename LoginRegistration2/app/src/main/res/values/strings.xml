@@ -3,7 +3,6 @@
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? <b>Sign up</b></string>
     <string name="registration">Registration</string>
     <string name="name">Name</string>
-    <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="gender">Gender</string>
     <string name="male">Male</string>
@@ -18,6 +17,8 @@
     <string name="city">City or Town</string>
     <string name="sign_up">Signup</string>
     <string name="your_name">Aapka Naam</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
 
     <!-- Countries -->
     <string-array name="countries">
