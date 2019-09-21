@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#fff</color>
     <color name="colorAccent">#000</color>
     <color name="shimmer_background_color">#b1b1b1</color>
+    <color name="profile_default_tint">#e0e0e0</color>
 </resources>
