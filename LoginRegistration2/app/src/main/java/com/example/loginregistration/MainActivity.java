@@ -2,6 +2,7 @@ package com.example.loginregistration;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,12 +36,15 @@ public class MainActivity extends AppCompatActivity {
     StorageReference storageReference;
     FirebaseAuth auth;
     ShimmerLayout shimmerProfileImage, shimmerProfileName;
+    Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         auth = FirebaseAuth.getInstance();
+
+        handler = new Handler();
 
         profile_picture = findViewById(R.id.profile_picture);
         profile_name = findViewById(R.id.profile_name);
@@ -77,13 +81,12 @@ public class MainActivity extends AppCompatActivity {
                     }
                     assert comeUser != null;
                     profile_name.setText(comeUser.getName());
-                    shimmerProfileName.stopShimmerAnimation();
 
                     // set image here
                     storageReference.child(comeUser.getImageUrl()).getDownloadUrl()
                             .addOnSuccessListener(uri -> {
                                 Picasso.get().load(uri).rotate(0).into(profile_picture);
-                                shimmerProfileImage.stopShimmerAnimation();
+                                handler.post(stopShimmerAnimation);
                             });
                 }
 
@@ -94,5 +97,19 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_LONG).show();
         }
+    }
+
+    private Runnable stopShimmerAnimation = new Runnable() {
+        @Override
+        public void run() {
+            shimmerProfileImage.stopShimmerAnimation();
+            shimmerProfileName.stopShimmerAnimation();
+        }
+    };
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeCallbacks(stopShimmerAnimation);
     }
 }

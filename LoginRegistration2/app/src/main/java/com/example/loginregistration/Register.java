@@ -187,6 +187,10 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
             return;
         }
 
+        if (address.length() < 6) {
+            register_address.setError("Address must be 6 character long");
+        }
+
         if (!ccp.isValidFullNumber()) {
             editText_carrierNumber.setError("Enter Correct Phone Number");
             return;
