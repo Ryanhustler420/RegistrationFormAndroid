@@ -53,6 +53,7 @@ public class Register extends AppCompatActivity implements DatePickerDialog.OnDa
 
     //    TODO: PREVENT OPEN AN ACTION TWICE
     //    TODO: LAYOUT DESIGN
+    //    TODO: CURRENT LOCATION FETCHING WHILE FILLING FORM AND SAVE IN LAST LOCATION
 
     private static final String TAG = MainActivity.class.getSimpleName();
     public static final int REQUEST_IMAGE = 0xbb;
